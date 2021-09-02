@@ -25,7 +25,7 @@ const content = ({pageContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>{elements.homeFieldGroup.bannerHeading}</h1>
+                <h1>Test{elements.homeFieldGroup.bannerHeading}</h1>
                 <br/><br/>
                 <h4>{elements.homeFieldGroup.bannerSubHeading}</h4>
               </div>
