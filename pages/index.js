@@ -62,7 +62,44 @@ const content = ({pageContent}) => {
               </div>
             </div>
           </div>
-        </section>      
+        </section>
+        <section className="pt-6 pb-5 bg-gray-400">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="whyUsTitle">{elements.homeWhyUs.sectionHeading}</h2>
+              <div className="section-divider text-center"></div>
+            </div>    
+            <div className="row">
+              <div className="col-md-4">
+                <div className="card mr-20 p-3 h-100">
+                  <div className="card-body text-center">
+                    <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="75" height="75"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs1Description}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card mr-20 p-3 h-100">
+                  <div className="card-body text-center">
+                    <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="75" height="75"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs2Description}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card mr-20 p-3 h-100">
+                  <div className="card-body text-center">
+                  <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="75" height="75"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs3Description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>     
       </Layout>
   )
 };

@@ -1,3 +1,24 @@
+/* DEFAULTS */
+.text-center{
+  text-align: center;
+}
+
+.text-orange{
+  color: #f95800 !important;
+}
+
+.pt-6{
+  padding-top: 5rem;
+}
+
+.mr-20{
+  margin: 20px;
+}
+
+.bg-gray-400{
+  background-color: #e5e5e5;
+}
+
 .banner-section{
   background-size: cover;
   height: 88vh;
@@ -53,4 +74,14 @@
 }
 .statText{
   font-size: 20px;
+}
+.whyUsTitle{
+  font-size: 51px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-divider{
+  width: 5%;
+  margin: 20px auto;
+  border: 3px solid #f95800;
 }
