@@ -1,0 +1,56 @@
+.banner-section{
+  background-size: cover;
+  height: 88vh;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavBar ul li{
+  background-color: transparent;
+  border: 0;
+}
+
+.NavBar ul li a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.btn-call{
+  color: #fff;
+  border: 1px solid #FFF;
+  border-radius: 0;
+}
+
+.btn-call:hover{
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.btn-call svg{
+  margin-right: 5px;
+}
+
+.btn-more{
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+  border-radius: 0;
+  margin-left: 15px;
+}
+
+.btn-more:hover{
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid #FFF;
+}
+
+/** HOME PAGE **/
+.stat{
+  font-size: 60px;
+  font-weight: bold;
+}
+.statText{
+  font-size: 20px;
+}
