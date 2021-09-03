@@ -3,6 +3,7 @@ import Image from 'next/image'
 import fetcher from "../lib/fetcher";
 import { GET_HOME_PAGE } from '../lib/wordpress/api';
 import Layout from "./components/layout";
+import Testimonials from './components/embla-carousel/embla-carousel';
 
 // export default function Home() {
 //   return (
@@ -63,15 +64,15 @@ const content = ({pageContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-6 pb-5 bg-gray-400">
+        <section className="pt-6 pb-5 mb--100 bg-gray">
           <div className="container">
             <div className="text-center">
-              <h2 className="whyUsTitle">{elements.homeWhyUs.sectionHeading}</h2>
+              <h2 className="sectionTitle">{elements.homeWhyUs.whyUsHeading}</h2>
               <div className="section-divider text-center"></div>
             </div>    
             <div className="row">
               <div className="col-md-4">
-                <div className="card mr-20 p-3 h-100">
+                <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                     <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="75" height="75"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
@@ -80,7 +81,7 @@ const content = ({pageContent}) => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card mr-20 p-3 h-100">
+                <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                     <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="75" height="75"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
@@ -89,7 +90,7 @@ const content = ({pageContent}) => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card mr-20 p-3 h-100">
+                <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                   <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="75" height="75"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
@@ -99,7 +100,31 @@ const content = ({pageContent}) => {
               </div>
             </div>
           </div>
-        </section>     
+        </section>
+        <section className="pt-5 pb-5 bg-darken">
+          <div className="container p-5">
+            <p className="text-white text-center"><i>{elements.homeAbout.shortDescription}</i></p>
+          </div>
+        </section>   
+        <section className="pt-5 pb-5 bg-gray">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="sectionTitle">{elements.homeTestimonials.testimonialHeading}</h2>
+              <div className="section-divider text-center"></div>
+            </div>  
+            <Testimonials elements={elements}/>
+          </div>
+        </section>
+        <section className="pt-5 pb-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <h2 className="sectionTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</h2>
+                <p>{elements.homeContact.homeContactDescription}</p>
+              </div>
+            </div>
+          </div>
+        </section>  
       </Layout>
   )
 };
