@@ -20,7 +20,7 @@ const Layout = props => (
     <div className="Content" style={contentStyle}>
       {props.children}
     </div>
-    <Footer />
+    <Footer elements={props.elements} />
   </div>
 );
 

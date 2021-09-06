@@ -15,6 +15,23 @@
   padding-top: 5rem;
 }
 
+.pt-8{
+  padding-top: 8rem;
+}
+
+.pb-6{
+  padding-bottom: 5rem;
+}
+
+.pb-8{
+  padding-bottom: 8rem;
+}
+
+.vmiddle{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .m-20{
   margin: 20px;
 }
@@ -37,10 +54,6 @@
 
 .h-75p{
   height: 75px;
-}
-
-.boxed{
-
 }
 
 .banner-section{
@@ -219,6 +232,26 @@
 }
 
 /* END Embla Carousel */
+
+/* BEGIN Home Contact Form */
+  .contact-form input{
+    width: 50%;
+    margin: 12px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #000000
+  }
+
+  .contact-form button{
+    width: 25%;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 2px solid #f55a00;
+    border-radius: 2px;
+  }
+/* END Home Contact Form */
 
 /* BEGIN Footer Form */
 .footer-form input[type=email]{
