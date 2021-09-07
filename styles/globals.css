@@ -27,6 +27,10 @@
   padding-bottom: 8rem;
 }
 
+.pb-10{
+  padding-bottom: 10rem;
+}
+
 .vmiddle{
   margin-top: auto;
   margin-bottom: auto;
@@ -123,6 +127,24 @@
   width: 5%;
   margin: 20px auto;
   border: 3px solid #f95800;
+}
+.services-section{
+  background-image: url(https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/Our-Services-background-02.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.crateImg{
+  position: absolute;
+  width: 400px;
+  left: 0;
+  margin-top: -40px;
+}
+.watercingImg{
+  position: absolute;
+  width: 400px;
+  right: 0;
+  margin-top: -55px;
 }
 
 /* BEGIN Embla Carousel */
@@ -281,5 +303,39 @@
   .boxed{
       max-width: 1320px !important;
       margin: auto;
+  }
+}
+/* Tablets and Mobile */
+@media (max-width: 768px) {
+  .sectionTitle{
+    font-size: 30px;
+  }
+  .crateImg{
+    width: 300px;
+    margin-top: 0;
+  }
+  .watercingImg{
+    width: 300px;
+  }
+  .contact-form input{
+    width: 100%;
+  }
+  .contact-form button{
+    width: 50%;
+  }
+}
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .card{
+    margin: 0 !important;
+  }
+}
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  .embla__slide {
+    min-width: 100%;
+  }
+  .footer-form input[type=email]{
+    width: 220px;
   }
 }
