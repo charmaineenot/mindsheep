@@ -39,7 +39,7 @@ const Testimonials = ({elements}) => {
                 <div className="embla__slide">
                   <div className="embla__slide__inner">
                         <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3">
+                        <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial1}"</i>
                         </p>
                         <img className="embla__slide__img" src={elements.homeTestimonials.image1.sourceUrl}/>
@@ -50,7 +50,7 @@ const Testimonials = ({elements}) => {
                 <div className="embla__slide">
                   <div className="embla__slide__inner">
                         <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3">
+                        <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial2}"</i>
                         </p>
                         <img className="embla__slide__img" src={elements.homeTestimonials.image2.sourceUrl}/>
@@ -61,7 +61,7 @@ const Testimonials = ({elements}) => {
                 <div className="embla__slide">
                   <div className="embla__slide__inner">
                         <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3">
+                        <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial3}"</i>
                         </p>
                         <img className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl}/>
@@ -72,7 +72,7 @@ const Testimonials = ({elements}) => {
                 <div className="embla__slide">
                   <div className="embla__slide__inner">
                         <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3">
+                        <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial3}"</i>
                         </p>
                         <img className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl}/>

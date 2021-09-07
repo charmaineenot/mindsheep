@@ -4,6 +4,7 @@ import fetcher from "../lib/fetcher";
 import { GET_HOME_PAGE } from '../lib/wordpress/api';
 import Layout from "./components/layout";
 import Testimonials from './components/embla-carousel/embla-carousel';
+import ContactSubmit from './components/contact-form/contact-submit';
 
 // export default function Home() {
 //   return (
@@ -21,7 +22,7 @@ const content = ({pageContent}) => {
   };
 
   return(
-      <Layout>
+      <Layout elements={elements}>
         <section className="banner-section text-center" style={bannerStyle}>
           <div className="container">
             <div className="row">
@@ -103,10 +104,70 @@ const content = ({pageContent}) => {
         </section>
         <section className="pt-5 pb-5 bg-darken">
           <div className="container p-5">
-            <p className="text-white text-center"><i>{elements.homeAbout.shortDescription}</i></p>
+            <p className="p-5 mt-5 text-white text-center"><i>{elements.homeAbout.shortDescription}</i></p>
+          </div>
+        </section>  
+        <section className="pt-6 pb-8">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="sectionTitle">{elements.homeServices.servicesHeading}</h2>
+              <div className="section-divider text-center"></div>
+            </div>
+            <div className="row">
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices1Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices1Title}</h5>
+              </div>
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices2Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices2Title}</h5>
+              </div>
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices3Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices3Title}</h5>
+              </div>
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices4Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices4Title}</h5>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-1"></div>
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices2Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices2Title}</h5>
+              </div>
+              <div className="col-md-4 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices3Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices3Title}</h5>
+              </div>
+              <div className="col-md-3 text-center">
+                <img className="mt-5 mb-4" src={elements.homeServices.homeServices4Icon.sourceUrl} width="120" />
+                <h5 className>{elements.homeServices.homeServices4Title}</h5>
+              </div>
+              <div className="col-md-1"></div>
+            </div>
+          </div>
+        </section>
+        <section className="pt-6 pb-6 bg-darken">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-md-3">
+                <img src={elements.homePartners.partner1Image.sourceUrl} />
+              </div>
+              <div className="col-md-3">
+                <img src={elements.homePartners.partner2Image.sourceUrl} />
+              </div>
+              <div className="col-md-3">
+                <img src={elements.homePartners.partner3Image.sourceUrl} />
+              </div>
+              <div className="col-md-3">
+                <img src={elements.homePartners.partner4Image.sourceUrl} />
+              </div>
+            </div>
           </div>
         </section>   
-        <section className="pt-5 pb-5 bg-gray">
+        {/* <section className="pt-8 pb-8 bg-gray">
           <div className="container">
             <div className="text-center">
               <h2 className="sectionTitle">{elements.homeTestimonials.testimonialHeading}</h2>
@@ -114,17 +175,20 @@ const content = ({pageContent}) => {
             </div>  
             <Testimonials elements={elements}/>
           </div>
-        </section>
-        <section className="pt-5 pb-5">
+        </section> */}
+        {/* <section className="pt-6 pb-6">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <h2 className="sectionTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</h2>
                 <p>{elements.homeContact.homeContactDescription}</p>
               </div>
+              <div className="col-md-6 vmiddle">
+                <ContactSubmit/>
+              </div>
             </div>
           </div>
-        </section>  
+        </section> */}
       </Layout>
   )
 };
