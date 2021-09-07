@@ -1,9 +1,12 @@
 import fetcher from "../lib/fetcher";
+import styles from "./components/our-story.module.css";
 import { GET_OUR_STORY_PAGE } from "../lib/wordpress/api";
+import { FOOTER_DATA } from '../lib/wordpress/api';
 import Layout from "./components/layout";
 
-const content = ({pageContent}) => {
+const content = ({pageContent,footerContent}) => {
     const elements = pageContent;
+    const footerData = footerContent;
     const bannerStyle = {
         //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
         //backgroundColor: '#22252a'
@@ -14,7 +17,7 @@ const content = ({pageContent}) => {
     };
     
     return(
-        <Layout>
+        <Layout elements={elements,footerData}>
         <section className="banner-section" style={bannerStyle}>
           <div className="container">
             <div className="row">
@@ -37,10 +40,12 @@ export default content;
 
 export async function getStaticProps(){
     const response = await fetcher(GET_OUR_STORY_PAGE);
+    const footerResponse = await fetcher(FOOTER_DATA);
     const pageContent = response.data.page;
+    const footerContent = footerResponse.data.page;
     
     return{
-        props: {pageContent},
+        props: {pageContent,footerContent},
         revalidate: 1,
     };
 }
