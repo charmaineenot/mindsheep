@@ -30,7 +30,7 @@ const footerStyle = {
         </div>
       </div>
       {/* Testimonials Section */}
-      <div className="container-fluid pt-8 pb-8 bg-gray">
+      <div className="container-fluid pt-8 pb-8 bg-gray testimonials">
         <div className="boxed">
           <div className="text-center">
             <h2 className="sectionTitle">{elements.homeTestimonials.testimonialHeading}</h2>

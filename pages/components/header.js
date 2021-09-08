@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the 
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
   
   const headerStyle = {
-    backgroundColor: "#22252a",
+    backgroundColor: "#272831",
     color: "white",
     width: "100%",
     height: "120px"
@@ -20,7 +20,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
       <div className="container-fluid"> 
         <div className="row">
           <div class="col-md-3">
-            <img src="/mindsheep-logo-temp.jpg" alt="Mindsheep logo" class="img-responsive" />
+            <img src="/logo-white.png" alt="Mindsheep logo" class="w-100" />
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div className="NavBar d-flex align-items-center" style={navBarStyle}>
