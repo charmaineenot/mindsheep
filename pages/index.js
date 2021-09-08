@@ -26,15 +26,30 @@ const content = ({pageContent,footerContent}) => {
   return(
       <Layout elements={elements,footerData}>
         <section className="banner-section text-center" style={bannerStyle}>
-          <div className="container">
+          <video autoPlay muted loop id="video-banner">
+              <source src={elements.homeFieldGroup.bannerImage.mediaItemUrl} type="video/mp4"/>
+          </video>
+          <div className="banner-content">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6"></div>
+                <div className="col-md-6">
+                  <div className="text-left">
+                    <a href="#" className="btn btn-warning btnViewServices">VIEW SERVICES</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>Test{elements.homeFieldGroup.bannerHeading}</h1>
+                <h1>{elements.homeFieldGroup.bannerHeading}</h1>
                 <br/><br/>
                 <h4>{elements.homeFieldGroup.bannerSubHeading}</h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         <section className="pt-5 pb-5">
           <div className="container">
