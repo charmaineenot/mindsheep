@@ -1,10 +1,21 @@
 /* DEFAULTS */
+.clear{
+  clear: both;
+}
 .text-center{
   text-align: center;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .text-orange{
   color: #f95800 !important;
+}
+
+.text-white{
+  color: #fff;
 }
 
 .text-black{
@@ -61,6 +72,7 @@
 }
 
 .banner-section{
+  position: relative;
   background-size: cover;
   height: 88vh;
   color: #FFF;
@@ -110,6 +122,32 @@
 
 
 /** HOME PAGE **/
+#video-banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.banner-content {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 9;
+}
+.btnViewServices{
+  margin-top: 50%;
+  padding: 10px 50px;
+  color: #fff;
+  background-color: #fa5801;
+  border: none;
+  border-radius: 0;
+}
 .stat{
   font-size: 60px;
   font-weight: bold;
@@ -126,6 +164,17 @@
 .section-divider{
   width: 5%;
   margin: 20px auto;
+  border: 3px solid #f95800;
+}
+.section-divider-l{
+  width: 5%;
+  margin: 20px 0 20px 2px;
+  border: 3px solid #f95800;
+}
+.section-divider-r{
+  width: 5%;
+  float: right;
+  margin: 20px 2px 20px 0;
   border: 3px solid #f95800;
 }
 .services-section{
