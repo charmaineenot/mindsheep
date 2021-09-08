@@ -71,6 +71,10 @@
   height: 75px;
 }
 
+.logo{
+  cursor: pointer;
+}
+
 .banner-section{
   position: relative;
   background-size: cover;
@@ -93,23 +97,29 @@
 
 .btn-call{
   color: #fff;
-  border: 1px solid #FFF;
+  border: 0px;
   border-radius: 0;
 }
 
 .btn-call:hover{
-  background-color: orange;
-  border: 1px solid orange;
+  background-color: #e85c00;
+  border: 0px;
+  color: #FFF;
+}
+
+.btn-call:hover a, .btn-call:hover svg{
+  color: #fff !important;
 }
 
 .btn-call svg{
   margin-right: 5px;
+  color:#e85c00;
 }
 
 .btn-more{
-  background-color: orange;
+  background-color: #e85c00;
   color: #fff;
-  border: 1px solid orange;
+  border: 0px;
   border-radius: 0;
   margin-left: 15px;
 }
@@ -117,7 +127,7 @@
 .btn-more:hover{
   background-color: #FFF;
   color: #000;
-  border: 1px solid #FFF;
+  border: 0px;
 }
 
 

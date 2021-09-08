@@ -6,7 +6,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
     backgroundColor: "#272831",
     color: "white",
     width: "100%",
-    height: "120px"
+    height: "15vh"
   };
 
   const navBarStyle = {
@@ -17,22 +17,22 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
   
   const Header = () => (
     <section className="Header d-flex align-items-center" style={headerStyle}>
-      <div className="container-fluid"> 
+      <div className="container"> 
         <div className="row">
           <div class="col-md-3">
-            <img src="/logo-white.png" alt="Mindsheep logo" class="w-100" />
+            <Link href="/">
+              <img src="/logo-white.png" alt="Mindsheep logo" class="w-100 logo"/>
+            </Link>
           </div>
-          <div class="col-md-6 d-flex align-items-center">
+          <div class="col-md-5 d-flex align-items-center">
             <div className="NavBar d-flex align-items-center" style={navBarStyle}>
               <div className="container"> 
                 <div className="row">
                   <div class="col-md-12">
-                    <ul class="list-group list-group-horizontal">
-                      
-                      <li class="list-group-item"><Link href="#">Engaging Content</Link></li>
-                      <li class="list-group-item"><Link href="#">Web Development</Link></li>
-                      <li class="list-group-item"><Link href="#">Social Media</Link></li>
-                      <li class="list-group-item"><Link href="#">About Us</Link></li>
+                    <ul class="list-group list-group-horizontal">                    
+                      <li class="list-group-item"><Link href="/who-we-are">Who We Are</Link></li>
+                      <li class="list-group-item"><Link href="/our-approach">Our Approach</Link></li>
+                      <li class="list-group-item"><Link href="#">Services</Link></li>
                       <li class="list-group-item"><Link href="#">Contact Us</Link></li>
                     </ul>
                   </div>
@@ -40,7 +40,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               </div>
             </div>
           </div>
-          <div class="col-md-3 d-flex align-items-center">
+          <div class="col-md-4 d-flex align-items-center">
             <a href="tel:0466736761" class="btn btn-call">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               0466 736 761

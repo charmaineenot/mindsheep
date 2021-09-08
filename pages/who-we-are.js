@@ -28,7 +28,7 @@ const content = ({pageContent,footerContent}) => {
     return(
         <Layout elements={elements,footerData}>
         <section className={styles.bannerSection+ " banner-section"} style={bannerStyle}>
-          <video autoPlay muted loop className={styles.videoBanner}>
+          <video autoPlay muted loop className={styles.videoBanner} id="video-banner">
             <source src={elements.ourStory.ourStoryBannerVideo.mediaItemUrl} type="video/mp4"/>
           </video>
           <div className="banner-content">
