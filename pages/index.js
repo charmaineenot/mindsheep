@@ -51,45 +51,65 @@ const content = ({pageContent,footerContent}) => {
             </div>
           </div> */}
         </section>
-        <section className="pt-5 pb-5">
+        <section className="pt-4 pb-5 bg-darken border-t">
           <div className="container">
+            <div className="row text-center">
+              <div className="col-lg-3 col-md-6">
+                <img src={elements.homePartners.partner1Image.sourceUrl} />
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <img src={elements.homePartners.partner2Image.sourceUrl} />
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <img src={elements.homePartners.partner3Image.sourceUrl} />
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <img src={elements.homePartners.partner4Image.sourceUrl} />
+              </div>
+            </div>
             <div className="row">
-              <div className="col-md-4 d-flex align-items-center">
-                {/* <iframe src="https://www.willship.com.au/instantquote/" width="100%" height="1000px"></iframe> */}
-                <div className="stat float-start me-4">
+              <div className="col-md-3 text-center">
+                <div className="stat text-white">
                   {elements.homeStats.stat1}
                 </div>
-                <div className="statText">
+                <div className="statText text-white">
                   {elements.homeStats.stat1Description}
                 </div>
               </div>
-              <div className="col-md-4 d-flex align-items-center">
-                <div className="stat float-start me-4">
+              <div className="col-md-3 text-center">
+                <div className="stat text-white">
                   {elements.homeStats.stat2}
                 </div>
-                <div className="statText">
+                <div className="statText text-white">
                   {elements.homeStats.stat2Description}
                 </div>
               </div>
-              <div className="col-md-4 d-flex align-items-center">
-                <div className="stat float-start me-4">
+              <div className="col-md-3 text-center">
+                <div className="stat text-white">
                   {elements.homeStats.stat3}
                 </div>
-                <div className="statText">
+                <div className="statText text-white">
+                  {elements.homeStats.stat3Description}
+                </div>
+              </div>
+              <div className="col-md-3 text-center">
+                <div className="stat text-white">
+                  {elements.homeStats.stat3}
+                </div>
+                <div className="statText text-white">
                   {elements.homeStats.stat3Description}
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="pt-6 pb-5 mb--100 bg-gray">
+        <section className="whyUs-section pt-6 pb-5 mb--100">
           <div className="container">
             <div className="text-center">
-              <h2 className="sectionTitle">{elements.homeWhyUs.whyUsHeading}</h2>
-              <div className="section-divider text-center"></div>
+              <h2 className="sectionTitle whyUsHeading">{elements.homeWhyUs.whyUsHeading}</h2>
             </div>    
-            <div className="row">
-              <div className="col-md-4">
+            <div className="row mt-5">
+              <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                     <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
@@ -98,7 +118,7 @@ const content = ({pageContent,footerContent}) => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                     <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
@@ -107,7 +127,7 @@ const content = ({pageContent,footerContent}) => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center">
                   <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
@@ -121,13 +141,13 @@ const content = ({pageContent,footerContent}) => {
         </section>
         <section className="pt-5 pb-5 bg-darken">
           <div className="container p-5">
-            <p className="p-5 mt-5 text-white text-center"><i>{elements.homeAbout.shortDescription}</i></p>
+            <p className="p-5 mt-5 text-white text-center sm-p-0"><i>{elements.homeAbout.shortDescription}</i></p>
           </div>
         </section>  
         <section className="services-section pt-8 pb-10">
           <div className="container">
             <div className="text-center">
-              <h2 className="sectionTitle">{elements.homeServices.servicesHeading}</h2>
+              <h2 className="sectionTitle HomeServicesHading">{elements.homeServices.servicesHeading}</h2>
               <div className="section-divider text-center"></div>
             </div>
             <div className="row mt-5">
