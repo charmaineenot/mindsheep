@@ -1,5 +1,73 @@
+#approachBanner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.bannerTitle{
+    position: relative;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.bannerTitle:after{
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+}
+.processHeading{
+    position: relative;
+}
+.processHeading::before{
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+}
 .processh4{
     font-size: 20px;
     color: #f95800 !important;
     text-transform: uppercase;
+}
+.formulaHeading{
+    position: relative;
+}
+.formulaHeading::before{
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+}
+@media (max-width: 768px) {
+    .ourApproachBanner{
+        background: #272831;
+    }
+    #approachBanner {
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bannerTitle{
+        text-align: center;
+    } 
+    .smcenter{
+        text-align: center !important;
+    }
+    .mtsm2{
+        margin-top: 2rem !important;
+    }
+    .processHeading::before{
+        left: 22% !important;
+    }
 }

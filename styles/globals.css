@@ -47,6 +47,10 @@
   margin-bottom: auto;
 }
 
+.mt-8{
+  margin-top: 8rem;
+}
+
 .m-20{
   margin: 20px;
 }
@@ -166,32 +170,61 @@
   font-size: 20px;
 }
 .sectionTitle{
-  font-size: 51px;
+  font-size: 48px;
   font-weight: 700;
   color: #2e2e38;
   text-transform: uppercase;
 }
-.section-divider{
-  width: 5%;
-  margin: 20px auto;
-  border: 3px solid #f95800;
+.border-t{
+  border-top: 2px solid #fff;
 }
-.section-divider-l{
-  width: 5%;
-  margin: 20px 0 20px 2px;
-  border: 3px solid #f95800;
+.whyUs-section{
+  background-image: url(https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/why-us-banner-01.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.section-divider-r{
-  width: 5%;
-  float: right;
-  margin: 20px 2px 20px 0;
-  border: 3px solid #f95800;
+.whyUsHeading{
+  position: relative;
+}
+.whyUsHeading:after{
+  width: 80px;
+  border-top: 7px solid #f95800;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 34%;
+  margin-top: 15px;
 }
 .services-section{
   background-image: url(https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/Our-Services-background-02.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.HomeServicesHading{
+  position: relative;
+}
+.HomeServicesHading:after{
+  width: 80px;
+  border-top: 7px solid #f95800;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 38%;
+  margin-top: 15px;
+}
+.testimonialHeading{
+  position: relative;
+}
+.testimonialHeading:after{
+  width: 80px;
+  border-top: 7px solid #f95800;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 19%;
+  margin-top: 15px;
 }
 .crateImg{
   position: absolute;
@@ -211,6 +244,7 @@
   position: relative;
   padding: 20px;
   width: 100%;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -366,9 +400,6 @@
 }
 /* Tablets and Mobile */
 @media (max-width: 768px) {
-  .sectionTitle{
-    font-size: 30px;
-  }
   .crateImg{
     width: 300px;
     margin-top: 0;
@@ -391,10 +422,19 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .sectionTitle{
+    font-size: 30px;
+  }
   .embla__slide {
     min-width: 100%;
   }
   .footer-form input[type=email]{
     width: 220px;
+  }
+  .mtsm1{
+    margin-top: 1rem !important;
+  }
+  .sm-p-0{
+    padding: 0 !important;
   }
 }
