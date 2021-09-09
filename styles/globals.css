@@ -320,7 +320,8 @@
     margin: 12px;
     outline: 0;
     border-width: 0 0 2px;
-    border-color: #000000
+    border-color: #000000;
+    background: transparent;
   }
 
   .contact-form button{
@@ -357,6 +358,27 @@
   color: red !important;
 }
 /* END Footer Form */
+
+/* BEGIN WHO WE ARE */
+.whoweare .Footer .testimonials{
+  display: none;
+}
+.whoweare .Footer .partners{
+  display: none;
+}
+/* END WHO WE ARE */
+
+/* BEGIN LEAD GENERATION */
+.leadGeneration .Footer .testimonials{
+  display: none;
+}
+.leadGeneration .Footer .partners{
+  display: none;
+}
+.leadGeneration .Footer .talktous{
+  background-color: #dfdfdf;
+}
+/* END LEAD GENERATION */
 
 @media (min-width: 1400px){
   .boxed{

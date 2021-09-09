@@ -1,0 +1,22 @@
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerTitle:after {
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .bannerTitle{
+        font-size: 3rem;
+    }
+}
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

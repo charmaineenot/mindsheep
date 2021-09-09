@@ -3,8 +3,10 @@ import styles from "../styles/WhoWeAre.module.css";
 import { GET_OUR_STORY_PAGE } from "../lib/wordpress/api";
 import { FOOTER_DATA } from '../lib/wordpress/api';
 import Layout from "./components/layout";
+import { useEffect } from 'react'
 
 const content = ({pageContent,footerContent}) => {
+    useEffect( () => { document.querySelector("body").classList.add("whoweare") } );
     const elements = pageContent;
     const footerData = footerContent;
     const bannerStyle = {
