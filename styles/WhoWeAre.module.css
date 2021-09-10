@@ -90,12 +90,17 @@
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
     .bannerSection{
+        height: auto !important;
         background: #272831;
     }
-    .videoBanner{
+    .bannerTextCont{
+        padding: 10px;
+        background-color: rgb(0 0 0 / 48%);
+    }
+    /* .videoBanner{
         display: none;
         background: #272831;
-    }
+    } */
     .teamContainer{
         margin-bottom: 0px;
     }
@@ -110,11 +115,22 @@
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
     .bannerSection{
-        background: #272831;
+        height: auto !important;
+        background: #23242b;
+    }
+    .bannerTitle{
+        font-size: 30px;
+    }
+    .bannerTextCont{
+        padding: 10px;
+        /* background-color: rgb(0 0 0 / 48%); */
     }
     .videoBanner{
-        display: none;
+        height: auto !important;
         background: #272831;
+    }
+    .smmt52{
+        margin-top: 52%;
     }
     .valuesHeading{
         text-align: center;

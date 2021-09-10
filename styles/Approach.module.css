@@ -51,16 +51,37 @@
 }
 @media (max-width: 768px) {
     .ourApproachBanner{
-        background: #272831;
+        height: auto;
+        background: #23242b;
     }
-    #approachBanner {
+    .bannerTextCont{
+        padding: 10px;
+    }
+    /* #approachBanner {
         display: none;
+    } */
+}
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .bannerTextCont{
+        background-color: rgb(0 0 0 / 48%);
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+    #approachBanner{
+        height: auto !important;
+    }
+    .smmt45{
+        margin-top: 45%;
+    }
     .bannerTitle{
+        margin-top: 20px;
+        font-size: 30px;
         text-align: center;
     } 
+    .bannerTitle:after{
+        right: 38%;
+    }
     .smcenter{
         text-align: center !important;
     }

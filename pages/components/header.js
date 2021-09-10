@@ -26,7 +26,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
           </div>
           <div class="col-4 col-md-2 col-lg-5 order-md-last order-sm-last vmiddle">
             <nav class="navbar-expand-lg navbar-dark text-center">
-              <div class="container-fluid">
+              <div class="container-fluid nav-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,13 +43,13 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
                         Services
                       </a>
                       <ul class="dropdown-menu services-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Automate Your Business</a></li>
-                        <li><a class="dropdown-item" href="#">Build Your Brand</a></li>
-                        <li><a class="dropdown-item" href="#">Lead Generation</a></li>
+                        <li><a class="dropdown-item" href="/automate-your-business">Automate Your Business</a></li>
+                        <li><a class="dropdown-item" href="/build-your-brand">Build Your Brand</a></li>
+                        <li><a class="dropdown-item" href="/lead-generation">Lead Generation</a></li>
                       </ul>
                   </li>
                     <li class="nav-item">
-                      <a class="nav-link">Contact Us </a>
+                      <a class="nav-link" href="#talktous">Contact Us </a>
                     </li>
                   </ul>
                 </div>
@@ -75,7 +75,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               0466 736 761
             </a>
-            <a href="#" class="btn btn-more">
+            <a href="#talktous" class="btn btn-more">
               Keen to know more?
             </a>
           </div>

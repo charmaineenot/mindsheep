@@ -43,7 +43,7 @@ const footerStyle = {
           </div>  
         </div>
       </section>
-      <section className="align-items-center talktous" style={footerStyle}> 
+      <section className="align-items-center talktous" id="talktous" style={footerStyle}> 
         {/* Contact Section */}
         <div className="container pt-8 pb-10">
           <div className="row">

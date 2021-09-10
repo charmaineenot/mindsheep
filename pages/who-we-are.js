@@ -33,15 +33,17 @@ const content = ({pageContent,footerContent}) => {
           <video autoPlay muted loop className={styles.videoBanner} id="video-banner">
             <source src={elements.ourStory.ourStoryBannerVideo.mediaItemUrl} type="video/mp4"/>
           </video>
-          <div className="banner-content">
+          <div className={styles.smmt52+" banner-content"}>
             <div className="container">
               <div className="row">
-                <div className="col-md-10 col-lg-5">
+                <div className="col-md-12 col-lg-5">
                   <h1 className={styles.bannerTitle}>{elements.ourStory.bannerheading}</h1>
                   <br/><br/>
-                  <p dangerouslySetInnerHTML={{__html: elements.ourStory.bannersubheading}}></p>
+                  <div className={styles.bannerTextCont}>
+                    <p dangerouslySetInnerHTML={{__html: elements.ourStory.bannersubheading}}></p>
+                  </div>  
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-7">
                   
                 </div>
               </div>
