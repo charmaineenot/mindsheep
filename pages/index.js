@@ -7,6 +7,8 @@ import Layout from "./components/layout";
 import Testimonials from './components/embla-carousel/embla-carousel';
 import ContactSubmit from './components/contact-form/contact-submit';
 import styles from "../styles/Home.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import { faPhone,faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
 // export default function Home() {
 //   return (
@@ -52,24 +54,26 @@ const content = ({pageContent,footerContent}) => {
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
             <div className={styles.videoButton+" text-left"}>
-              <a href="#" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES</a>
+              <a href="#" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES
+               <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faLongArrowAltRight}></FontAwesomeIcon>
+              </a>
             </div>
           </div>
         </section>
         <section className="pt-4 pb-5 bg-darken border-t">
           <div className="container">
-            <div className="row text-center">
+            <div className="row text-center d-flex align-items-center">
               <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner1Image.sourceUrl} class="w-100" />
+                <img src={elements.homePartners.partner1Image.sourceUrl} class={styles.partnersImg} />
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner2Image.sourceUrl} class="w-100" />
+                <img src={elements.homePartners.partner2Image.sourceUrl} class={styles.partnersImg} />
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner3Image.sourceUrl} class="w-100" />
+                <img src={elements.homePartners.partner3Image.sourceUrl} class={styles.partnersImg} />
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner4Image.sourceUrl} class="w-100" />
+                <img src={elements.homePartners.partner4Image.sourceUrl} class={styles.partnersImg} />
               </div>
             </div>
             <div className="row">
@@ -99,10 +103,10 @@ const content = ({pageContent,footerContent}) => {
               </div>
               <div className="col-md-3 text-center">
                 <div className="stat text-white">
-                  {elements.homeStats.stat3}
+                  {elements.homeStats.stat4}
                 </div>
                 <div className="statText text-white">
-                  {elements.homeStats.stat3Description}
+                  {elements.homeStats.stat4Description}
                 </div>
               </div>
             </div>
@@ -146,7 +150,7 @@ const content = ({pageContent,footerContent}) => {
         </section>
         <section className="pt-5 pb-5 bg-darken">
           <div className="container p-5">
-            <p className="p-5 mt-5 text-white text-center sm-p-0"><i>{elements.homeAbout.shortDescription}</i></p>
+            <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
           </div>
         </section>  
         <section className="services-section pt-8 pb-10">

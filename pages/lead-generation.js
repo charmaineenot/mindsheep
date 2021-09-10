@@ -19,15 +19,12 @@ const content = ({pageContent,footerContent}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-6">
-                            <h1 className={styles.bannerTitle}>{elements.leadGenerationPage.leadGenBannerTitle}</h1>
+                            <h2 className={styles.bannerTitle}>{elements.leadGenerationPage.leadGenBannerTitle}</h2>
                             <br/><br/>
                             <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenBannerSubheading}}></p>
                         </div>
-                        <div className="d-md-none col-lg-2">
-                            
-                        </div>
-                        <div className="col-md-6 col-lg-4">
-                            <img className="w-100" src={elements.leadGenerationPage.leadGenBannerImage.sourceUrl} />
+                        <div className="col-md-6 col-lg-6 text-center text-sm-end">
+                            <img width="60%" src={elements.leadGenerationPage.leadGenBannerImage.sourceUrl} />
                         </div>
                     </div>
                 </div>
@@ -36,7 +33,7 @@ const content = ({pageContent,footerContent}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-10 col-lg-8">
-                            <h3 className="text-orange">{elements.leadGenerationPage.leadGenSection2Heading}</h3>
+                            <h2 className="text-orange">{elements.leadGenerationPage.leadGenSection2Heading}</h2>
                             <br/><br/>
                             <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenSection2Subheading}}></p>
                         </div>
@@ -45,7 +42,7 @@ const content = ({pageContent,footerContent}) => {
                         </div>
                         <div className="col-lg-2 d-flex align-items-center">
                             <p>
-                                <span className="text-orange">{elements.leadGenerationPage.leadGenSection2ClientName}</span><br/>
+                                <span className="fw-bold text-orange">{elements.leadGenerationPage.leadGenSection2ClientName}</span><br/>
                                 {elements.leadGenerationPage.leadGenSection2ClientPosition}
                             </p>
                         </div>
@@ -55,11 +52,8 @@ const content = ({pageContent,footerContent}) => {
             <section className="pt-8 pb-8">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <img className="w-100" src={elements.leadGenerationPage.leadGenSection3aImage.sourceUrl} />
-                        </div>
-                        <div className="col-lg-2">
-                            
+                        <div className="col-lg-6 text-center text-sm-start">
+                            <img width="60%" src={elements.leadGenerationPage.leadGenSection3aImage.sourceUrl} />
                         </div>
                         <div className="col-md-10 col-lg-6">
                             <h2 className={styles.bannerTitle}>{elements.leadGenerationPage.leadGenSection3aTitle}</h2>
@@ -77,11 +71,8 @@ const content = ({pageContent,footerContent}) => {
                             <br/><br/>
                             <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenSection3bSubheading}}></p>
                         </div>
-                        <div className="col-lg-2">
-                            
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="w-100" src={elements.leadGenerationPage.leadGenSection3bImage.sourceUrl} />
+                        <div className="col-lg-6 text-center text-sm-end">
+                            <img width="60%" src={elements.leadGenerationPage.leadGenSection3bImage.sourceUrl} />
                         </div>
                     </div>
                 </div>

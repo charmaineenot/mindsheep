@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "AlyssumSans";
+  src: url("/fonts/AlyssumSans/AlyssumSans.TTF");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 /* DEFAULTS */
 .body{
   overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h5{
+  font-family: "AlyssumSans";
+}
+p, span, ol{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 .clear{
   clear: both;
@@ -159,10 +175,13 @@
 }
 .stat{
   font-size: 60px;
-  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
 .statText{
   font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
 }
 .sectionTitle{
   font-size: 48px;
@@ -351,6 +370,8 @@
     border-width: 0 0 2px;
     border-color: #000000;
     background: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
   }
 
   .contact-form button{
@@ -361,30 +382,49 @@
     background-color: transparent;
     border: 2px solid #f55a00;
     border-radius: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
   }
 /* END Home Contact Form */
 
 /* BEGIN Footer Form */
 .footer-form input[type=email]{
   width: 300px;
-  height: 35px;
+  height: 40px;
   border: 1px solid #24242c !important;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  padding: 8px 10px 8px 10px;
+  line-height: normal;
 }
 
 .footer-form button{
   width: 100px;
-  height: 35px;
+  height: 40px;
   color: #fff;
   border: none !important;
   background-color: #2e2e38;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 }
 
 .newsletter-form-error{
   color: red !important;
+}
+.footerlogo ul {
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+.footerlogo ul li{
+  line-height: 2em;
+}
+.footerlogo ul li a{
+  text-decoration: none;
 }
 /* END Footer Form */
 
@@ -496,6 +536,9 @@
   }
   .card{
     margin: 0 !important;
+  }
+  .partners img{
+    width: 100% !important;
   }
 }
 /* Mobile */

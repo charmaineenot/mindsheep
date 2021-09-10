@@ -42,14 +42,22 @@
 }
 .btnViewServices{
     margin-top: 50%;
-    padding: 15px 60px;
+    padding: 20px 60px 15px 60px;
     color: #fff;
     background-color: #fa5801;
     border: none;
     border-radius: 0;
     font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: normal;
 }
-
+.btnViewServicesIcon{
+    margin-left: 10px;
+}
+.partnersImg{
+    width: 200px;
+    margin: 0 auto;
+}
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
     .homeBanner{
@@ -63,6 +71,9 @@
     }
     .btnViewServices{
         font-size: 1.2em;
+    }
+    .partnersImg{
+        width: 100% !important;
     }
 }
 /* Mobile */

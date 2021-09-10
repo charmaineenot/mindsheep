@@ -49,7 +49,7 @@ const content = ({pageContent,footerContent}) => {
                                 <img src={elements.buildBrand.brandProcess1Icon.sourceUrl} width="100"/>
                             </div>
                             <div>
-                                {elements.buildBrand.brandingProcess1}
+                                <span>{elements.buildBrand.brandingProcess1}</span>
                             </div>
                         </div>
                         <div className={styles.mtsm1+" col-md-4 d-flex align-items-center pe-5"}>
@@ -57,7 +57,7 @@ const content = ({pageContent,footerContent}) => {
                                 <img src={elements.buildBrand.brandProcess2Icon.sourceUrl} width="100"/>
                             </div>
                             <div>
-                                {elements.buildBrand.brandingProcess2}
+                                <span>{elements.buildBrand.brandingProcess2}</span>
                             </div>
                         </div>
                         <div className={styles.mtsm1+" col-md-4 d-flex align-items-center pe-5"}>
@@ -65,7 +65,7 @@ const content = ({pageContent,footerContent}) => {
                                 <img src={elements.buildBrand.brandProcess3Icon.sourceUrl} width="100"/>
                             </div>
                             <div>
-                                {elements.buildBrand.brandingProcess3}
+                                <span>{elements.buildBrand.brandingProcess3}</span>
                             </div>
                         </div>
                     </div>
