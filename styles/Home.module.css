@@ -1,0 +1,84 @@
+.homeBanner{
+    position: relative;
+    background-size: cover;
+    height: 88vh;
+    color: #FFF;
+    display: flow-root;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+.videoContainer{
+    width: 50%;
+    height: inherit;
+}
+.videoContainer:nth-child(2){
+    margin-left: -1px;
+}
+.homeBanner #video-banner{
+    position: relative;
+}
+.homeBanner .video-button{
+    position: absolute;
+    bottom: 100px;
+    left: 66vw;
+    z-index: 1;
+}
+.videoBanner{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.videoButton{
+    position: absolute;
+    bottom: 7vw;
+    z-index: 1;
+    right: 15vw;
+}
+.btnViewServices{
+    margin-top: 50%;
+    padding: 15px 60px;
+    color: #fff;
+    background-color: #fa5801;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5em;
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .homeBanner{
+        height: 43vh;
+    }
+    .videoContainer{
+        width: 49%;
+    }
+    .videoButton{
+        right: 75px;
+    }
+    .btnViewServices{
+        font-size: 1.2em;
+    }
+}
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .homeBanner{
+        height: 30vh;
+    }
+    .videoContainer{
+        width: 49%;
+    }
+    .videoButton{
+        right: 50px;
+        bottom: 35px;
+    }
+    .btnViewServices{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+}

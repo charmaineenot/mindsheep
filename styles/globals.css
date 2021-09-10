@@ -1,4 +1,7 @@
 /* DEFAULTS */
+.body{
+  overflow-x: hidden;
+}
 .clear{
   clear: both;
 }
@@ -140,7 +143,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 101%;
   height: 100%;
   object-fit: cover;
   z-index: 1;
@@ -153,14 +156,6 @@
   background-position: center;
   background-size: cover;
   z-index: 9;
-}
-.btnViewServices{
-  margin-top: 50%;
-  padding: 10px 50px;
-  color: #fff;
-  background-color: #fa5801;
-  border: none;
-  border-radius: 0;
 }
 .stat{
   font-size: 60px;

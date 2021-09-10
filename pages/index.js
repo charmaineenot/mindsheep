@@ -6,6 +6,7 @@ import { FOOTER_DATA } from '../lib/wordpress/api';
 import Layout from "./components/layout";
 import Testimonials from './components/embla-carousel/embla-carousel';
 import ContactSubmit from './components/contact-form/contact-submit';
+import styles from "../styles/Home.module.css";
 
 // export default function Home() {
 //   return (
@@ -20,13 +21,13 @@ const content = ({pageContent,footerContent}) => {
   const footerData = footerContent;
   const bannerStyle = {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
-    backgroundColor: '#22252a'
+    backgroundColor: '#272831'
   };
 
   return(
       <Layout elements={elements,footerData}>
-        <section className="banner-section text-center" style={bannerStyle}>
-          <video autoPlay muted loop id="video-banner">
+        <section className={styles.homeBanner+" banner-section text-center"} style={bannerStyle}>
+          {/* <video autoPlay muted loop id="video-banner">
               <source src={elements.homeFieldGroup.bannerImage.mediaItemUrl} type="video/mp4"/>
           </video>
           <div className="banner-content">
@@ -40,31 +41,35 @@ const content = ({pageContent,footerContent}) => {
                 </div>
               </div>
             </div>
-          </div>
-          {/* <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <h1>{elements.homeFieldGroup.bannerHeading}</h1>
-                <br/><br/>
-                <h4>{elements.homeFieldGroup.bannerSubHeading}</h4>
-              </div>
-            </div>
           </div> */}
+          <div className={styles.videoContainer+" float-start"}>
+            <video autoPlay muted loop className={styles.videoBanner}>
+              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
+            </video>
+          </div>
+          <div className={styles.videoContainer+" video-container float-start"}>
+            <video autoPlay muted loop className={styles.videoBanner}>
+              <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
+            </video>
+            <div className={styles.videoButton+" text-left"}>
+              <a href="#" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES</a>
+            </div>
+          </div>
         </section>
         <section className="pt-4 pb-5 bg-darken border-t">
           <div className="container">
             <div className="row text-center">
-              <div className="col-lg-3 col-md-6">
-                <img src={elements.homePartners.partner1Image.sourceUrl} />
+              <div className="col-lg-3 col-md-3 col-sm-6">
+                <img src={elements.homePartners.partner1Image.sourceUrl} class="w-100" />
               </div>
-              <div className="col-lg-3 col-md-6">
-                <img src={elements.homePartners.partner2Image.sourceUrl} />
+              <div className="col-lg-3 col-md-3 col-sm-6">
+                <img src={elements.homePartners.partner2Image.sourceUrl} class="w-100" />
               </div>
-              <div className="col-lg-3 col-md-6">
-                <img src={elements.homePartners.partner3Image.sourceUrl} />
+              <div className="col-lg-3 col-md-3 col-sm-6">
+                <img src={elements.homePartners.partner3Image.sourceUrl} class="w-100" />
               </div>
-              <div className="col-lg-3 col-md-6">
-                <img src={elements.homePartners.partner4Image.sourceUrl} />
+              <div className="col-lg-3 col-md-3 col-sm-6">
+                <img src={elements.homePartners.partner4Image.sourceUrl} class="w-100" />
               </div>
             </div>
             <div className="row">
