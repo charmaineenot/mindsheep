@@ -101,7 +101,7 @@ const Footer = ({elements}) => (
         </div>
       </div>
     </section>
-    <section className="pt-3 pb-3 bg-orange d-flex align-items-center text-white text-center text-sm-start">
+    <section className="pt-3 pb-3 bg-orange align-items-center text-white text-center text-sm-start">
       <div className="container p-0">
         <div className="row">
           <div className="col-md-12 vmiddle">

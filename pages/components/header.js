@@ -70,7 +70,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               </div>
             </div> */}
           </div>
-          <div class="col-md-6 col-lg-4 order-lg-last d-flex align-items-center">
+          <div class="col-md-6 col-lg-4 order-lg-last d-grid d-sm-flex align-items-center">
             <a href="tel:0466736761" class="btn btn-call">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               0466 736 761

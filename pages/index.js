@@ -62,7 +62,7 @@ const content = ({pageContent,footerContent}) => {
         </section>
         <section className="pt-4 pb-5 bg-darken border-t">
           <div className="container">
-            <div className="row text-center d-flex align-items-center">
+            <div className="row text-center align-items-center">
               <div className="col-lg-3 col-md-3 col-sm-6">
                 <img src={elements.homePartners.partner1Image.sourceUrl} class={styles.partnersImg} />
               </div>

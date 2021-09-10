@@ -98,6 +98,10 @@ p, span, ol{
   cursor: pointer;
 }
 
+.Header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
 .banner-section{
   position: relative;
   background-size: cover;
