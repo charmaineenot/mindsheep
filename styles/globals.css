@@ -394,10 +394,12 @@
 /* END Footer Form */
 
 /* BEGIN WHO WE ARE */
-.whoweare .Footer .testimonials{
+.whoweare .Footer .testimonials,
+.ourApproach .Footer .testimonials{
   display: none;
 }
-.whoweare .Footer .partners{
+.whoweare .Footer .partners,
+.ourApproach .Footer .partners{
   display: none;
 }
 /* END WHO WE ARE */
@@ -414,6 +416,41 @@
 }
 /* END LEAD GENERATION */
 
+/* BEGIN AUTOMATE BUSINESS & BRANDING */
+.automateBusiness .Footer .testimonials,
+.brandYourBusiness .Footer .testimonials{
+  display: none;
+}
+.automateBusiness .Footer .partners,
+.brandYourBusiness .Footer .partners{
+  display: none;
+}
+.automateBusiness .Footer .talktous,
+.brandYourBusiness .Footer .talktous{
+  background-color: #dfdfdf;
+}
+
+/* BEGIN MENU */
+.navbar-nav .nav-item{
+  margin-right: 19px;
+}
+.navbar-nav .nav-item a{
+  color: #fff !important;
+}
+.navbar-toggler{
+  background-color: #e85c00;
+}
+.navbar-toggler span{
+  color: #fff !important;
+}
+.dropdown-menu.services-dropdown{
+  color: #fff;
+  background-color: #272831 !important;
+  border-radius: 0 !important;
+}
+/* END MENU */
+
+/* END AUTOMATE BUSINESS */
 @media (min-width: 1400px){
   .boxed{
       max-width: 1320px !important;
@@ -422,6 +459,19 @@
 }
 /* Tablets and Mobile */
 @media (max-width: 768px) {
+  /* BEGIN RESPONSIVE MENU */
+  .navbar-toggler{
+    margin: 10px auto 20px auto;
+  }
+  .navbar-nav .nav-item{
+    margin-right: 0;
+  }
+  .dropdown-menu.services-dropdown{
+    position: relative !important;
+    text-align: center;
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
+  /* END RESPONSIVE MENU */
   .crateImg{
     width: 300px;
     margin-top: 0;
@@ -438,12 +488,37 @@
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+  .navbar-nav{
+    position: absolute;
+    top: 100px; 
+    width: 100%;
+    left:0;
+    background-color: #272831;
+    z-index:99;
+  }
+  .nav-item{
+    border-top: 1px solid #31323a;
+  }
   .card{
     margin: 0 !important;
   }
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .headerRow>*{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .navbar-nav{
+    position: absolute;
+    width: 100%;
+    left:0;
+    background-color: #272831;
+    z-index:99;
+  }
+  .nav-item{
+    border-top: 1px solid #31323a;
+  }
   .sectionTitle{
     font-size: 30px;
   }
