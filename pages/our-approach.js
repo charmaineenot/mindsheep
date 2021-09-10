@@ -16,7 +16,7 @@ const content = ({pageContent,footerContent}) => {
                 <video autoPlay muted loop id={styles.approachBanner}>
                     <source src={elements.ourApproach.bannerImage139.mediaItemUrl} type="video/mp4"/>
                 </video>
-                <div className="banner-content">
+                <div className={styles.smmt45+" banner-content"}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-6"></div>
@@ -24,7 +24,10 @@ const content = ({pageContent,footerContent}) => {
                                 <div className="text-right">
                                     <h1 className={styles.bannerTitle}>{elements.ourApproach.bannerHeading139}</h1>
                                     <br/><br/>
-                                    <p className={styles.smcenter+" text-white"}>{elements.ourApproach.bannerSubHeading139}</p>
+                                    <div className={styles.bannerTextCont}>
+                                        <p className={styles.smcenter+" text-white"}>{elements.ourApproach.bannerSubHeading139}</p>
+                                    </div>
+                                    
                                     {/* <a href="#" className="btn btn-warning btnViewServices">VIEW SERVICES</a> */}
                                 </div>
                             </div>
