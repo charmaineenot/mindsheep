@@ -94,7 +94,7 @@ const ContactForm = ( { status, message, onValidated }) => {
         </div>
       </div>
       <div className="newsletter-form-info text-center mt-5">
-        {status === "sending" && <div>Sending...</div>}
+        {status === "sending" && <p className="text-black">Sending...</p>}
         {status === "error" || error ? (
           <div
             className="newsletter-form-error"
@@ -102,7 +102,8 @@ const ContactForm = ( { status, message, onValidated }) => {
           />
         ) : null }
         {status === "success" && status !== "error" && !error && (
-          <div dangerouslySetInnerHTML={{ __html: decode(message) }} />
+          // <div dangerouslySetInnerHTML={{ __html: decode(message) }} />
+          <p className="text-black">Thank you! We will get in touch with you as soon as possible.</p>
         )}
       </div>
     </>

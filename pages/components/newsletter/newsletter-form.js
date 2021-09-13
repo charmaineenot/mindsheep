@@ -81,15 +81,16 @@ const NewsletterForm = ( { status, message, onValidated }) => {
         </div>
       </div>
       <div className="newsletter-form-info">
-        {status === "sending" && <div>Sending...</div>}
+        {status === "sending" && <p className="text-black">Sending...</p>}
         {status === "error" || error ? (
           <div
-            className="newsletter-form-error"
+            className="text-black newsletter-form-error"
             dangerouslySetInnerHTML={{ __html: error || getMessage( message ) }}
           />
         ) : null }
         {status === "success" && status !== "error" && !error && (
-          <div dangerouslySetInnerHTML={{ __html: decode(message) }} />
+          // <div dangerouslySetInnerHTML={{ __html: decode(message) }} />
+          <p className="text-black">Thank you for subscribing!</p>
         )}
       </div>
     </>

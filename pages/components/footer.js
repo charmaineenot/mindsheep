@@ -48,7 +48,7 @@ const Footer = ({elements}) => (
         </div>  
       </div>
     </section>
-    <section className="align-items-center talktous" style={footerStyle}> 
+    <section className="align-items-center talktous" id="talktous" style={footerStyle}> 
       {/* Contact Section */}
       <div className="container pt-8 pb-10">
         <div className="row">
@@ -96,7 +96,7 @@ const Footer = ({elements}) => (
             <NewsletterSubscribe/>
           </div>
           <div class="col-lg-6 col-md-4 vmiddle">
-            <p className="text-black mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="text-black mb-0 d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>

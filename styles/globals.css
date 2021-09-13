@@ -122,6 +122,12 @@ p, span, ol{
   color: #FFF;
 }
 
+.dropdown-toggle::after {
+  position: relative;
+  top: 2px;
+  right: -5px;
+}
+
 .btn-call{
   color: #fff;
   border: 0px;
@@ -369,7 +375,7 @@ p, span, ol{
 /* BEGIN Home Contact Form */
   .contact-form input{
     width: 50%;
-    margin: 12px;
+    margin-bottom: 12px;
     outline: 0;
     border-width: 0 0 2px;
     border-color: #000000;
