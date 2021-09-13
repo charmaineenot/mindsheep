@@ -187,12 +187,24 @@ p, span, ol{
   font-size: 60px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
+  line-height: normal;
 }
 .statText{
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
 }
+.statTestimonial{
+  background-color: #393941;
+  min-height: 172px;
+}
+.statArrow{
+  position: relative;
+  width: 30px;
+  right: -10px;
+  top: -10px;
+}
+
 .sectionTitle{
   font-size: 48px;
   font-weight: 700;
@@ -305,7 +317,7 @@ p, span, ol{
 .embla__slide__inner {
   position: relative;
   overflow: hidden;
-  max-height: 500px;
+  max-height: 600px;
   margin: 10px;
   padding: 40px 20px;
   background-color: #fff;

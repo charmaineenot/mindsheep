@@ -60,53 +60,77 @@ const content = ({pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-4 pb-5 bg-darken border-t">
+        <section className="pt-5 pb-6 bg-darken border-t">
           <div className="container">
-            <div className="row text-center align-items-center">
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner1Image.sourceUrl} class={styles.partnersImg} />
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner2Image.sourceUrl} class={styles.partnersImg} />
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner3Image.sourceUrl} class={styles.partnersImg} />
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <img src={elements.homePartners.partner4Image.sourceUrl} class={styles.partnersImg} />
-              </div>
-            </div>
             <div className="row">
-              <div className="col-md-3 text-center">
-                <div className="stat text-white">
+              <div className="col-md-6 col-lg-3 text-center">
+                <div className={styles.partnersImgContainer}>
+                  <img src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
+                </div>
+                <div className="stat text-orange">
                   {elements.homeStats.stat1}
+                  <h3 className="text-orange">{elements.homeStats.stat1Heading}</h3>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat1Description}
                 </div>
+                <div className="statTestimonial text-white p-3 mt-4" >
+                  <p><em>{elements.homeStats.stat1Testimonial}</em></p>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat1Client}</span><br/>
+                  <span className="text-orange">{elements.homeStats.stat1Company}</span>
+                </div>
               </div>
-              <div className="col-md-3 text-center">
-                <div className="stat text-white">
+              <div className="col-md-6 col-lg-3 text-center">
+                <div className={styles.partnersImgContainer}>
+                  <img src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
+                </div>
+                <div className="stat text-orange">
                   {elements.homeStats.stat2}
+                  <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                  <h3 className="text-orange">{elements.homeStats.stat2Heading}</h3>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat2Description}
                 </div>
+                <div className="statTestimonial text-white p-3 mt-4">
+                  <p><em>{elements.homeStats.stat2Testimonial}</em></p>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat2Client}</span><br/>
+                  <span className="text-orange">{elements.homeStats.stat2Company}</span>
+                </div>
               </div>
-              <div className="col-md-3 text-center">
-                <div className="stat text-white">
+              <div className="col-md-6 col-lg-3 text-center">
+                <div className={styles.partnersImgContainer}>
+                  <img src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
+                </div>
+                <div className="stat text-orange">
                   {elements.homeStats.stat3}
+                  <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                  <h3 className="text-orange">{elements.homeStats.stat3Heading}</h3>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat3Description}
                 </div>
+                <div className="statTestimonial text-white p-3 mt-4" >
+                  <p><em>{elements.homeStats.stat3Testimonial}</em></p>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat3Client}</span><br/>
+                  <span className="text-orange">{elements.homeStats.stat3Company}</span>
+                </div>
               </div>
-              <div className="col-md-3 text-center">
-                <div className="stat text-white">
+              <div className="col-md-6 col-lg-3 text-center">
+                <div className={styles.partnersImgContainer}>
+                  <img src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
+                </div>
+                <div className="stat text-orange">
                   {elements.homeStats.stat4}
+                  <h3 className="text-orange">{elements.homeStats.stat4Heading}</h3>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat4Description}
+                </div>
+                <div className="statTestimonial text-white p-3 mt-4" >
+                  <p><em>{elements.homeStats.stat4Testimonial}</em></p>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat4Client}</span><br/>
+                  <span className="text-orange">{elements.homeStats.stat4Company}</span>
                 </div>
               </div>
             </div>

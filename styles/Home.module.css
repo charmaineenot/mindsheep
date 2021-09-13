@@ -55,8 +55,14 @@
     margin-left: 10px;
 }
 .partnersImg{
-    width: 200px;
-    margin: 0 auto;
+    width: inherit;
+}
+.partnersImgContainer{
+    width: 90%;
+    height: 260px;
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
