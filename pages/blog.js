@@ -1,12 +1,14 @@
 import fetcher from "../lib/fetcher";
 import {ALL_POSTS} from "../lib/wordpress/api";
+import { FOOTER_DATA } from "../lib/wordpress/api";
 import Link from "next/link";
 import Layout from "../components/layout";
 
-const blog = ({allPosts}) => {
+const blog = ({allPosts,footerContent}) => {
     const posts = allPosts;
+    const footerData = footerContent;
     return(
-        <Layout>
+        <Layout elements={posts,footerData}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
@@ -34,10 +36,12 @@ export default blog;
 
 export async function getStaticProps(){
     const response = await fetcher(ALL_POSTS);
+    const footerResponse = await fetcher(FOOTER_DATA);
     const allPosts = response.data.posts.nodes;
+    const footerContent = footerResponse.data.page;
 
     return{
-        props: {allPosts},
+        props: {allPosts,footerContent},
         revalidate: 1,
     };
 }
