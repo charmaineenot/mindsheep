@@ -1,6 +1,6 @@
 import fetcher from "../lib/fetcher";
 import { GET_SAMPLE_PAGE } from "../lib/wordpress/api";
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 
 const content = ({pageContent}) => {
     const elements = pageContent;

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import fetcher from "../lib/fetcher";
 import { GET_HOME_PAGE } from '../lib/wordpress/api';
 import { FOOTER_DATA } from '../lib/wordpress/api';
-import Layout from "./components/layout";
-import Testimonials from './components/embla-carousel/embla-carousel';
-import ContactSubmit from './components/contact-form/contact-submit';
+import Layout from "../components/layout";
+import Testimonials from '../components/embla-carousel/embla-carousel';
+import ContactSubmit from '../components/contact-form/contact-submit';
 import styles from "../styles/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faPhone,faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
@@ -69,7 +69,7 @@ const content = ({pageContent,footerContent}) => {
                 </div>
                 <div className="stat text-orange">
                   {elements.homeStats.stat1}
-                  <h3 className="text-orange">{elements.homeStats.stat1Heading}</h3>
+                  <h5 className="text-orange">{elements.homeStats.stat1Heading}</h5>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat1Description}
@@ -87,7 +87,7 @@ const content = ({pageContent,footerContent}) => {
                 <div className="stat text-orange">
                   {elements.homeStats.stat2}
                   <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
-                  <h3 className="text-orange">{elements.homeStats.stat2Heading}</h3>
+                  <h5 className="text-orange">{elements.homeStats.stat2Heading}</h5>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat2Description}
@@ -105,7 +105,7 @@ const content = ({pageContent,footerContent}) => {
                 <div className="stat text-orange">
                   {elements.homeStats.stat3}
                   <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
-                  <h3 className="text-orange">{elements.homeStats.stat3Heading}</h3>
+                  <h5 className="text-orange">{elements.homeStats.stat3Heading}</h5>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat3Description}
@@ -122,7 +122,7 @@ const content = ({pageContent,footerContent}) => {
                 </div>
                 <div className="stat text-orange">
                   {elements.homeStats.stat4}
-                  <h3 className="text-orange">{elements.homeStats.stat4Heading}</h3>
+                  <h5 className="text-orange">{elements.homeStats.stat4Heading}</h5>
                 </div>
                 <div className="statText text-white">
                   {elements.homeStats.stat4Description}

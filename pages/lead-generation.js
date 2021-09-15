@@ -2,7 +2,7 @@ import fetcher from "../lib/fetcher";
 import styles from "../styles/LeadGeneration.module.css";
 import { GET_GENERATE_LEADS_PAGE } from "../lib/wordpress/api";
 import { FOOTER_DATA } from '../lib/wordpress/api';
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 import { useEffect } from 'react'
 
 const content = ({pageContent,footerContent}) => {

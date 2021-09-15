@@ -2,7 +2,7 @@
 import fetcher from "../lib/fetcher";
 import { GET_AUTOMATE_BUSINESS_PAGE } from "../lib/wordpress/api";
 import { FOOTER_DATA } from "../lib/wordpress/api";
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 import styles from "../styles/Automate.module.css";
 import { useEffect } from 'react'
 

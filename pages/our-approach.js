@@ -1,7 +1,7 @@
 import fetcher from "../lib/fetcher";
 import { GET_OUR_APPROACH_PAGE } from "../lib/wordpress/api";
 import { FOOTER_DATA } from "../lib/wordpress/api";
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 import styles from "../styles/Approach.module.css";
 import { useEffect } from "react";
 
