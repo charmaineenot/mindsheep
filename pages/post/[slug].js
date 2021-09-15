@@ -1,7 +1,7 @@
 import fetcher from "../../lib/fetcher";
 import { GET_ALL_POSTS_WITH_SLUG, GET_POST_BY_SLUG } from "../../lib/wordpress/api";
 import { useRouter } from "next/router";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 
 const post = ({postData}) => {
     const blogPost = postData.data.post;
