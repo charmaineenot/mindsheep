@@ -58,15 +58,15 @@
     width: inherit;
 }
 .partnersImgContainer{
-    width: 90%;
+    width: 230px;
     height: 170px;
-    margin: 0 8%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
 }
 .btnWhyUs{
-    margin-top: 25px;
-    padding: 20px 60px 15px 60px;
+    margin-top: -25px;
+    width: 140px;
     color: #fff;
     background-color: #fa5801;
     border: none;
@@ -75,8 +75,10 @@
     font-family: 'Josefin Sans', sans-serif;
     line-height: normal;
     position: absolute;
-    bottom: 33px;
+    /* bottom: 0; */
     left: 87px;
+    /* height: 40px; */
+    padding: 14px;
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {

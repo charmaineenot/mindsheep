@@ -144,31 +144,31 @@ const content = ({pageContent,footerContent}) => {
             <div className="row mt-5">
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
-                  <div className="card-body text-center">
+                  <div className="card-body text-center position-relative">
                     <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs1Description}</p>
-                    <a href="/lead-generation" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
+                    <a href="/lead-generation" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
-                  <div className="card-body text-center">
+                  <div className="card-body text-center position-relative">
                     <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs2Description}</p>
-                    <a href="/automate-your-business" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
+                    <a href="/automate-your-business" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
-                  <div className="card-body text-center">
+                  <div className="card-body text-center position-relative">
                   <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs3Description}</p>
-                    <a href="/brand-building" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
+                    <a href="/brand-building" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
                   </div>
                 </div>
               </div>
