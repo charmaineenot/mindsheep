@@ -28,7 +28,7 @@ const content = ({pageContent,footerContent}) => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.mtsm2+" container mt-8"}>
+                <div className={styles.mtsm2+" container mt-8"} id="bot-automation">
                     <div className="row">
                         <div className="col-md-6">
                             <div className={styles.botImg}>
@@ -42,7 +42,7 @@ const content = ({pageContent,footerContent}) => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.mtsm2+" container mt-8"}>
+                <div className={styles.mtsm2+" container mt-8"} id="web-design-development">
                     <div className="row">
                         <div className="col-md-6 order-sm-first order-last vmiddle">
                             <h2 className={styles.automateHeading}>{elements.automateBusiness.automate3Heading}</h2>

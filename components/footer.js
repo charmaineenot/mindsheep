@@ -78,10 +78,10 @@ const Footer = ({elements}) => (
             <div className="col-md-3 vmiddle">
               <ul>
                 <li><a className="text-white" href="/who-we-are">Who We Are</a></li>
-                <li><a className="text-white" href="/our-approach">Our Approach</a></li>              
+                <li><a className="text-white" href="/our-approach">Our Approach</a></li>      
+                <li><a className="text-white" href="/lead-generation">Lead Generation</a></li>        
                 <li><a className="text-white" href="/automate-your-business">Automate Your Business</a></li>
-                <li><a className="text-white" href="/build-your-brand">Build Your Brand</a></li>
-                <li><a className="text-white" href="/lead-generation">Lead Generation</a></li>
+                <li><a className="text-white" href="/brand-building">Build Your Brand</a></li>
               </ul>
             </div>
             <div className="col-md-4">

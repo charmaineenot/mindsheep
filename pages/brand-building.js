@@ -28,7 +28,7 @@ const content = ({pageContent,footerContent}) => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.mtsm2+" container mt-8"}>
+                <div className={styles.mtsm2+" container mt-8"} id="graphic-design">
                     <div className="row">
                         <div className="col-md-6">
                             <div className={styles.graphicImg}>
@@ -70,7 +70,7 @@ const content = ({pageContent,footerContent}) => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.mtsm2+" container mt-8"}>
+                <div className={styles.mtsm2+" container mt-8"} id="social-media">
                     <div className="row">
                         <div className="col-md-6 order-sm-first order-last vmiddle">
                             <h2 className={styles.brandingHeading}>{elements.buildBrand.buildBrand3Heading}</h2>

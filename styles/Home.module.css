@@ -64,6 +64,20 @@
     display: flex;
     align-items: center;
 }
+.btnWhyUs{
+    margin-top: 25px;
+    padding: 20px 60px 15px 60px;
+    color: #fff;
+    background-color: #fa5801;
+    border: none;
+    border-radius: 0;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: normal;
+    position: absolute;
+    bottom: 33px;
+    left: 87px;
+}
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
     .homeBanner{

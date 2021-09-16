@@ -43,9 +43,9 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
                         Services
                       </a>
                       <ul class="dropdown-menu services-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/automate-your-business">Automate Your Business</a></li>
-                        <li><a class="dropdown-item" href="/build-your-brand">Build Your Brand</a></li>
                         <li><a class="dropdown-item" href="/lead-generation">Lead Generation</a></li>
+                        <li><a class="dropdown-item" href="/automate-your-business">Automate Your Business</a></li>
+                        <li><a class="dropdown-item" href="/brand-building">Build Your Brand</a></li>                        
                       </ul>
                   </li>
                     <li class="nav-item">

@@ -54,7 +54,7 @@ const content = ({pageContent,footerContent}) => {
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
             <div className={styles.videoButton+" text-left"}>
-              <a href="#" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES
+              <a href="#services" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES
                <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faLongArrowAltRight}></FontAwesomeIcon>
               </a>
             </div>
@@ -148,6 +148,7 @@ const content = ({pageContent,footerContent}) => {
                     <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs1Description}</p>
+                    <a href="/lead-generation" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -157,6 +158,7 @@ const content = ({pageContent,footerContent}) => {
                     <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs2Description}</p>
+                    <a href="/automate-your-business" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -166,6 +168,7 @@ const content = ({pageContent,footerContent}) => {
                   <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs3Description}</p>
+                    <a href="/brand-building" className={styles.btnWhyUs+" btn btn-warning"}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -177,7 +180,7 @@ const content = ({pageContent,footerContent}) => {
             <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
           </div>
         </section>  
-        <section className="services-section pt-8 pb-10">
+        <section className="services-section pt-8 pb-10" id="services">
           <div className="container">
             <div className="text-center">
               <h2 className="sectionTitle HomeServicesHading">{elements.homeServices.servicesHeading}</h2>
@@ -185,35 +188,49 @@ const content = ({pageContent,footerContent}) => {
             </div>
             <div className="row mt-5">
               <div className="col-md-3 text-center">
+                <a href="/lead-generation">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices1Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices1Title}</h5>
+                </a>
               </div>
               <div className="col-md-3 text-center">
+                <a href="/automate-your-business">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices2Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices2Title}</h5>
+                </a>
               </div>
               <div className="col-md-3 text-center">
+              <a href="/automate-your-business/#bot-automation">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices3Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices3Title}</h5>
+              </a>
               </div>
               <div className="col-md-3 text-center">
+              <a href="/automate-your-business/#web-design-development">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices4Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices4Title}</h5>
+              </a>
               </div>
             </div>
             <div className="row">
               <div className="col-md-1"></div>
               <div className="col-md-3 text-center">
+              <a href="/brand-building">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices5Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices5Title}</h5>
+              </a>
               </div>
               <div className="col-md-4 text-center">
+              <a href="/brand-building/#graphic-design">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices6Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices6Title}</h5>
+              </a>
               </div>
               <div className="col-md-3 text-center">
+              <a href="/brand-building/#social-media">
                 <img className="mt-5 mb-4" src={elements.homeServices.homeServices7Icon.sourceUrl} width="150" />
                 <h5 className>{elements.homeServices.homeServices7Title}</h5>
+              </a>
               </div>
               <div className="col-md-1"></div>
             </div>

@@ -32,24 +32,45 @@ const content = ({pageContent,footerContent}) => {
             <section className="pt-8 pb-8" style={clientSection}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-10 col-lg-8">
+                        <div className="col-md-12 col-lg-12">
                             <h2 className="text-orange">{elements.leadGenerationPage.leadGenSection2Heading}</h2>
-                            <br/><br/>
-                            <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenSection2Subheading}}></p>
                         </div>
-                        <div className="col-lg-2 d-flex align-items-center">
-                            <img className="mx-auto" src={elements.leadGenerationPage.leadGenSection2Image.sourceUrl} width="150px" />
+                        <div className="col-md-6 col-lg-6">
+                            <div className="mt-5 p-4 bg-white">
+                            <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenSection2Subheading}}></p> 
+                            <div className="row">
+                                <div className="col-lg-4 d-flex align-items-center">
+                                    <img className="mx-auto" src={elements.leadGenerationPage.leadGenSection2Image.sourceUrl} width="150px" />
+                                </div>
+                                <div className="col-lg-4 d-flex align-items-center">
+                                    <p className="mx-auto text-center text-sm-start pt-4">
+                                        <span className="fw-bold text-orange">{elements.leadGenerationPage.leadGenSection2ClientName}</span><br/>
+                                        {elements.leadGenerationPage.leadGenSection2ClientPosition}
+                                    </p>
+                                </div>
+                            </div>
+                            </div>
                         </div>
-                        <div className="col-lg-2 d-flex align-items-center">
-                            <p>
-                                <span className="fw-bold text-orange">{elements.leadGenerationPage.leadGenSection2ClientName}</span><br/>
-                                {elements.leadGenerationPage.leadGenSection2ClientPosition}
-                            </p>
+                        <div className="col-md-6 col-lg-6">
+                            <div className="mt-5 p-4 bg-white">
+                            <p dangerouslySetInnerHTML={{__html: elements.leadGenerationPage.leadGenSection2Subheading2}}></p> 
+                            <div className="row">
+                                <div className="col-lg-4 d-flex align-items-center">
+                                    <img className="mx-auto" src={elements.leadGenerationPage.leadGenSection2Image2.sourceUrl} width="150px" />
+                                </div>
+                                <div className="col-lg-4 d-flex align-items-center">
+                                    <p className="mx-auto text-center text-sm-start pt-4">
+                                        <span className="fw-bold text-orange">{elements.leadGenerationPage.leadGenSection2ClientName2}</span><br/>
+                                        {elements.leadGenerationPage.leadGenSection2ClientPosition2}
+                                    </p>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="pt-8 pb-8">
+            <section className="pt-8 pb-8" id="google-ads">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 text-center text-sm-start">
@@ -63,7 +84,7 @@ const content = ({pageContent,footerContent}) => {
                     </div>
                 </div>
             </section>
-            <section className="pb-8">
+            <section className="pt-8 pb-8" id="facebook-ads">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-10 col-lg-6">
