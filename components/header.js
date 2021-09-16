@@ -33,23 +33,49 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="/who-we-are">Who We Are</a>
+                      <a class="nav-link text-white" href="/who-we-are">Who We Are</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/our-approach">Our Approach</a>
+                      <a class="nav-link text-white" href="/our-approach">Our Approach</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                       </a>
                       <ul class="dropdown-menu services-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/lead-generation">Lead Generation</a></li>
-                        <li><a class="dropdown-item" href="/automate-your-business">Automate Your Business</a></li>
-                        <li><a class="dropdown-item" href="/brand-building">Build Your Brand</a></li>                        
+                        <li>
+                          <a class="dropdown-item text-orange" href="/lead-generation">Lead Generation</a>
+                          <div className="services-inner-menu">
+                            <ul>
+                              <li><a href="/lead-generation/#facebook-ads">Facebook Ads</a></li>
+                              <li><a href="/lead-generation/#google">Google Ads</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="dropdown-item text-orange" href="/automate-your-business">Automate Your Business</a>
+                          <div className="services-inner-menu">
+                            <ul>
+                              <li><a href="/automate-your-business">CRM & Integration</a></li>
+                              <li><a href="/automate-your-business/#bot-automation">Bot Automation</a></li>
+                              <li><a href="/automate-your-business/#web-design-development">Web Design & Development</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="dropdown-item text-orange" href="/brand-building">Build Your Brand</a>
+                          <div className="services-inner-menu">
+                            <ul>
+                              <li><a href="/brand-building">Branding</a></li>
+                              <li><a href="/brand-building/#graphic-design">Graphic Design</a></li>
+                              <li><a href="/brand-building/#social-media">Social Media Management</a></li>
+                            </ul>
+                          </div>
+                        </li>                        
                       </ul>
                   </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#talktous">Contact Us </a>
+                      <a class="nav-link text-white" href="#talktous">Contact Us </a>
                     </li>
                   </ul>
                 </div>

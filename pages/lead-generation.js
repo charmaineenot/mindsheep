@@ -70,7 +70,7 @@ const content = ({pageContent,footerContent}) => {
                     </div>
                 </div>
             </section>
-            <section className="pt-8 pb-8" id="google-ads">
+            <section className="pt-8 pb-8" id="google">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 text-center text-sm-start">
