@@ -6,6 +6,7 @@ const ContactForm = ( { status, message, onValidated }) => {
   const [ error, setError ] = useState(null);
   const [ email, setEmail ] = useState(null);
   const [ fullname, setFullname ] = useState(null);
+  const [ phoneNumber, setPhoneNumber ] = useState(null);
 
   /**
    * Handle form submit.
@@ -16,8 +17,13 @@ const ContactForm = ( { status, message, onValidated }) => {
 
     setError(null);
 
+    if( ! phoneNumber ){
+      setError( 'Please enter phone number' );
+      return null;
+    }
+
     if( ! fullname ){
-      setError( 'Please enter a valid name' );
+      setError( 'Please enter a name' );
       return null;
     }
 
@@ -26,7 +32,7 @@ const ContactForm = ( { status, message, onValidated }) => {
       return null;
     }
 
-    const isFormValidated = onValidated({ FULLNAME: fullname, EMAIL: email });
+    const isFormValidated = onValidated({ FULLNAME: fullname, PNUMBER: phoneNumber, EMAIL: email });
 
     // On success return true
     return email && email.indexOf("@") > -1 && isFormValidated;
@@ -74,6 +80,15 @@ const ContactForm = ( { status, message, onValidated }) => {
             onChange={(event) => setFullname(event?.target?.value ?? '')}
             type="text"
             placeholder="Enter your full name"
+            className="mr-2"
+            onKeyUp={(event) => handleInputKeyEvent(event)}
+          />
+        </div>
+        <div className="mc-field-group">
+          <input
+            onChange={(event) => setPhoneNumber(event?.target?.value ?? '')}
+            type="text"
+            placeholder="Enter your phone number"
             className="mr-2"
             onKeyUp={(event) => handleInputKeyEvent(event)}
           />

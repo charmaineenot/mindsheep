@@ -44,7 +44,7 @@ const Footer = ({elements}) => (
             <div className="section-divider text-center"></div>
           </div>  
           <Testimonials elements={elements}/>
-          <img className="crateImg" src="https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/2-Crate-01.png"/>
+          <img className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/2-Crate-01-min.png"/>
         </div>  
       </div>
     </section>
@@ -58,7 +58,7 @@ const Footer = ({elements}) => (
           </div>
           <div className="col-md-6 vmiddle">
             <ContactSubmit/>
-            <img className="watercingImg" src="https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/3-Watercing-Can-01.png"/>
+            <img className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/3-Watercing-Can-01-min.png"/>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row">
             <div className="col-md-5 vmiddle">
-              <img src="https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/footer-logo.png" width="80%"/>
+              <img src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/footer-logo-min.png" width="80%"/>
               <p class="mt-4">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
             <div className="col-md-3 vmiddle">
@@ -85,7 +85,7 @@ const Footer = ({elements}) => (
               </ul>
             </div>
             <div className="col-md-4">
-            <img src="https://www.webstepup.com.au/mindsheep/wp-content/uploads/2021/09/footer-img-01.png" width="80%"/>
+            <img src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/footer-img-01-min.png" width="80%"/>
             </div>
           </div>
         </div>

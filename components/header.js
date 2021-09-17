@@ -21,7 +21,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
         <div className="row headerRow">
           <div class="col-8 col-md-4 col-lg-3">
             <Link href="/">
-              <img src="/logo-white.png" alt="Mindsheep logo" class="w-100 logo"/>
+              <img src="/logo-white-min.png" alt="Mindsheep logo" class="w-100 logo"/>
             </Link>
           </div>
           <div class="col-4 col-md-2 col-lg-5 order-md-last order-sm-last vmiddle">
