@@ -13,14 +13,15 @@ const content = ({pageContent,footerContent}) => {
     return(
         <Layout elements={elements,footerData}>
             <section className={styles.ourApproachBanner+" banner-section text-center"}>
-                <video autoPlay muted loop id={styles.approachBanner}>
-                    <source src={elements.ourApproach.bannerImage139.mediaItemUrl} type="video/mp4"/>
-                </video>
-                <div className={styles.smmt45+" banner-content"}>
-                    <div className="container">
+                <div className="banner-content">
+                    <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-6 col-lg-6"></div>
-                            <div className="col-md-12 col-lg-6">
+                            <div className="col-lg-6">
+                                <video autoPlay muted loop id={styles.approachBanner}>
+                                    <source src={elements.ourApproach.bannerImage139.mediaItemUrl} type="video/mp4"/>
+                                </video>
+                            </div>
+                            <div className="col-lg-4 pt-4 vmiddle">
                                 <div className="text-right">
                                     <h1 className={styles.bannerTitle}>{elements.ourApproach.bannerHeading139}</h1>
                                     <br/><br/>
@@ -31,6 +32,7 @@ const content = ({pageContent,footerContent}) => {
                                     {/* <a href="#" className="btn btn-warning btnViewServices">VIEW SERVICES</a> */}
                                 </div>
                             </div>
+                            <div className="col-lg-2"></div>
                         </div>
                     </div>
                 </div>

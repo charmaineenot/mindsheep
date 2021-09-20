@@ -17,6 +17,7 @@ const content = ({pageContent,footerContent}) => {
         //backgroundRepeat: 'no-repeat',
         //backgroundPosition: '53vw 12vh',
         //position: 'relative'
+        backgroundColor: '#23242b'
     };
     const valuesSection = {
       background: `url('${elements.whoWeAre.backgroundImage.sourceUrl}') #e8e8e8`,
@@ -30,21 +31,21 @@ const content = ({pageContent,footerContent}) => {
     return(
         <Layout elements={elements,footerData}>
         <section className={styles.bannerSection+ " banner-section"} style={bannerStyle}>
-          <video autoPlay muted loop className={styles.videoBanner} id="video-banner">
-            <source src={elements.ourStory.ourStoryBannerVideo.mediaItemUrl} type="video/mp4"/>
-          </video>
-          <div className={styles.smmt52+" banner-content"}>
-            <div className="container">
+          <div className="banner-content">
+            <div className="container-fluid">
               <div className="row">
-                <div className="col-md-12 col-lg-5">
+                <div className="col-lg-2"></div>
+                <div className={styles.textCol+" col-lg-4 pt-4 vmiddle"}>
                   <h1 className={styles.bannerTitle}>{elements.ourStory.bannerheading}</h1>
                   <br/><br/>
                   <div className={styles.bannerTextCont}>
                     <p dangerouslySetInnerHTML={{__html: elements.ourStory.bannersubheading}}></p>
                   </div>  
                 </div>
-                <div className="col-lg-7">
-                  
+                <div className={styles.videoCol+" col-lg-6"}>
+                  <video autoPlay muted loop className={styles.videoBanner}>
+                    <source src={elements.ourStory.ourStoryBannerVideo.mediaItemUrl} type="video/mp4"/>
+                  </video>
                 </div>
               </div>
             </div>
