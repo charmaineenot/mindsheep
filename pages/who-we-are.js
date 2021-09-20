@@ -17,7 +17,7 @@ const content = ({pageContent,footerContent}) => {
         //backgroundRepeat: 'no-repeat',
         //backgroundPosition: '53vw 12vh',
         //position: 'relative'
-        backgroundColor: '#23242b'
+        backgroundColor: '#272831'
     };
     const valuesSection = {
       background: `url('${elements.whoWeAre.backgroundImage.sourceUrl}') #e8e8e8`,
