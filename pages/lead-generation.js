@@ -5,16 +5,17 @@ import { FOOTER_DATA } from '../lib/wordpress/api';
 import Layout from "../components/layout";
 import { useEffect } from 'react'
 
-const content = ({pageContent,footerContent}) => {
+const content = ({pageMeta,pageContent,footerContent}) => {
     useEffect( () => { document.querySelector("body").classList.add("leadGeneration") } );
     const elements = pageContent;
     const footerData = footerContent;
+    const pageData = pageMeta;
     const clientSection = {
       backgroundColor: `${elements.leadGenerationPage.leadGenSection2BackgroundColor}`
     };
     
     return(
-        <Layout elements={elements,footerData}>
+        <Layout page={pageData} elements={elements,footerData}>
             <section className="pt-8 pb-8">
                 <div className="container">
                     <div className="row">
@@ -111,7 +112,14 @@ export async function getStaticProps(){
     const footerContent = footerResponse.data.page;
     
     return{
-        props: {pageContent,footerContent},
+        props: {
+            pageMeta: {
+              title: "Lead Generation",
+              description: "This is a sample description"
+            }, 
+            pageContent,
+            footerContent
+        },
         revalidate: 1,
     };
 }

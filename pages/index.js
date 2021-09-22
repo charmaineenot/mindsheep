@@ -18,16 +18,17 @@ import { faPhone,faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 //   )
 // }
 
-const content = ({pageContent,footerContent}) => {
+const content = ({pageMeta,pageContent,footerContent}) => {
   const elements = pageContent;
   const footerData = footerContent;
+  const pageData = pageMeta;
   const bannerStyle = {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
     backgroundColor: '#272831'
   };
 
   return(
-      <Layout elements={elements,footerData}>
+      <Layout page={pageData} elements={elements,footerData}>
         <section className={styles.homeBanner+" banner-section text-center"} style={bannerStyle}>
           {/* <video autoPlay muted loop id="video-banner">
               <source src={elements.homeFieldGroup.bannerImage.mediaItemUrl} type="video/mp4"/>
@@ -247,8 +248,15 @@ export async function getStaticProps(){
   const footerResponse = await fetcher(FOOTER_DATA);
   const pageContent = response.data.page;
   const footerContent = footerResponse.data.page;
-  return{
-      props: {pageContent,footerContent},
+  return{   
+      props: {
+        pageMeta: {
+          title: "This is the home page",
+          description: "This is a sample description of the home page"
+        }, 
+        pageContent,
+        footerContent
+      },
       revalidate: 1,
   };
 }

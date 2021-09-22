@@ -5,10 +5,11 @@ import { FOOTER_DATA } from '../lib/wordpress/api';
 import Layout from "../components/layout";
 import { useEffect } from 'react'
 
-const content = ({pageContent,footerContent}) => {
+const content = ({pageMeta,pageContent,footerContent}) => {
     useEffect( () => { document.querySelector("body").classList.add("whoweare") } );
     const elements = pageContent;
     const footerData = footerContent;
+    const pageData = pageMeta;
     const bannerStyle = {
         //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
         //backgroundColor: '#272831'
@@ -29,7 +30,7 @@ const content = ({pageContent,footerContent}) => {
     };
     
     return(
-        <Layout elements={elements,footerData}>
+        <Layout page={pageData} elements={elements,footerData}>
         <section className={styles.bannerSection+ " banner-section"} style={bannerStyle}>
           <div className="banner-content">
             <div className="container-fluid">
@@ -166,7 +167,14 @@ export async function getStaticProps(){
     const footerContent = footerResponse.data.page;
     
     return{
-        props: {pageContent,footerContent},
+        props: {
+          pageMeta: {
+            title: "Who We Are",
+            description: "This is a sample description"
+          }, 
+          pageContent,
+          footerContent
+        },
         revalidate: 1,
     };
 }

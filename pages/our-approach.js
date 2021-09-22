@@ -5,13 +5,14 @@ import Layout from "../components/layout";
 import styles from "../styles/Approach.module.css";
 import { useEffect } from "react";
 
-const content = ({pageContent,footerContent}) => {
+const content = ({pageMeta,pageContent,footerContent}) => {
     useEffect( () => { document.querySelector("body").classList.add("ourApproach") } );
     const elements = pageContent;
     const footerData = footerContent;
+    const pageData = pageMeta;
 
     return(
-        <Layout elements={elements,footerData}>
+        <Layout page={pageData} elements={elements,footerData}>
             <section className={styles.ourApproachBanner+" banner-section text-center"}>
                 <div className="banner-content">
                     <div className="container-fluid">
@@ -101,7 +102,14 @@ export async function getStaticProps(){
     const pageContent = response.data.page;
     const footerContent = footerResponse.data.page;
     return{
-        props: {pageContent,footerContent},
+        props: {
+            pageMeta: {
+              title: "Our Approach",
+              description: "This is a sample description"
+            }, 
+            pageContent,
+            footerContent
+        },
         revalidate: 1,
     };
   }
