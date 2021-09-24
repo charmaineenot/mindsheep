@@ -251,8 +251,8 @@ export async function getStaticProps(){
   return{   
       props: {
         pageMeta: {
-          title: "This is the home page",
-          description: "This is a sample description of the home page"
+          title: "Marketing for Small/Medium Businesses in Perth | Mindsheep",
+          description: "More Leads. Simply Stand Out. Mindsheep uses proven marketing tactics to generate high-value leads for businesses in Perth WA. Contact us today!"
         }, 
         pageContent,
         footerContent

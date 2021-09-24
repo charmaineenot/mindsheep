@@ -101,8 +101,8 @@ export async function getStaticProps(){
     return{
         props: {
             pageMeta: {
-              title: "Brand Building",
-              description: "This is a sample description"
+              title: "Brand Yourself & Stand out | Mindsheep Marketing in Perth",
+              description: "Get noticed. Not skipped. We can help you create an unstoppable brand: from graphics, content creation to growing your reputation online. Learn more"
             }, 
             pageContent,
             footerContent

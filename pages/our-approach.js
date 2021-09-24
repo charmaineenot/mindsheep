@@ -104,8 +104,8 @@ export async function getStaticProps(){
     return{
         props: {
             pageMeta: {
-              title: "Our Approach",
-              description: "This is a sample description"
+              title: "Our Different Approach | Mindsheep Marketing",
+              description: "Real Results. We supercharge your existing lead and sales through Social & Search Ads, Bot automation, and CRM systems. Learn More"
             }, 
             pageContent,
             footerContent

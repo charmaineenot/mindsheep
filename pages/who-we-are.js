@@ -169,8 +169,8 @@ export async function getStaticProps(){
     return{
         props: {
           pageMeta: {
-            title: "Who We Are",
-            description: "This is a sample description"
+            title: "Perth Marketing That Delivers | Why Work with Mindsheep",
+            description: "A company of bold & strategic thinkers - Mindsheep Marketing is your best choice for generating wealth & success for your business. Learn more."
           }, 
           pageContent,
           footerContent

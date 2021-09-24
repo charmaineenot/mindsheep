@@ -73,8 +73,8 @@ export async function getStaticProps(){
     return{
         props: {
             pageMeta: {
-              title: "Brand Building",
-              description: "This is a sample description"
+              title: "CRM & Bot Automation | Mindsheep Marketing",
+              description: "Talk to one of our digital marketing experts today to find out what CRM & Bot Automation tools work best for your business."
             }, 
             pageContent,
             footerContent
