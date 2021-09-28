@@ -24,7 +24,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
   const pageData = pageMeta;
   const bannerStyle = {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
-    backgroundColor: '#272831'
+    backgroundColor: '#24242c'
   };
 
   return(

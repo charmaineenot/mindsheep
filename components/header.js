@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the 
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
   
   const headerStyle = {
-    backgroundColor: "#272831",
+    backgroundColor: "#24242c",
     color: "white",
     width: "100%",
     // height: "15vh"
