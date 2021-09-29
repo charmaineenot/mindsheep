@@ -101,17 +101,29 @@
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
     .homeBanner{
-        height: 30vh;
+        height: inherit;
+        padding-top: 50px;
+        padding-bottom: 75px;
     }
     .videoContainer{
-        width: 49%;
+        width: 35%;
+    }
+    .videoContainer2{
+        width: 65%;
+        position: relative;
+        margin-top: 30px;
     }
     .videoButton{
-        right: 50px;
-        bottom: 35px;
+        /* right: 50px; */
+        left: -75px;
+        top: 10px;
     }
     .btnViewServices{
-        font-size: 12px;
-        padding: 5px 20px;
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .partnersImgContainer{
+        width: 145px;
+        height: 100px;
     }
 }

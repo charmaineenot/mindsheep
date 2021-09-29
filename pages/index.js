@@ -50,7 +50,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
             </video>
           </div>
-          <div className={styles.videoContainer+" video-container float-start"}>
+          <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
             <video autoPlay muted loop className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
@@ -61,7 +61,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-5 pb-6 bg-darken border-t">
+        <section className="pt-3 pb-6 bg-darken border-t">
           <div className="container">
             <div className="row">
               <div className="col-md-6 col-lg-3 text-center">
