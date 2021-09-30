@@ -164,7 +164,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
-                    <div className={styles.partnersImgContainer}>
+                    <div className={styles.partnersImgContainer + " wchfImg"}>
                       <img src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
@@ -186,7 +186,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                   </div>
                 </div>
-                <div className="statTestimonial text-white p-3 mt-4 visible-sm" >
+                <div className="statTestimonial text-white p-3 mt-4 visible-sm customStat-m" >
                   <p><em>{elements.homeStats.stat4Testimonial}</em></p>
                   <span className="text-orange fw-bold">{elements.homeStats.stat4Client} - </span>
                   <span className="text-orange">{elements.homeStats.stat4Company}</span>

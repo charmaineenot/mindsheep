@@ -640,20 +640,26 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .statMobileBG{
     margin-top: 15px;
-    background-color: #393941;
+    padding: 0 !important;
+    background-color: #383b40;
   }
   .stat h5{
     font-size: 16px;
   }
   .statText{
     font-size: 12px;
+    line-height: 0.9em;
   }
   .statTestimonial{
     border-top: 1px solid #fff;
     min-height: auto;
+    margin-top: 0 !important;
+    padding: 8px !important;
+    background-color: #4d5055;
   }
   .statTestimonial p {
     line-height: 1em;
+    margin-bottom: 0 !important;
   }
   .statTestimonial p em{
     font-size: 12px;
@@ -668,7 +674,13 @@ ul.dropdown-menu.services-dropdown.show {
     top: 0;
   }
   .statData-r{
-    margin-top: 30px;
+    margin-top: 15px;
+  }
+  .customStat-m{
+    margin-top: 8px !important;
+  }
+  .wchfImg{
+    margin-top: 10px !important;
   }
   .sectionTitle{
     font-size: 30px;
