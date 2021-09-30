@@ -62,75 +62,133 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           </div>
         </section>
         <section className="pt-3 pb-6 bg-darken border-t">
-          <div className="container">
+          <div className="container sm-p-20">
             <div className="row">
-              <div className="col-md-6 col-lg-3 text-center">
-                <div className={styles.partnersImgContainer}>
-                  <img src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
+              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+                <div className="row">
+                  <div className="col-5 col-md-12 col-lg-12">
+                    <div className={styles.partnersImgContainer}>
+                      <img src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
+                    </div>
+                  </div>
+                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                    <div className="stat text-orange hide-sm">
+                      {elements.homeStats.stat1}
+                      <h5 className="text-orange">{elements.homeStats.stat1Heading}</h5>
+                    </div>
+                    <div className="stat text-orange visible-sm">
+                      <h5 className="text-orange">{elements.homeStats.stat1} {elements.homeStats.stat1Heading}</h5>
+                    </div>
+                    <div className="statText text-white">
+                      {elements.homeStats.stat1Description}
+                    </div>
+                    <div className="statTestimonial text-white p-3 mt-4 hide-sm">
+                      <p><em>{elements.homeStats.stat1Testimonial}</em></p>
+                      <span className="text-orange fw-bold">{elements.homeStats.stat1Client}</span><br/>
+                      <span className="text-orange">{elements.homeStats.stat1Company}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="stat text-orange">
-                  {elements.homeStats.stat1}
-                  <h5 className="text-orange">{elements.homeStats.stat1Heading}</h5>
-                </div>
-                <div className="statText text-white">
-                  {elements.homeStats.stat1Description}
-                </div>
-                <div className="statTestimonial text-white p-3 mt-4" >
+                <div className="statTestimonial text-white p-3 mt-4 visible-sm">
                   <p><em>{elements.homeStats.stat1Testimonial}</em></p>
-                  <span className="text-orange fw-bold">{elements.homeStats.stat1Client}</span><br/>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat1Client} - </span>
                   <span className="text-orange">{elements.homeStats.stat1Company}</span>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 text-center">
-                <div className={styles.partnersImgContainer}>
-                  <img src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
+              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+                <div className="row">
+                  <div className="col-5 col-md-12 col-lg-12">
+                    <div className={styles.partnersImgContainer}>
+                      <img src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
+                    </div>
+                  </div>
+                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                    <div className="stat text-orange hide-sm">
+                      {elements.homeStats.stat2}
+                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                      <h5 className="text-orange">{elements.homeStats.stat2Heading}</h5>
+                    </div>
+                    <div className="stat text-orange visible-sm">
+                      <h5 className="text-orange">{elements.homeStats.stat2} {elements.homeStats.stat2Heading}</h5>
+                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                    </div>
+                    <div className="statText text-white">
+                      {elements.homeStats.stat2Description}
+                    </div>
+                    <div className="statTestimonial text-white p-3 mt-4 hide-sm">
+                      <p><em>{elements.homeStats.stat2Testimonial}</em></p>
+                      <span className="text-orange fw-bold">{elements.homeStats.stat2Client}</span><br/>
+                      <span className="text-orange">{elements.homeStats.stat2Company}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="stat text-orange">
-                  {elements.homeStats.stat2}
-                  <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
-                  <h5 className="text-orange">{elements.homeStats.stat2Heading}</h5>
-                </div>
-                <div className="statText text-white">
-                  {elements.homeStats.stat2Description}
-                </div>
-                <div className="statTestimonial text-white p-3 mt-4">
+                <div className="statTestimonial text-white p-3 mt-4 visible-sm">
                   <p><em>{elements.homeStats.stat2Testimonial}</em></p>
-                  <span className="text-orange fw-bold">{elements.homeStats.stat2Client}</span><br/>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat2Client} - </span>
                   <span className="text-orange">{elements.homeStats.stat2Company}</span>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 text-center">
-                <div className={styles.partnersImgContainer}>
-                  <img src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
+              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+                <div className="row">
+                  <div className="col-5 col-md-12 col-lg-12">
+                    <div className={styles.partnersImgContainer}>
+                      <img src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
+                    </div>
+                  </div>
+                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                    <div className="stat text-orange hide-sm">
+                      {elements.homeStats.stat3}
+                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                      <h5 className="text-orange">{elements.homeStats.stat3Heading}</h5>
+                    </div>
+                    <div className="stat text-orange visible-sm">
+                      <h5 className="text-orange"> {elements.homeStats.stat3} {elements.homeStats.stat3Heading}</h5>
+                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                    </div>
+                    <div className="statText text-white">
+                      {elements.homeStats.stat3Description}
+                    </div>
+                    <div className="statTestimonial text-white p-3 mt-4 hide-sm" >
+                      <p><em>{elements.homeStats.stat3Testimonial}</em></p>
+                      <span className="text-orange fw-bold">{elements.homeStats.stat3Client}</span><br/>
+                      <span className="text-orange">{elements.homeStats.stat3Company}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="stat text-orange">
-                  {elements.homeStats.stat3}
-                  <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
-                  <h5 className="text-orange">{elements.homeStats.stat3Heading}</h5>
-                </div>
-                <div className="statText text-white">
-                  {elements.homeStats.stat3Description}
-                </div>
-                <div className="statTestimonial text-white p-3 mt-4" >
+                <div className="statTestimonial text-white p-3 mt-4 visible-sm" >
                   <p><em>{elements.homeStats.stat3Testimonial}</em></p>
-                  <span className="text-orange fw-bold">{elements.homeStats.stat3Client}</span><br/>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat3Client} - </span>
                   <span className="text-orange">{elements.homeStats.stat3Company}</span>
-                </div>
+                </div>   
               </div>
-              <div className="col-md-6 col-lg-3 text-center">
-                <div className={styles.partnersImgContainer}>
-                  <img src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
+              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+                <div className="row">
+                  <div className="col-5 col-md-12 col-lg-12">
+                    <div className={styles.partnersImgContainer}>
+                      <img src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
+                    </div>
+                  </div>
+                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                    <div className="stat text-orange hide-sm">
+                      {elements.homeStats.stat4}
+                      <h5 className="text-orange">{elements.homeStats.stat4Heading}</h5>
+                    </div>
+                    <div className="stat text-orange visible-sm">
+                      <h5 className="text-orange">{elements.homeStats.stat4} {elements.homeStats.stat4Heading}</h5>
+                    </div>
+                    <div className="statText text-white">
+                      {elements.homeStats.stat4Description}
+                    </div>
+                    <div className="statTestimonial text-white p-3 mt-4 hide-sm" >
+                      <p><em>{elements.homeStats.stat4Testimonial}</em></p>
+                      <span className="text-orange fw-bold">{elements.homeStats.stat4Client}</span><br/>
+                      <span className="text-orange">{elements.homeStats.stat4Company}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="stat text-orange">
-                  {elements.homeStats.stat4}
-                  <h5 className="text-orange">{elements.homeStats.stat4Heading}</h5>
-                </div>
-                <div className="statText text-white">
-                  {elements.homeStats.stat4Description}
-                </div>
-                <div className="statTestimonial text-white p-3 mt-4" >
+                <div className="statTestimonial text-white p-3 mt-4 visible-sm" >
                   <p><em>{elements.homeStats.stat4Testimonial}</em></p>
-                  <span className="text-orange fw-bold">{elements.homeStats.stat4Client}</span><br/>
+                  <span className="text-orange fw-bold">{elements.homeStats.stat4Client} - </span>
                   <span className="text-orange">{elements.homeStats.stat4Company}</span>
                 </div>
               </div>
