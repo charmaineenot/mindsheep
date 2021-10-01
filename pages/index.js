@@ -46,12 +46,12 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div> */}
           <div className={styles.videoContainer+" float-start"}>
-            <video autoPlay muted loop className={styles.videoBanner}>
+            <video autoPlay muted loop playsinline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
             </video>
           </div>
           <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
-            <video autoPlay muted loop className={styles.videoBanner}>
+            <video autoPlay muted loop playsinline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
             <div className={styles.videoButton+" text-left"}>
