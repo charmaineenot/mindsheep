@@ -19,16 +19,16 @@ const Footer = ({elements}) => (
       <div className="container-fluid pt-4 pb-4 bg-darken">
         <div className="boxed">
           <div className="row text-center d-flex align-items-center">
-            <div className="col-lg-3 col-md-3 pt-4 pb-4">
+            <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
               <img src={elements.homePartners.partner1Image.sourceUrl} style={partnersImg}/>
             </div>
-            <div className="col-lg-3 col-md-3 pt-4 pb-4">
+            <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
               <img src={elements.homePartners.partner2Image.sourceUrl} style={partnersImg}/>
             </div>
-            <div className="col-lg-3 col-md-3 pt-4 pb-4">
+            <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
               <img src={elements.homePartners.partner3Image.sourceUrl} style={partnersImg}/>
             </div>
-            <div className="col-lg-3 col-md-3 pt-4 pb-4">
+            <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
               <img src={elements.homePartners.partner4Image.sourceUrl} style={partnersImg}/>
             </div>
           </div>

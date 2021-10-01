@@ -102,8 +102,9 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .homeBanner{
         height: inherit;
-        padding-top: 50px;
-        padding-bottom: 75px;
+        padding-top: 0;
+        /* padding-bottom: 75px; */
+        margin-top: -12px;
     }
     .videoContainer{
         width: 35%;

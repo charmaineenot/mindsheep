@@ -177,6 +177,7 @@ ul.dropdown-menu.services-dropdown.show {
   border: 0px;
   border-radius: 0;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .btn-more:hover{
@@ -293,7 +294,7 @@ ul.dropdown-menu.services-dropdown.show {
   position: absolute;
   width: 400px;
   left: 0;
-  margin-top: -40px;
+  margin-top: -17px;
 }
 .watercingImg{
   position: absolute;
@@ -618,6 +619,13 @@ ul.dropdown-menu.services-dropdown.show {
     position: relative;
     display: block !important;
   }
+  .w-100-sm{
+    width: 100% !important;
+  }
+  .btnViewServices-sm{
+    position: absolute;
+    right: -39px;
+  }
   .headerRow>*{
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -681,6 +689,9 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .wchfImg{
     margin-top: 10px !important;
+  }
+  section.partners img{
+    width: 100% !important;
   }
   .sectionTitle{
     font-size: 30px;

@@ -45,20 +45,25 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               </div>
             </div>
           </div> */}
-          <div className={styles.videoContainer+" float-start"}>
+          <div className={styles.videoContainer+" float-start hide-sm"}>
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
             </video>
           </div>
-          <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
+          <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start w-100-sm"}>
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
             <div className={styles.videoButton+" text-left"}>
-              <a href="#services" className={styles.btnViewServices+" btn btn-warning"}>VIEW SERVICES
+              <a href="#services" className={styles.btnViewServices+" btn btn-warning btnViewServices-sm"}>VIEW SERVICES
                <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faLongArrowAltRight}></FontAwesomeIcon>
               </a>
             </div>
+          </div>
+          <div className={styles.videoContainer+" float-start visible-sm"}>
+            <video autoPlay muted loop playsInline className={styles.videoBanner}>
+              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
+            </video>
           </div>
         </section>
         <section className="pt-3 pb-6 bg-darken border-t">
