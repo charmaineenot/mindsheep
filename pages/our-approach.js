@@ -18,7 +18,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-6">
-                                <video autoPlay muted loop id={styles.approachBanner}>
+                                <video autoPlay muted loop playsInline id={styles.approachBanner}>
                                     <source src={elements.ourApproach.bannerImage139.mediaItemUrl} type="video/mp4"/>
                                 </video>
                             </div>
