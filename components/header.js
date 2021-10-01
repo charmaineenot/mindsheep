@@ -97,9 +97,9 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
             </div> */}
           </div>
           <div class="col-md-6 col-lg-4 order-lg-last d-grid d-sm-flex align-items-center">
-            <a href="tel:0466736761" class="btn btn-call">
+            <a href="tel:0861026678" class="btn btn-call">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
-              0466 736 761
+              (08) 6102 6678
             </a>
             <a href="#talktous" class="btn btn-more">
               Keen to know more?

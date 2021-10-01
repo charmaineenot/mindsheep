@@ -107,21 +107,22 @@
         margin-top: -12px;
     }
     .videoContainer{
-        width: 35%;
+        width: 25%;
     }
     .videoContainer2{
         width: 65%;
         position: relative;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .videoButton{
         /* right: 50px; */
         left: -75px;
-        top: 10px;
+        top: -12px;
     }
     .btnViewServices{
         font-size: 18px;
         padding: 10px 25px;
+        right: -13px;
     }
     .partnersImgContainer{
         /* width: 145px; */

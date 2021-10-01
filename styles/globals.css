@@ -645,6 +645,7 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .sm-p-20{
     padding: 20px;
+    padding-top: 0;
   }
   .statMobileBG{
     margin-top: 15px;
