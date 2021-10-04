@@ -23,11 +23,22 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
+  useEffect(async () => {
+    const { default: ReactPixel } = await import('react-facebook-pixel');
+    ReactPixel.init('1083310298772388', null, {
+        autoConfig: true,
+        debug: true,
+      });
+    ReactPixel.pageView();
+    ReactPixel.track("ViewContent")
+  });
+
   return (
     <>
     <Head>
     // Responsive meta tag
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="facebook-domain-verification" content="eaw09084tc0bpcfl2ukw56x6cmybeh" />
     <link rel="preload" href="/fonts/AlyssumSans/AlyssumSans.TTF" as="font" crossOrigin="" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
