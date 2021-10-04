@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 import '../styles/globals.css'
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -6,6 +8,21 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 
 function MyApp({ Component, pageProps }) {
   //return <Component {...pageProps} />
+  const router = useRouter();
+
+  const handleRouteChange = (url) => {
+    window.gtag('config', 'G-BFJGL2563L', {
+      page_path: url,
+    });
+  };
+
+  useEffect(() => {
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
     <Head>
@@ -24,6 +41,17 @@ function MyApp({ Component, pageProps }) {
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
+    <script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-BFJGL2563L"></script>
+    <script strategy="lazyOnload"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BFJGL2563L', { page_path: window.location.pathname });
+        `,
+      }}
+    />
     </Head>
     <Component {...pageProps} />
     </>

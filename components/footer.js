@@ -1,6 +1,8 @@
 import NewsletterSubscribe from "./newsletter/newsletter-subscribe";
 import ContactSubmit from "./contact-form/contact-submit";
 import Testimonials from "./embla-carousel/embla-carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import { faFacebookSquare,faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
 const footerStyle = {
   color: "white",
@@ -92,11 +94,17 @@ const Footer = ({elements}) => (
       </div>
       <div className="container p-3 text-center text-sm-start"> 
         <div className="row">
-          <div class="col-lg-6 col-md-8 vmiddle">
+          <div class="col-lg-7 col-md-8 vmiddle">
             <NewsletterSubscribe/>
           </div>
-          <div class="col-lg-6 col-md-4 vmiddle">
+          <div class="col-lg-5 col-md-4 vmiddle text-center">
             <p className="text-black mb-0 d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span className="text-orange me-2">
+              <a href="#" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
+            </span>
+            <span className="text-orange">
+              <a href="https://www.instagram.com/mindsheepmarketing/" target="_blank" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faInstagramSquare} size="3x"></FontAwesomeIcon></a>
+            </span>
           </div>
         </div>
       </div>

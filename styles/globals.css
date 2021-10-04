@@ -548,7 +548,14 @@ ul.dropdown-menu.services-dropdown.show {
 .visible-sm{
   display: none;
 }
+
 /* END MENU */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
 @media (min-width: 1400px){
   .boxed{
       max-width: 1320px !important;
