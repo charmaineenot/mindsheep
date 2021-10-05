@@ -1,8 +1,10 @@
 import NewsletterSubscribe from "./newsletter/newsletter-subscribe";
 import ContactSubmit from "./contact-form/contact-submit";
 import Testimonials from "./embla-carousel/embla-carousel";
+import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faFacebookSquare,faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+
 
 const footerStyle = {
   color: "white",
@@ -22,16 +24,16 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row text-center d-flex align-items-center">
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img src={elements.homePartners.partner1Image.sourceUrl} style={partnersImg}/>
+              <Image width="200" height="59" src={elements.homePartners.partner1Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img src={elements.homePartners.partner2Image.sourceUrl} style={partnersImg}/>
+              <Image width="200" height="39" src={elements.homePartners.partner2Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img src={elements.homePartners.partner3Image.sourceUrl} style={partnersImg}/>
+              <Image width="200" height="64" src={elements.homePartners.partner3Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img src={elements.homePartners.partner4Image.sourceUrl} style={partnersImg}/>
+              <Image width="200" height="52" src={elements.homePartners.partner4Image.sourceUrl} style={partnersImg}/>
             </div>
           </div>
         </div>
@@ -46,7 +48,7 @@ const Footer = ({elements}) => (
             <div className="section-divider text-center"></div>
           </div>  
           <Testimonials elements={elements}/>
-          <img className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/1-Box-01-min.webp"/>
+          <Image width="400" height="270" className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/1-Box-01-min.webp"/>
         </div>  
       </div>
     </section>
@@ -60,7 +62,7 @@ const Footer = ({elements}) => (
           </div>
           <div className="col-md-6 vmiddle">
             <ContactSubmit/>
-            <img className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/2-Watering-Can-01-min.webp"/>
+            <Image width="400" height="270" className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/2-Watering-Can-01-min.webp"/>
           </div>
         </div>
       </div>
@@ -74,7 +76,7 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row">
             <div className="col-md-5 vmiddle">
-              <img src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-logo-01-min.webp" width="80%"/>
+              <Image width="405" height="104" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-logo-01-min.webp" />
               <p class="mt-4">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
             <div className="col-md-3 vmiddle">
@@ -87,7 +89,7 @@ const Footer = ({elements}) => (
               </ul>
             </div>
             <div className="col-md-4">
-            <img src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-Sheep-01-min.webp" width="80%"/>
+            <Image width="320" height="311" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-Sheep-01-min.webp" />
             </div>
           </div>
         </div>

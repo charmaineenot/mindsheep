@@ -73,7 +73,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
-                      <img src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
+                      <Image width="230" height="68" src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
                   <div className="col-7 col-md-12 col-lg-12 statData-r">
@@ -104,18 +104,18 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
-                      <img src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
+                      <Image width="230" height="45" src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
                   <div className="col-7 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat2}
-                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
                       <h5 className="text-orange">{elements.homeStats.stat2Heading}</h5>
                     </div>
                     <div className="stat text-orange visible-sm">
                       <h5 className="text-orange">{elements.homeStats.stat2} {elements.homeStats.stat2Heading}</h5>
-                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
                     </div>
                     <div className="statText text-white">
                       {elements.homeStats.stat2Description}
@@ -137,7 +137,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
-                      <img src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
+                      <Image width="230" height="73"  src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
                   <div className="col-7 col-md-12 col-lg-12 statData-r">
@@ -170,7 +170,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer + " wchfImg"}>
-                      <img src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
+                      <Image width="230" height="59" src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
                   <div className="col-7 col-md-12 col-lg-12 statData-r">
@@ -209,7 +209,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center position-relative">
-                    <img src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
+                    <Image src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs1Description}</p>
                     <a href="/lead-generation" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
@@ -219,7 +219,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center position-relative">
-                    <img src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
+                    <Image src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs2Description}</p>
                     <a href="/automate-your-business" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
@@ -229,7 +229,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-4 mtsm1">
                 <div className="card m-20 p-3 h-100">
                   <div className="card-body text-center position-relative">
-                  <img src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
+                  <Image src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
                     <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
                     <p className="card-text mt-4">{elements.homeWhyUs.whyUs3Description}</p>
                     <a href="/brand-building" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
@@ -250,29 +250,30 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <h2 className="sectionTitle HomeServicesHading">{elements.homeServices.servicesHeading}</h2>
               <div className="section-divider text-center"></div>
             </div>
+            <br/><br/>
             <div className="row mt-5">
               <div className="col-md-3 text-center">
                 <a href="/lead-generation">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices1Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices1Title}</h5>
+                <Image src={elements.homeServices.homeServices1Icon.sourceUrl} width={150} height={150} />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices1Title}</h5>
                 </a>
               </div>
               <div className="col-md-3 text-center">
                 <a href="/automate-your-business">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices2Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices2Title}</h5>
+                <Image src={elements.homeServices.homeServices2Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices2Title}</h5>
                 </a>
               </div>
               <div className="col-md-3 text-center">
               <a href="/automate-your-business/#bot-automation">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices3Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices3Title}</h5>
+                <Image src={elements.homeServices.homeServices3Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices3Title}</h5>
               </a>
               </div>
               <div className="col-md-3 text-center">
               <a href="/automate-your-business/#web-design-development">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices4Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices4Title}</h5>
+                <Image src={elements.homeServices.homeServices4Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices4Title}</h5>
               </a>
               </div>
             </div>
@@ -280,20 +281,20 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-1"></div>
               <div className="col-md-3 text-center">
               <a href="/brand-building">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices5Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices5Title}</h5>
+                <Image src={elements.homeServices.homeServices5Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices5Title}</h5>
               </a>
               </div>
               <div className="col-md-4 text-center">
               <a href="/brand-building/#graphic-design">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices6Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices6Title}</h5>
+                <Image src={elements.homeServices.homeServices6Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices6Title}</h5>
               </a>
               </div>
               <div className="col-md-3 text-center">
               <a href="/brand-building/#social-media">
-                <img className="mt-5 mb-4" src={elements.homeServices.homeServices7Icon.sourceUrl} width="150" />
-                <h5 className>{elements.homeServices.homeServices7Title}</h5>
+                <Image src={elements.homeServices.homeServices7Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4" >{elements.homeServices.homeServices7Title}</h5>
               </a>
               </div>
               <div className="col-md-1"></div>

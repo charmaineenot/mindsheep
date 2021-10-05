@@ -1,4 +1,5 @@
 import EmblaCarousel from 'embla-carousel'
+import Image from 'next/image'
 import { PrevButton, NextButton } from "./embla-carousel-buttons";
 import { useEmblaCarousel } from "embla-carousel/react";
 import { useState } from 'react';
@@ -65,7 +66,7 @@ const Testimonials = ({elements}) => {
                         <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial1}"</i>
                         </p>
-                        <img className="embla__slide__img" src={elements.homeTestimonials.image1.sourceUrl}/>
+                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image1.sourceUrl}/>
                         <h4 className="pt-4 pb-2">{elements.homeTestimonials.name1}</h4>
                         <h5>{elements.homeTestimonials.titleposition1}</h5>
                   </div>
@@ -76,7 +77,7 @@ const Testimonials = ({elements}) => {
                         <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial2}"</i>
                         </p>
-                        <img className="embla__slide__img" src={elements.homeTestimonials.image2.sourceUrl}/>
+                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image2.sourceUrl}/>
                         <h4 className="pt-4 pb-2">{elements.homeTestimonials.name2}</h4>
                         <h5>{elements.homeTestimonials.titleposition2}</h5>
                   </div>
@@ -87,7 +88,7 @@ const Testimonials = ({elements}) => {
                         <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial3}"</i>
                         </p>
-                        <img className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl}/>
+                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl}/>
                         <h4 className="pt-4 pb-2">{elements.homeTestimonials.name3}</h4>
                         <h5>{elements.homeTestimonials.titleposition3}</h5>
                   </div>
@@ -98,7 +99,7 @@ const Testimonials = ({elements}) => {
                         <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial4}"</i>
                         </p>
-                        <img className="embla__slide__img" src={elements.homeTestimonials.image4.sourceUrl}/>
+                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image4.sourceUrl}/>
                         <h4 className="pt-4 pb-2">{elements.homeTestimonials.name4}</h4>
                         <h5>{elements.homeTestimonials.titleposition4}</h5>
                   </div>
@@ -109,7 +110,7 @@ const Testimonials = ({elements}) => {
                         <p className="pt-3 pb-3 text-black">
                             <i>"{elements.homeTestimonials.testimonial5}"</i>
                         </p>
-                        <img className="embla__slide__img" src={elements.homeTestimonials.image5.sourceUrl}/>
+                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image5.sourceUrl}/>
                         <h4 className="pt-4 pb-2">{elements.homeTestimonials.name5}</h4>
                         <h5>{elements.homeTestimonials.titleposition5}</h5>
                   </div>
