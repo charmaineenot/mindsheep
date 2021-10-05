@@ -143,12 +143,12 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <div className="col-7 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat3}
-                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
+                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
                       <h5 className="text-orange">{elements.homeStats.stat3Heading}</h5>
                     </div>
                     <div className="stat text-orange visible-sm">
                       <h5 className="text-orange"> {elements.homeStats.stat3} {elements.homeStats.stat3Heading}</h5>
-                      <img  src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
                     </div>
                     <div className="statText text-white">
                       {elements.homeStats.stat3Description}
