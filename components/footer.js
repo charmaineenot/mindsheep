@@ -48,7 +48,9 @@ const Footer = ({elements}) => (
             <div className="section-divider text-center"></div>
           </div>  
           <Testimonials elements={elements}/>
-          <Image width="400" height="270" className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/1-Box-01-min.webp"/>
+          <div className="crateImgCont">
+            <Image width="400" height="270" className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/1-Box-01-min.webp"/>
+          </div>
         </div>  
       </div>
     </section>
@@ -62,7 +64,9 @@ const Footer = ({elements}) => (
           </div>
           <div className="col-md-6 vmiddle">
             <ContactSubmit/>
-            <Image width="400" height="270" className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/2-Watering-Can-01-min.webp"/>
+            <div className="wateringImgCont">
+              <Image width="400" height="270" className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/2-Watering-Can-01-min.webp"/>
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +117,7 @@ const Footer = ({elements}) => (
     </section>
     <section className="pt-3 pb-3 bg-orange align-items-center text-white text-center text-sm-start">
       <div className="container p-0">
-        <div className="row">
+        <div className="row rowAuto">
           <div className="col-md-12 vmiddle">
             <span>Copyright @ 2021 Mindsheep. All Rights Reserved.</span>
           </div>

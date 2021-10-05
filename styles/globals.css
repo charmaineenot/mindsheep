@@ -290,11 +290,20 @@ ul.dropdown-menu.services-dropdown.show {
   right: 19%;
   margin-top: 15px;
 }
+.crateImgCont{
+  position: absolute;
+  left: 15px;
+}
 .crateImg{
   position: absolute;
   width: 400px;
   left: 0;
   margin-top: -17px;
+}
+.wateringImgCont{
+  position: absolute;
+  right: 15px;
+  margin-top: -75px;
 }
 .watercingImg{
   position: absolute;
@@ -583,10 +592,17 @@ ul.dropdown-menu.services-dropdown.show {
     display: block;
   }
   /* END RESPONSIVE MENU */
+  .crateImgCont{
+    width: 80%;
+  }
   .crateImg{
     width: 300px;
     margin-top: 0;
   }
+  .wateringImgCont {
+    margin-top: -35px;
+    width: 80%;
+}
   .watercingImg{
     width: 300px;
   }
@@ -715,5 +731,8 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .sm-p-0{
     padding: 0 !important;
+  }
+  .rowAuto{
+    --bs-gutter-x: auto !important;
   }
 }

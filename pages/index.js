@@ -68,7 +68,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
         </section>
         <section className="pt-3 pb-6 bg-darken border-t">
           <div className="container sm-p-20">
-            <div className="row">
+            <div className="row rowAuto">
               <div className="col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
                   <div className="col-5 col-md-12 col-lg-12">
