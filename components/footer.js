@@ -80,7 +80,7 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row">
             <div className="col-md-5 vmiddle">
-              <Image width="405" height="104" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-logo-01-min.webp" />
+              <Image width="405" height="104" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/MindSheep-logo-01.webp" />
               <p class="mt-4">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
             <div className="col-md-3 vmiddle">
@@ -93,7 +93,9 @@ const Footer = ({elements}) => (
               </ul>
             </div>
             <div className="col-md-4">
-            <Image width="320" height="311" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/Footer-Sheep-01-min.webp" />
+              <div className="footerSheepCont">
+                <Image width="320" height="311" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Footer-sheep.webp" />
+              </div>
             </div>
           </div>
         </div>

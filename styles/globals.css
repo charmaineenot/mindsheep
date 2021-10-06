@@ -238,7 +238,7 @@ ul.dropdown-menu.services-dropdown.show {
   border-top: 2px solid #fff;
 }
 .whyUs-section{
-  background-image: url(https://www.mindsheep.com.au/wp/wp-content/uploads/2021/09/why-us-banner-01-min.jpg);
+  background-image: url(https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Gray-Image-01-min-scaled.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -488,6 +488,9 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .footerlogo ul li a{
   text-decoration: none;
+}
+.footerSheepCont{
+  margin-bottom: -6px;
 }
 /* END Footer Form */
 
