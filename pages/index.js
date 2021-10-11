@@ -115,7 +115,9 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                     <div className="stat text-orange visible-sm">
                       <h5 className="text-orange">{elements.homeStats.stat2} {elements.homeStats.stat2Heading}</h5>
-                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      <div className="statArrowMobileCont">
+                        <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      </div>  
                     </div>
                     <div className="statText text-white">
                       {elements.homeStats.stat2Description}
@@ -148,7 +150,9 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                     <div className="stat text-orange visible-sm">
                       <h5 className="text-orange"> {elements.homeStats.stat3} {elements.homeStats.stat3Heading}</h5>
-                      <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      <div className="statArrowMobileCont">
+                        <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrowMobile"/>
+                      </div>  
                     </div>
                     <div className="statText text-white">
                       {elements.homeStats.stat3Description}

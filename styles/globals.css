@@ -638,6 +638,9 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .dropdown-menu.services-dropdown{
+    display: block !important;
+  }
   .hide-sm{
     display: none;
   }
@@ -701,6 +704,12 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .statTestimonial span{
     font-size: 13px;
+  }
+  .statArrowMobileCont{
+    position:absolute;
+    width:10px;
+    right:22px;
+    top:-27px;
   }
   .statArrowMobile{
     position: absolute;
