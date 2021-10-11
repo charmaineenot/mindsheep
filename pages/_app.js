@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -47,11 +48,11 @@ function MyApp({ Component, pageProps }) {
     strategy="lazyOnload" async href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
     crossorigin="anonymous" 
-    /> */}
+    />
     <script
     strategy="lazyOnload" async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> */}
     <script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-BFJGL2563L"></script>
     <script strategy="lazyOnload"
       dangerouslySetInnerHTML={{
