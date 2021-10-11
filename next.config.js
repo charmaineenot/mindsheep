@@ -13,7 +13,7 @@ const withImages = require('next-images')
 
 const nextConfig = {
   images: {
-    domains: ['www.mindsheep.com.au']
+    domains: ['wp.mindsheep.com.au']
   }
 }
 
