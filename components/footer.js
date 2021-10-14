@@ -49,7 +49,7 @@ const Footer = ({elements}) => (
           </div>  
           <Testimonials elements={elements}/>
           <div className="crateImgCont">
-            <Image width="400" height="270" className="crateImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Crate-01-Min-400x270-1.webp"/>
+            <Image width="400" height="270" className="crateImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Crate-01-Min-400x270-1.webp"/>
           </div>
         </div>  
       </div>
@@ -65,7 +65,7 @@ const Footer = ({elements}) => (
           <div className="col-md-6 vmiddle">
             <ContactSubmit/>
             <div className="wateringImgCont">
-              <Image width="400" height="270" className="watercingImg" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Watering-Can-01-Min-400x270-1.webp"/>
+              <Image width="400" height="270" className="watercingImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Watering-Can-01-Min-400x270-1.webp"/>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row">
             <div className="col-md-5 vmiddle">
-              <Image width="405" height="104" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Footer-Logo-01-Min-401x105-1.webp" />
+              <Image width="405" height="104" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Footer-Logo-01-Min-401x105-1.webp" />
               <p class="mt-4">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
             <div className="col-md-3 vmiddle">
@@ -94,7 +94,7 @@ const Footer = ({elements}) => (
             </div>
             <div className="col-md-4">
               <div className="footerSheepCont">
-                <Image width="320" height="311" src="https://www.mindsheep.com.au/wp/wp-content/uploads/2021/10/Footer-Sheep-01-Mim-321x312-1.webp" />
+                <Image width="320" height="311" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Footer-Sheep-01-Mim-321x312-1.webp" />
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Footer = ({elements}) => (
           <div class="col-lg-5 col-md-4 vmiddle text-center">
             <p className="text-black mb-0 d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <span className="text-orange me-2">
-              <a href="#" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
+              <a href="https://www.facebook.com/mindsheepmarketing/" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
             </span>
             <span className="text-orange">
               <a href="https://www.instagram.com/mindsheepmarketing/" target="_blank" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faInstagramSquare} size="3x"></FontAwesomeIcon></a>

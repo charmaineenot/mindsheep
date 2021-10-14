@@ -45,6 +45,7 @@ function MyApp({ Component, pageProps }) {
     // Responsive meta tag
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="facebook-domain-verification" content="eaw09084tc0bpcfl2ukw56x6cmybeh" />
+    <link rel="shortcut icon" href="/favicon.png" />
     <link rel="preload" href="/fonts/AlyssumSans/AlyssumSans.TTF" as="font" crossOrigin="" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link async defer href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
