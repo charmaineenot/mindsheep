@@ -14,6 +14,7 @@ const footerStyle = {
 const partnersImg = {
   margin: "0 auto",
   width: "200px",
+  display: "none"
 };
   
 const Footer = ({elements}) => (
