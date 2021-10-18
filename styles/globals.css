@@ -735,6 +735,9 @@ ul.dropdown-menu.services-dropdown.show {
   .embla__slide {
     min-width: 100%;
   }
+  .embla__slide__inner{
+    max-height: 100% !important;
+  }
   .footer-form input[type=email]{
     width: 220px;
   }
