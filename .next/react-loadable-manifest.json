@@ -1,0 +1,20 @@
+{
+  "..\\node_modules\\next\\dist\\client\\next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
+    ]
+  },
+  "_app.js -> bootstrap/dist/js/bootstrap.bundle": {
+    "id": "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+    "files": [
+      "static/chunks/node_modules_bootstrap_dist_js_bootstrap_bundle_js.js"
+    ]
+  },
+  "_app.js -> react-facebook-pixel": {
+    "id": "./node_modules/react-facebook-pixel/dist/fb-pixel.js",
+    "files": [
+      "static/chunks/node_modules_react-facebook-pixel_dist_fb-pixel_js.js"
+    ]
+  }
+}
