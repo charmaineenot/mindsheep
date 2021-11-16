@@ -9,6 +9,8 @@ import ContactSubmit from '../components/contact-form/contact-submit';
 import styles from "../styles/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faPhone,faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { Widget } from '@typeform/embed-react'
+import '@typeform/embed/build/css/widget.css'
 
 // export default function Home() {
 //   return (
@@ -26,6 +28,13 @@ const content = ({pageMeta,pageContent,footerContent}) => {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
     backgroundColor: '#24242c'
   };
+  const typeformStyle = {
+    width: '100%',
+    height: '700px'
+  }
+  const websiteHidden = {
+    display: 'none'
+  }
 
   return(
       <Layout page={pageData} elements={elements,footerData}>
@@ -303,6 +312,46 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               </div>
               <div className="col-md-1"></div>
             </div>
+          </div>
+        </section>
+        <section className="pt-8 pb-10" id="typeform" style={websiteHidden}>
+          <div className="container">
+              <div className="row mt-5">
+                <div className="col-md-12 mtsm1">
+                  <Widget id="cLi2E0M5" style={typeformStyle} className="my-form" />
+                </div>
+                <div className="col-md-12 mtsm1">
+                <form action="https://www.getdrip.com/forms/379942710/submissions" method="post" data-drip-embedded-form="379942710" id="drip-ef-379942710">
+                    <div data-drip-attribute="description"><strong>Let's Keep In Touch!</strong><br/>
+                  <br/>
+                  Sign up to stay informed on the latest news and exclusive offers.&nbsp;</div>
+                    <div>
+                        <label for="drip-first-name">First Name</label><br />
+                        <input type="text" id="drip-first-name" name="fields[first_name]" />
+                    </div>
+
+                    <div>
+                        <label for="drip-email">Email Address</label><br />
+                        <input type="email" id="drip-email" name="fields[email]" />
+                    </div>
+
+                    <div>
+                        <label for="drip-message">Message</label><br />
+                        <input type="text" id="drip-message" name="fields[message]" />
+                    </div>
+
+
+                    <div style={websiteHidden} aria-hidden="true">
+                      <label for="website">Website</label><br />
+                      <input type="text" id="website" name="website" tabindex="-1" autocomplete="false" />
+                    </div>
+                    
+                    <div>
+                      <input type="submit" value="Sign Up" data-drip-attribute="sign-up-button" />
+                    </div>
+                  </form>
+                </div>
+              </div>
           </div>
         </section>
       </Layout>
