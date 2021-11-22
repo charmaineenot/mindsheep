@@ -24,16 +24,16 @@ const Footer = ({elements}) => (
         <div className="boxed">
           <div className="row text-center d-flex align-items-center">
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img width="230" height="68" src={elements.homePartners.partner1Image.sourceUrl} style={partnersImg}/>
+              <img width="230" height="auto" src={elements.homePartners.partner1Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img width="230" height="45" src={elements.homePartners.partner2Image.sourceUrl} style={partnersImg}/>
+              <img width="230" height="auto" src={elements.homePartners.partner2Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img width="230" height="73" src={elements.homePartners.partner3Image.sourceUrl} style={partnersImg}/>
+              <img width="230" height="auto" src={elements.homePartners.partner3Image.sourceUrl} style={partnersImg}/>
             </div>
             <div className="col-lg-3 col-md-3 col-6 pt-4 pb-4">
-              <img width="230" height="59" src={elements.homePartners.partner4Image.sourceUrl} style={partnersImg}/>
+              <img width="230" height="auto" src={elements.homePartners.partner4Image.sourceUrl} style={partnersImg}/>
             </div>
           </div>
         </div>
