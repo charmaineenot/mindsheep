@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "90069b9a-1057-4e0b-b9a8-bd456ff0f24d";
+    window.CRISP_WEBSITE_ID = "da0c0fd6-e7f0-4eb5-b019-f55e492138e6";
     (() => {
       const d = document;
       const s = d.createElement("script");
