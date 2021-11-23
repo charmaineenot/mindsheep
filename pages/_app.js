@@ -37,7 +37,18 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle")
   }, []);
-  
+
+  useEffect(() => {
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "90069b9a-1057-4e0b-b9a8-bd456ff0f24d";
+    (() => {
+      const d = document;
+      const s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("body")[0].appendChild(s);
+    })();
+  });
 
   return (
     <>
