@@ -9,6 +9,7 @@ import ContactSubmit from '../components/contact-form/contact-submit';
 import styles from "../styles/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faPhone,faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+// import CountUp from 'react-countup';
 
 // export default function Home() {
 //   return (
@@ -26,7 +27,15 @@ const content = ({pageMeta,pageContent,footerContent}) => {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
     backgroundColor: '#24242c'
   };
-
+  const yellowBrick = {
+    background: '#ffc531 '
+  };
+  const halfyellowBrick = {
+    background: 'linear-gradient(90deg, rgb(255, 197, 49) 50%, rgb(150, 150, 150) 50%)'
+  };
+  const progressBar = {
+    background: 'none'
+  };
   return(
       <Layout page={pageData} elements={elements,footerData}>
         <section className={styles.homeBanner+" banner-section text-center"} style={bannerStyle}>
@@ -64,6 +73,77 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
             </video>
+          </div>
+        </section>
+        <section className="pt-3 pb-6 bg-darken border-t">
+          <div className="container sm-p-20">
+            <div className="row rowAuto">
+              <div className="col-md-6 col-lg-12 text-center statMobileBG">
+                <div class="progress-bar animate__animated animate__slideInUp animate__delay-2s animate__slow" id="progress-bar" style={progressBar}>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={yellowBrick}>
+                    <div className="square1 brick" style={yellowBrick}>
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                  <div className="square brick" style={halfyellowBrick}>
+                    <div className="square1 brick">
+                    </div>
+                    <div className="square11 brick" style={yellowBrick}>
+                    </div>
+                  </div>
+                </div>
+                {/* <CountUp delay={2} end={100} /> */}
+              </div>
+            </div>
           </div>
         </section>
         <section className="pt-3 pb-6 bg-darken border-t">

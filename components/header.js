@@ -102,7 +102,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               (08) 6102 6678
             </a>
-            <a href="#talktous" class="btn btn-more">
+            <a href="#talktous" class="btn btn-more animate__animated animate__pulse animate__infinite">
               Keen to know more?
             </a>
           </div>

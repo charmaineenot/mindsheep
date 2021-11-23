@@ -562,6 +562,39 @@ ul.dropdown-menu.services-dropdown.show {
 }
 
 /* END MENU */
+
+/*START BRICK LOADING */
+.brick{
+  background:#969696;
+  }
+  .square {
+  margin: 4px;
+  float: left;
+  height: 23px;
+  width: 35px;
+  }
+  .square1 {
+  position: relative;
+  top: -6px;
+  right: -8px;
+  margin: auto;
+  height: 13px;
+  width: 13px;
+  }
+  .square11 {
+  position: relative;
+  top: -19px;
+  left: -8px;
+  margin: auto;
+  height: 13px;
+  width: 13px;
+  }
+  .progress-bar{
+  display: flex;
+  flex-direction: row;
+  }
+/*END BRICK LOADING*/
+
 @media (min-width: 1024px) and (max-width: 1366px) {
   .navbar-nav .nav-item {
     margin-right: 10px;
