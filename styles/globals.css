@@ -532,6 +532,16 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* END AUTOMATE BUSINESS */
 
+/* START LEAD GEN PERTH */
+.LeadGenPerth .Footer .partners,
+.LeadGenPerth .Footer .testimonials{
+  display: none;
+}
+.LeadGenPerth .Footer .talktous{
+    background-color: #e5e5e5;
+}
+/* END LEAD GEN PERTH */
+
 /* BEGIN MENU */
 .navbar-nav .nav-item{
   margin-right: 19px;
