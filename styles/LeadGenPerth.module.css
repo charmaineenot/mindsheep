@@ -8,7 +8,44 @@
     object-fit: cover;
     z-index: 1;
 }
-
+.bannerText{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-transform: capitalize !important;
+}
+.denesHeading{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px;
+    border-top: 2px solid #f55700;
+    border-bottom: 2px solid #f55700;
+}
+.denesImg{
+    position: relative;
+    left: 0;
+}
+.denesSection{
+    background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/11/denes-bg-img-01-1-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.denesList ul{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 32%;
+}
+.denesList ul li{
+    margin-top: 10px;
+}
+.denesList span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.denesList svg{
+    color: #e85c00;
+}
 .testimonialContainer{
     background-color: #fff;
     border: 1px solid #000;
@@ -18,6 +55,7 @@
 }
 .testimonialText{
     width: 50%;
+    padding: 10px;
 }
 .testimonialImg{
     width: 25%;
@@ -27,13 +65,67 @@
 .testimonialTitle{
     width: 25%;
 }
-
+.howeworkHeading{
+    margin-bottom: 30px;
+}
+.howeworkHeading:after,
+.whyText h4:after,
+.servicesText h4:after{
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: relative;
+    right: 0;
+    margin-bottom: 50px;
+    bottom: -20px;
+}
 .whyContainer{
     display: flex;
 }
 .whyImg{
-    width: 50%;
+    width: auto;
+    margin-right: 45px;
 }
 .whyText{
     width: 50%;
+}
+.ServicesFirstrow{
+    margin-bottom: 50px;
+}
+.services{
+    min-height: 580px;
+    border: 2px solid #030303;
+}
+.servicesImg img{
+    width: 100%;
+}
+.servicesText{
+    padding: 20px;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .bannerSection{
+        height: auto !important;
+    }
+    .bannerText{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .davidDenesImg{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .denesList ul{
+        margin-left: 22%;
+    }
+    .services{
+        min-height: auto;
+        margin-bottom: 50px;
+    }
+    .ServicesFirstrow{
+        margin-bottom: 0;
+    }
 }
