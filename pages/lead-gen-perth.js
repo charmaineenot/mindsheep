@@ -51,7 +51,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="text-center text-orange">{elements.landingWhatWeDeliver.heading}</h3>
+                <h3 className={styles.denesSectoinH + " text-center text-orange"}>{elements.landingWhatWeDeliver.landingDeliverHeading}</h3>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="text-center text-orange mb-5">{elements.landingTestimonials.heading}</h3>
+                <h3 className="text-center text-orange mb-5">{elements.landingTestimonials.landingTestimonialHeading}</h3>
               </div>
             </div>
             <div className="row">
@@ -159,7 +159,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 order-sm-first order-last">
-                <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.heading}</h3>
+                <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.landingHowWeWorkHeading}</h3>
                 <p>{elements.landingHowWeWork.description}</p>
                 <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
               </div>

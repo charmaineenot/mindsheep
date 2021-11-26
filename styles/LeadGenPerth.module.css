@@ -47,6 +47,10 @@
     background-position: center center;
     background-size: cover;
 }
+.denesSectoinH{
+    padding: 0 28%;
+    line-height: 40px;
+}
 .denesList ul{
     list-style-type: none;
     margin-top: 50px;
@@ -143,6 +147,10 @@
 
 /* XS Mobile */
 @media (max-width: 320px) {
+    .denesSectoinH{
+        padding: 0;
+        line-height: 30px;
+    }
     .denesHeading{
         font-size: 25px;
     }
@@ -184,6 +192,10 @@
     .denesSection{
         padding-top: 3em;
         text-align: center;
+    }
+    .denesSectoinH{
+        padding: 0;
+        line-height: 30px;
     }
     .denesImg{
         width: 250px;
@@ -235,6 +247,10 @@
     .davidDenesImg{
         width: 100%;
         margin-bottom: 50px;
+    }
+    .denesSectoinH{
+        padding: 0;
+        line-height: 30px;
     }
     .denesList ul{
         margin-left: 15%;
