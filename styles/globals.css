@@ -159,7 +159,7 @@ ul.dropdown-menu.services-dropdown.show {
 
 .services-dropdown .services-inner-menu li a:hover{
   background-color: transparent;
-  color: #e85c00 !important;
+  color: #fa5801 !important;
 }
 
 .btn-call{
@@ -169,7 +169,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 
 .btn-call:hover{
-  background-color: #e85c00;
+  background-color: #fa5801;
   border: 0px;
   color: #FFF;
 }
@@ -180,11 +180,11 @@ ul.dropdown-menu.services-dropdown.show {
 
 .btn-call svg{
   margin-right: 5px;
-  color:#e85c00;
+  color:#fa5801;
 }
 
 .btn-more{
-  background-color: #e85c00;
+  background-color: #fa5801;
   color: #fff;
   border: 0px;
   border-radius: 0;
@@ -562,7 +562,7 @@ ul.dropdown-menu.services-dropdown.show {
   color: #fff;
 }
 .navbar-toggler{
-  background-color: #e85c00;
+  background-color: #fa5801;
 }
 .navbar-toggler span{
   color: #fff !important;
@@ -574,7 +574,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .navbar-nav .nav-item .nav-link:hover,
 .dropdown-menu.services-dropdown a:hover{
-  background-color: #e85c00;
+  background-color: #fa5801;
   color: #FFF !important;
 }
 

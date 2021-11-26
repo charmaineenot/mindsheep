@@ -34,7 +34,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className={styles.textCol+" col-lg-4 pt-4 vmiddle"}>
                   <div className={styles.bannerTextCont}>
                     <p className={styles.bannerText}>{elements.landingBanner.bannerContent}</p>
-                    <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
+                    <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
                     </a>
                   </div>  
                 </div>
@@ -81,7 +81,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </ul>
                 </div>
                 <div className="col-md-12 text-center">
-                  <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
+                  <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
+                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-6 order-sm-first order-last">
                 <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.heading}</h3>
                 <p>{elements.landingHowWeWork.description}</p>
-                <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
+                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
               </div>
               <div className="col-md-6 text-center">
                 <img className={styles.davidDenesImg} src={elements.landingHowWeWork.image.sourceUrl} width="500"/>
@@ -182,7 +182,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row mb-50">
               <div className="col-md-6">
-                <div className={styles.whyContainer + " align-items-center"}>
+                <div className={styles.whyContainer}>
                   <div className={styles.whyImg}>
                     <img src={elements.landingWhyTrustUs.whyUsIcon1.sourceUrl} width="120"/>
                   </div>
@@ -193,7 +193,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className={styles.whyContainer + " align-items-center"}>
+                <div className={styles.whyContainer}>
                   <div className={styles.whyImg}>
                     <img src={elements.landingWhyTrustUs.whyUsIcon2.sourceUrl} width="120"/>
                   </div>
@@ -206,7 +206,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
             <div className="row">
               <div className="col-md-6">
-                <div className={styles.whyContainer + " align-items-center"}>
+                <div className={styles.whyContainer}>
                   <div className={styles.whyImg}>
                     <img src={elements.landingWhyTrustUs.whyUsIcon3.sourceUrl} width="120"/>
                   </div>
@@ -217,7 +217,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className={styles.whyContainer + " align-items-center"}>
+                <div className={styles.whyContainer}>
                   <div className={styles.whyImg}>
                     <img src={elements.landingWhyTrustUs.whyUsIcon4.sourceUrl} width="120"/>
                   </div>
@@ -305,8 +305,8 @@ export async function getStaticProps(){
     return{
         props: {
           pageMeta: {
-            title: "Perth Marketing That Delivers | Why Work with Mindsheep",
-            description: "A company of bold & strategic thinkers - Mindsheep Marketing is your best choice for generating wealth & success for your business. Learn more."
+            title: "Lead Gen Perth | Mindsheep Marketing",
+            description: "We have our own tried and true methods to generate sustainable, quality, and consistent leads. Message us to get started."
           }, 
           pageContent,
           footerContent
