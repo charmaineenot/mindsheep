@@ -47,7 +47,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>        
         </section>
-        <section className="pt-8 pb-8 bg-gray">
+        <section className={styles.mobilepx3+" pt-8 pb-8 bg-gray"}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -169,7 +169,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8 bg-darken">
+        <section className={styles.mobilepx3+" pt-8 pb-8 bg-darken"}>
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
@@ -178,7 +178,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8 bg-gray">
+        <section className={styles.mobilepx3+" pt-8 pb-8 bg-gray"}>
           <div className="container">
             <div className="row mb-50">
               <div className="col-md-6">
@@ -230,7 +230,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8">
+        <section className={styles.mobilepx3+" pt-8 pb-8"}>
           <div className="container">
             <div className={ styles.ServicesFirstrow + " row"}>
               <div className="col-md-6">
@@ -305,7 +305,7 @@ export async function getStaticProps(){
     return{
         props: {
           pageMeta: {
-            title: "Lead Gen Perth | Mindsheep Marketing",
+            title: "Lead Generation Perth | Mindsheep Marketing",
             description: "We have our own tried and true methods to generate sustainable, quality, and consistent leads. Message us to get started."
           }, 
           pageContent,
