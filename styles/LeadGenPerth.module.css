@@ -147,6 +147,22 @@
 
 /* XS Mobile */
 @media (max-width: 320px) {
+    .testimonialContainer{
+        display: block;
+        text-align: center;
+    }
+    .testimonialText{
+        width: 100%;
+    }
+    .testimonialImg{
+        border-left: 0px;
+        border-top: 1px solid #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .testimonialTitle{
+        width: 100%;
+    }
     .denesSectoinH{
         padding: 0;
         line-height: 30px;
@@ -201,7 +217,7 @@
         width: 250px;
     }
     .davidDenesImg{
-        width: 100%;
+        width: 75%;
         margin-bottom: 50px;
     }
     .testimonialImg{
