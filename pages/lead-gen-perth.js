@@ -34,11 +34,11 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className={styles.textCol+" col-lg-4 pt-4 vmiddle"}>
                   <div className={styles.bannerTextCont}>
                     <p className={styles.bannerText}>{elements.landingBanner.bannerContent}</p>
-                    <a href="#" className="btn btn-warning bg-orange text-white">LET'S CHAT!
+                    <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
                     </a>
                   </div>  
                 </div>
-                <div className={styles.videoCol+" col-lg-6 order-sm-last order-first"}>
+                <div className={styles.videoCol+" col-lg-6"}>
                   <video autoPlay muted loop playsInline className={styles.videoBanner}>
                     <source src={elements.landingBanner.bannerVideo.mediaItemUrl} type="video/mp4"/>
                   </video>
@@ -56,13 +56,13 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className={styles.denesSection + " pt-8 bg-darken"}>
+        <section className={styles.denesSection + " bg-darken"}>
           <div className="container">
             <div className="row">
               <div className="col-md-6 order-sm-first order-last">
                 <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 vmiddle">
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>
                 <div className={styles.denesList}>
                   <ul>
@@ -81,7 +81,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </ul>
                 </div>
                 <div className="col-md-12 text-center">
-                  <a href="#" className="btn btn-warning bg-orange text-white mt-5">LET'S CHAT!</a>
+                  <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-lg-6 col-md-12">
                 <div className={styles.testimonialContainer+" align-items-center"}>
                   <div className={styles.testimonialText + " text-center"}>
                     <p>{elements.landingTestimonials.clientTestimonial1}</p>
@@ -121,7 +121,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6 col-md-12">
               <div className={styles.testimonialContainer+" align-items-center"}>
                   <div className={styles.testimonialText + " text-center"}>
                     <p>{elements.landingTestimonials.clientTestimonial3}</p>
@@ -150,7 +150,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <a href="#" className="btn btn-warning bg-orange text-white mt-5">LET'S CHAT!</a>
+                <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-6 order-sm-first order-last">
                 <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.heading}</h3>
                 <p>{elements.landingHowWeWork.description}</p>
-                <a href="#" className="btn btn-warning bg-orange text-white">LEARN MORE</a>
+                <a href="#" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
               </div>
               <div className="col-md-6 text-center">
                 <img className={styles.davidDenesImg} src={elements.landingHowWeWork.image.sourceUrl} width="500"/>
@@ -234,50 +234,58 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className={ styles.ServicesFirstrow + " row"}>
               <div className="col-md-6">
-                <div className={styles.services}>
-                  <div className={styles.servicesImg}>
-                    <img src={elements.landingServices.servicesImage1.sourceUrl} />
+                <a href="/lead-generation/#google" className={styles.clickableDiv}>
+                  <div className={styles.services}>
+                    <div className={styles.servicesImg}>
+                      <img className={styles.serviceImg1} src={elements.landingServices.servicesImage1.sourceUrl} />
+                    </div>
+                    <div className={styles.servicesText}>
+                      <h4 className="">{elements.landingServices.servicesTitle1}</h4>
+                      <p>{elements.landingServices.servicesDescription1 }</p>
+                    </div>
                   </div>
-                  <div className={styles.servicesText}>
-                    <h4 className="">{elements.landingServices.servicesTitle1}</h4>
-                    <p>{elements.landingServices.servicesDescription1 }</p>
-                  </div>
-                </div>
+                </a>
               </div>
               <div className="col-md-6">
-                <div className={styles.services}>
-                  <div className={styles.servicesImg}>
-                    <img src={elements.landingServices.servicesImage2.sourceUrl} />
+                <a href="/lead-generation/#facebook-ads" className={styles.clickableDiv}>
+                  <div className={styles.services}>
+                    <div className={styles.servicesImg}>
+                      <img className={styles.serviceImg2} src={elements.landingServices.servicesImage2.sourceUrl} />
+                    </div>
+                    <div className={styles.servicesText}>
+                      <h4 className="">{elements.landingServices.servicesTitle2}</h4>
+                      <p>{elements.landingServices.servicesDescription2 }</p>
+                    </div>
                   </div>
-                  <div className={styles.servicesText}>
-                    <h4 className="">{elements.landingServices.servicesTitle2}</h4>
-                    <p>{elements.landingServices.servicesDescription2 }</p>
-                  </div>
-                </div>
+                </a>  
               </div>
             </div>
             <div className="row">
               <div className="col-md-6">
-                <div className={styles.services}>
-                  <div className={styles.servicesImg}>
-                    <img src={elements.landingServices.servicesImage3.sourceUrl} />
+                <a href="/automate-your-business" className={styles.clickableDiv}>
+                  <div className={styles.services}>
+                    <div className={styles.servicesImg}>
+                      <img className={styles.serviceImg3} src={elements.landingServices.servicesImage3.sourceUrl} />
+                    </div>
+                    <div className={styles.servicesText}>
+                    <h4 className="">{elements.landingServices.servicesTitle3}</h4>
+                      <p>{elements.landingServices.servicesDescription3 }</p>
+                    </div>
                   </div>
-                  <div className={styles.servicesText}>
-                  <h4 className="">{elements.landingServices.servicesTitle3}</h4>
-                    <p>{elements.landingServices.servicesDescription3 }</p>
-                  </div>
-                </div>
+                </a>  
               </div>
               <div className="col-md-6">
-                <div className={styles.services}>
-                  <div className={styles.servicesImg}>
-                    <img src={elements.landingServices.servicesImage4.sourceUrl} />
+                <a href="/automate-your-business/#bot-automation" className={styles.clickableDiv}>
+                  <div className={styles.services}>
+                    <div className={styles.servicesImg}>
+                      <img className={styles.serviceImg4} src={elements.landingServices.servicesImage4.sourceUrl} />
+                    </div>
+                    <div className={styles.servicesText}>
+                    <h4 className="">{elements.landingServices.servicesTitle4}</h4>
+                      <p>{elements.landingServices.servicesDescription4 }</p>
+                    </div>
                   </div>
-                  <div className={styles.servicesText}>
-                  <h4 className="">{elements.landingServices.servicesTitle4}</h4>
-                    <p>{elements.landingServices.servicesDescription4 }</p>
-                  </div>
-                </div>
+                </a>  
               </div>
             </div>
           </div>

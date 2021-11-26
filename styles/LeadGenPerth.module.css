@@ -1,3 +1,19 @@
+/* Defaults */
+.leadGenBtn {
+    width: 140px;
+    color: #fff;
+    background-color: #fa5801;
+    border: none;
+    border-radius: 0;
+    font-size: 1em;
+    font-family: Josefin Sans,sans-serif;
+    line-height: normal;
+    padding: 14px;
+}
+
+.bannerSection{
+    height: auto !important;
+}
 .videoBanner{
     /* position: absolute;
     top: 0;
@@ -40,10 +56,11 @@
     margin-top: 10px;
 }
 .denesList span{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
 }
 .denesList svg{
+    font-size: 25px;
     color: #e85c00;
 }
 .testimonialContainer{
@@ -52,6 +69,7 @@
     display: flex;
     padding: 15px;
     margin-bottom: 30px;
+    min-height: 140px;
 }
 .testimonialText{
     width: 50%;
@@ -95,13 +113,32 @@
 }
 .services{
     min-height: 580px;
-    border: 2px solid #030303;
+    border: 1px solid #030303;
 }
 .servicesImg img{
     width: 100%;
 }
+.serviceImg1{
+    margin-top: -14px;
+}
+.serviceImg2{
+    margin-top: -18px;
+}
+.serviceImg3{
+    margin-top: -16px;
+}
+.serviceImg4{
+    margin-top: -31px;
+}
 .servicesText{
     padding: 20px;
+}
+.clickableDiv{
+    color: #212529;
+    text-decoration: none;
+}
+.clickableDiv:hover{
+    color:  #212529;
 }
 
 /* Mobile */
@@ -110,16 +147,23 @@
         height: auto !important;
     }
     .bannerText{
-        font-size: 30px;
+        font-size: 24px;
         line-height: 30px;
         margin-bottom: 10px;
+    }
+    .denesImg{
+        width: 100%;
     }
     .davidDenesImg{
         width: 100%;
         margin-bottom: 50px;
     }
+    .testimonialImg{
+        width: auto;
+        padding-right: 5px;
+    }
     .denesList ul{
-        margin-left: 22%;
+        margin-left: 15%;
     }
     .services{
         min-height: auto;
@@ -127,5 +171,55 @@
     }
     .ServicesFirstrow{
         margin-bottom: 0;
+    }
+    .serviceImg1{
+        margin-top: -7px;
+    }
+    .serviceImg2{
+        margin-top: -9px;
+    }
+    .serviceImg3{
+        margin-top: -8px;
+    }
+    .serviceImg4{
+        margin-top: -16px;
+    }
+    .textCol{
+        order: 2;
+    }
+    .videoCol{
+        order: 1;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .davidDenesImg{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .denesList ul{
+        margin-left: 15%;
+    }
+    .services{
+        min-height: 450px;
+    }
+    .serviceImg1{
+        margin-top: -7px;
+    }
+    .serviceImg2{
+        margin-top: -9px;
+    }
+    .serviceImg3{
+        margin-top: -8px;
+    }
+    .serviceImg4{
+        margin-top: -16px;
+    }
+    .textCol{
+        order: 2;
+    }
+    .videoCol{
+        order: 1;
     }
 }
