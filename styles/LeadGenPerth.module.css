@@ -1,6 +1,6 @@
 /* Defaults */
 .leadGenBtn {
-    width: 250px;
+    /* width: 250px; */
     color: #fff;
     background-color: #fa5801;
     border: none;
@@ -8,7 +8,7 @@
     font-size: 30px;
     font-family: Josefin Sans,sans-serif;
     line-height: normal;
-    padding: 16px;
+    padding: 16px 35px;
 }
 
 .bannerSection{
@@ -56,7 +56,7 @@
 .denesList ul{
     list-style-type: none;
     margin-top: 50px;
-    margin-left: 32%;
+    margin-left: 20%;
 }
 .denesList ul li{
     margin-top: 10px;
@@ -78,8 +78,12 @@
     min-height: 200px;
 }
 .testimonialText{
-    width: 50%;
+    width: 55%;
     padding: 10px;
+    min-height: 120px;
+    align-items: center;
+    display: flex;
+    border-right: 1px solid #000;
 }
 .testimonialText p,
 .companyText,
@@ -93,8 +97,7 @@
     font-size: 28px;
 }
 .testimonialImg{
-    width: 25%;
-    border-left: 1px solid #000;
+    width: 20%;
     padding-left: 15px;
 }
 .testimonialTitle{
@@ -120,7 +123,8 @@
 }
 .whySectionH{
     padding: 0 25%;
-    line-height: 50px;
+    line-height: 1.5em;
+    font-size: 45px;
 }
 .whyImg{
     width: auto;
