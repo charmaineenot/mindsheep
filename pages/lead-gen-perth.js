@@ -56,13 +56,13 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className={styles.denesSection + " bg-darken"}>
+        <section className={styles.denesSection + " pt-5 bg-darken"}>
           <div className="container">
             <div className="row">
-              <div className="col-md-5 order-sm-first order-last">
+              <div className="col-md-6 order-sm-first order-last">
                 <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
               </div>
-              <div className="col-md-7 vmiddle">
+              <div className="col-md-6 vmiddle">
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>
                 <div className={styles.denesList}>
                   <ul>
@@ -81,7 +81,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </ul>
                 </div>
                 <div className="col-md-12 text-center">
-                  <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
+                  <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5 mb-5"}>LET'S CHAT!</a>
                 </div>
               </div>
             </div>

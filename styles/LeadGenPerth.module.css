@@ -1,6 +1,6 @@
 /* Defaults */
 .leadGenBtn {
-    width: 350px;
+    width: 250px;
     color: #fff;
     background-color: #fa5801;
     border: none;
@@ -25,13 +25,14 @@
     z-index: 1;
 }
 .bannerText{
-    font-size: 48px;
+    font-size: 39px;
     font-weight: 500;
-    line-height: 1.3em;
-    text-transform: capitalize !important;
+    line-height: 1.5em;
+    text-transform: inherit;
+    margin-bottom: 70px;
 }
 .denesHeading{
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 500;
     padding: 40px 0;
     border-top: 2px solid #f55700;
@@ -40,6 +41,7 @@
 .denesImg{
     position: relative;
     left: 0;
+    width: 100%;
 }
 .denesSection{
     background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/11/denes-bg-img-01-1-scaled.webp);
@@ -60,7 +62,7 @@
     margin-top: 10px;
 }
 .denesList span{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 400;
 }
 .denesList svg{
