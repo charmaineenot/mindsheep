@@ -545,6 +545,10 @@ ul.dropdown-menu.services-dropdown.show {
 /* END AUTOMATE BUSINESS */
 
 /* START LEAD GEN PERTH */
+.LeadGenPerth h3{
+  font-size: 41px;
+  font-weight: 300;
+}
 .LeadGenPerth .Footer .partners,
 .LeadGenPerth .Footer .testimonials{
   display: none;
@@ -594,6 +598,11 @@ ul.dropdown-menu.services-dropdown.show {
   .boxed{
       max-width: 1320px !important;
       margin: auto;
+  }
+}
+@media (min-width: 1200px){
+  .ps-100{
+    padding: 0 100px;
   }
 }
 /* Tablets and Mobile */

@@ -1,14 +1,14 @@
 /* Defaults */
 .leadGenBtn {
-    width: 140px;
+    width: 350px;
     color: #fff;
     background-color: #fa5801;
     border: none;
     border-radius: 0;
-    font-size: 1em;
+    font-size: 30px;
     font-family: Josefin Sans,sans-serif;
     line-height: normal;
-    padding: 14px;
+    padding: 16px;
 }
 
 .bannerSection{
@@ -25,15 +25,15 @@
     z-index: 1;
 }
 .bannerText{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.3em;
     text-transform: capitalize !important;
 }
 .denesHeading{
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 500;
-    padding: 40px;
+    padding: 40px 0;
     border-top: 2px solid #f55700;
     border-bottom: 2px solid #f55700;
 }
@@ -48,8 +48,8 @@
     background-size: cover;
 }
 .denesSectoinH{
-    padding: 0 28%;
-    line-height: 40px;
+    padding: 0 5%;
+    line-height: 50px;
 }
 .denesList ul{
     list-style-type: none;
@@ -73,11 +73,22 @@
     display: flex;
     padding: 15px;
     margin-bottom: 30px;
-    min-height: 140px;
+    min-height: 200px;
 }
 .testimonialText{
     width: 50%;
     padding: 10px;
+}
+.testimonialText p,
+.companyText,
+.howeworkText p,
+.whyText p,
+.servicesText p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.testimonialTitle > p b{
+    font-size: 28px;
 }
 .testimonialImg{
     width: 25%;
@@ -105,6 +116,10 @@
 .whyContainer{
     display: flex;
 }
+.whySectionH{
+    padding: 0 25%;
+    line-height: 50px;
+}
 .whyImg{
     width: auto;
     margin-right: 45px;
@@ -112,12 +127,18 @@
 .whyText{
     width: 50%;
 }
+.whyText h4{
+    font-size: 30px;
+}
 .ServicesFirstrow{
     margin-bottom: 50px;
 }
 .services{
-    min-height: 580px;
+    min-height: 600px;
     border: 1px solid #030303;
+}
+.servicesText h4{
+    font-size: 34px;
 }
 .servicesImg img{
     width: 100%;
@@ -165,7 +186,6 @@
     }
     .denesSectoinH{
         padding: 0;
-        line-height: 30px;
     }
     .denesHeading{
         font-size: 25px;
@@ -209,9 +229,8 @@
         padding-top: 3em;
         text-align: center;
     }
-    .denesSectoinH{
+    .denesSectoinH, .whySectionH{
         padding: 0;
-        line-height: 30px;
     }
     .denesImg{
         width: 250px;
@@ -264,9 +283,8 @@
         width: 100%;
         margin-bottom: 50px;
     }
-    .denesSectoinH{
+    .denesSectoinH , .whySectionH{
         padding: 0;
-        line-height: 30px;
     }
     .denesList ul{
         margin-left: 15%;

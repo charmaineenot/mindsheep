@@ -59,23 +59,23 @@ const content = ({pageMeta,pageContent,footerContent}) => {
         <section className={styles.denesSection + " bg-darken"}>
           <div className="container">
             <div className="row">
-              <div className="col-md-6 order-sm-first order-last">
+              <div className="col-md-5 order-sm-first order-last">
                 <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
               </div>
-              <div className="col-md-6 vmiddle">
+              <div className="col-md-7 vmiddle">
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>
                 <div className={styles.denesList}>
                   <ul>
                     <li className="text-white">
-                      <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faCheck}></FontAwesomeIcon>
+                      <img src="https://wp.mindsheep.com.au/wp-content/uploads/2021/11/check-icon.png" width="42"/>
                       <span> {elements.landingWhatWeDeliver.weDeliver1}</span>
                     </li>
                     <li className="text-white">
-                      <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faCheck}></FontAwesomeIcon>
+                      <img src="https://wp.mindsheep.com.au/wp-content/uploads/2021/11/check-icon.png" width="42"/>
                       <span> {elements.landingWhatWeDeliver.weDeliver2}</span>
                     </li>
                     <li className="text-white">
-                      <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faCheck}></FontAwesomeIcon>
+                      <img src="https://wp.mindsheep.com.au/wp-content/uploads/2021/11/check-icon.png" width="42"/>
                       <span> {elements.landingWhatWeDeliver.weDeliver3}</span>
                     </li>
                   </ul>
@@ -105,7 +105,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                   <div  className={styles.testimonialTitle}>
                     <p className="text-orange"><b>{elements.landingTestimonials.clientName1}</b></p>
-                    <p>{elements.landingTestimonials.clientCompany1}</p>
+                    <p className={styles.companyText}>{elements.landingTestimonials.clientCompany1}</p>
                   </div>
                 </div>
                 <div className={styles.testimonialContainer+" align-items-center"}>
@@ -117,7 +117,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                   <div  className={styles.testimonialTitle}>
                     <p className="text-orange"><b>{elements.landingTestimonials.clientName2}</b></p>
-                    <p>{elements.landingTestimonials.clientCompany2}</p>
+                    <p className={styles.companyText}>{elements.landingTestimonials.clientCompany2}</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                   <div  className={styles.testimonialTitle}>
                     <p className="text-orange"><b>{elements.landingTestimonials.clientName3}</b></p>
-                    <p>{elements.landingTestimonials.clientCompany3}</p>
+                    <p className={styles.companyText}>{elements.landingTestimonials.clientCompany3}</p>
                   </div>
                 </div>
                 <div className={styles.testimonialContainer+" align-items-center"}>
@@ -143,14 +143,14 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                   <div  className={styles.testimonialTitle}>
                     <p className="text-orange"><b>{elements.landingTestimonials.clientName4}</b></p>
-                    <p>{elements.landingTestimonials.clientCompany4}</p>
+                    <p className={styles.companyText}>{elements.landingTestimonials.clientCompany4}</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT!</a>
+                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT NOW</a>
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             <div className="row">
               <div className="col-md-6 order-sm-first order-last">
                 <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.landingHowWeWorkHeading}</h3>
-                <p>{elements.landingHowWeWork.description}</p>
+                <div className={styles.howeworkText + " mb-50"} dangerouslySetInnerHTML={{__html: elements.landingHowWeWork.description}} />   
                 <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
               </div>
               <div className="col-md-6 text-center">
@@ -173,7 +173,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h3 className="text-center text-white">{elements.landingWhyTrustUs.whyUsHeading}</h3>
+                <h3 className={styles.whySectionH + " text-center text-white"}>{elements.landingWhyTrustUs.whyUsHeading}</h3>
               </div>
             </div>
           </div>
