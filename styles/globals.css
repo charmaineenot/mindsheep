@@ -315,8 +315,8 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .wateringImgCont{
   position: absolute;
-  right: 15px;
-  margin-top: -75px;
+  right: -50px;
+  margin-top: -55px;
 }
 .watercingImg{
   position: absolute;
@@ -439,6 +439,9 @@ ul.dropdown-menu.services-dropdown.show {
 /* END Embla Carousel */
 
 /* BEGIN Home Contact Form */
+  .contact-form .mc-field-group{
+    margin-bottom: 10px;
+  }
   .contact-form input{
     width: 50%;
     margin-bottom: 12px;
@@ -447,7 +450,7 @@ ul.dropdown-menu.services-dropdown.show {
     border-color: #000000;
     background: transparent;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .contact-form button{
@@ -459,7 +462,7 @@ ul.dropdown-menu.services-dropdown.show {
     border: 2px solid #f55a00;
     border-radius: 2px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 /* END Home Contact Form */
 
