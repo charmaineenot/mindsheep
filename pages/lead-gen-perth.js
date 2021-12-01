@@ -34,8 +34,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 <div className={styles.textCol+" col-lg-4 pt-4 vmiddle"}>
                   <div className={styles.bannerTextCont}>
                     <p className={styles.bannerText}>{elements.landingBanner.bannerContent}</p>
-                    <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
-                    </a>
+                    <div className={styles.smCenter}>
+                      <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
+                      </a>
+                    </div>  
                   </div>  
                 </div>
                 <div className={styles.videoCol+" col-lg-6"}>
@@ -87,7 +89,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8 bg-gray">
+        <section className={styles.smPtPb + " pt-8 pb-8 bg-gray"}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -161,7 +163,9 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-6 order-sm-first order-last">
                 <h3 className={styles.howeworkHeading}>{elements.landingHowWeWork.landingHowWeWorkHeading}</h3>
                 <div className={styles.howeworkText + " mb-50"} dangerouslySetInnerHTML={{__html: elements.landingHowWeWork.description}} />   
-                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
+                <div className={styles.smCenter}>
+                  <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LEARN MORE</a>
+                </div>
               </div>
               <div className="col-md-6 text-center">
                 <img className={styles.davidDenesImg} src={elements.landingHowWeWork.image.sourceUrl} width="500"/>

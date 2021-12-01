@@ -304,7 +304,8 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .crateImgCont{
   position: absolute;
-  left: 15px;
+  left: -150px;
+  margin-top: -280px;
 }
 .crateImg{
   position: absolute;
@@ -463,6 +464,13 @@ ul.dropdown-menu.services-dropdown.show {
 /* END Home Contact Form */
 
 /* BEGIN Footer Form */
+.contactTitle{
+  font-weight: 400;
+}
+.contactSubText{
+  font-weight: 400;
+  font-size: 19px;
+}
 .footer-form input[type=email]{
   width: 300px;
   height: 40px;
@@ -545,9 +553,11 @@ ul.dropdown-menu.services-dropdown.show {
 /* END AUTOMATE BUSINESS */
 
 /* START LEAD GEN PERTH */
-.LeadGenPerth h3{
+.LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
   font-size: 41px;
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
 }
 .LeadGenPerth .Footer .partners,
 .LeadGenPerth .Footer .testimonials{
@@ -703,6 +713,10 @@ ul.dropdown-menu.services-dropdown.show {
   .nav-container{
     padding-right: 0 !important;
   }
+  .smPbPt{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .sm-p-20{
     padding: 20px;
     padding-top: 0;
@@ -780,5 +794,17 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .rowAuto{
     --bs-gutter-x: auto !important;
+  }
+  .LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .crateImgCont,
+  .wateringImgCont{
+    display: none;
+  }
+  .contactTitle,
+  .contactSubText{
+    text-align: center;
   }
 }

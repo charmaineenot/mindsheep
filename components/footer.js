@@ -56,11 +56,14 @@ const Footer = ({elements}) => (
     </section>
     <section className="align-items-center talktous" id="talktous" style={footerStyle}> 
       {/* Contact Section */}
-      <div className="container pt-8 pb-10">
+      <div className="container pt-8 pb-10 smPbPt">
         <div className="row">
           <div className="col-md-6">
-            <h2 className="sectionTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</h2>
-            <p className="text-black">{elements.homeContact.homeContactDescription}</p>
+            <div className="crateImgCont">
+              <Image width="400" height="270" className="crateImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Crate-01-Min-400x270-1.webp"/>
+            </div>
+            <p className="sectionTitle contactTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</p>
+            <p className="text-black contactSubText">{elements.homeContact.homeContactDescription}</p>
           </div>
           <div className="col-md-6 vmiddle">
             <ContactSubmit/>

@@ -104,7 +104,10 @@
     width: 25%;
 }
 .howeworkHeading{
+    font-size: 35px;
+    font-weight: 300;
     margin-bottom: 30px;
+    text-transform: capitalize !important;
 }
 .howeworkHeading:after,
 .whyText h4:after,
@@ -117,6 +120,9 @@
     right: 0;
     margin-bottom: 50px;
     bottom: -20px;
+}
+.howeworkHeading:after{
+    margin-top: 50px;
 }
 .whyContainer{
     display: flex;
@@ -131,7 +137,7 @@
     margin-right: 45px;
 }
 .whyText{
-    width: 50%;
+    width: 70%;
 }
 .whyText h4{
     font-size: 30px;
@@ -218,6 +224,10 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+    .smPtPb{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
     .mobilepx3{
         padding-top: 3em;
         padding-bottom: 3em;
@@ -230,16 +240,26 @@
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .denesSection{
         padding-top: 3em;
         text-align: center;
     }
-    .denesSectoinH, .whySectionH{
-        padding: 0;
+    .whySectionH{
+        padding: 0 5%;
+    }
+    .denesSectoinH{
+        padding: 0 5%;
+    }
+    .denesHeading{
+        font-size: 30px;
     }
     .denesImg{
         width: 250px;
+    }
+    .denesList span{
+        font-size: 22px;
     }
     .davidDenesImg{
         width: 75%;
@@ -250,7 +270,7 @@
         padding-right: 5px;
     }
     .denesList ul{
-        margin-left: 15%;
+        margin-left: 5%;
         text-align: left;
     }
     .whyContainer{
@@ -280,6 +300,35 @@
     }
     .videoCol{
         order: 1;
+    }
+    .testimonialText p,
+    .companyText,
+    .howeworkText p,
+    .whyText p,
+    .servicesText p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .testimonialTitle > p b{
+        font-size: 20px;
+    }
+    .whyText h4{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .servicesText h4{
+        font-size: 20px;
+    }
+    .smCenter{
+        text-align: center;
+    }
+    .howeworkText p{
+        margin-left: 20px;
+    }
+    .howeworkHeading{
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: 5%;
     }
 }
 
