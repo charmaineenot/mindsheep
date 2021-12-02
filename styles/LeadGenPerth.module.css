@@ -106,11 +106,12 @@
     width: 25%;
 }
 .howeworkHeading{
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 400;
     line-height: 45px;
     margin-bottom: 30px;
-    text-transform: capitalize !important;
+    font-family: 'Josefin Sans';
+    text-transform: capitalize;
 }
 .howeworkHeading:after,
 .whyText h4:after,
@@ -144,6 +145,7 @@
 }
 .whyText h4{
     font-size: 30px;
+    font-family: 'Josefin Sans';
 }
 .ServicesFirstrow{
     margin-bottom: 50px;
@@ -154,6 +156,7 @@
 }
 .servicesText h4{
     font-size: 34px;
+    font-family: 'Josefin Sans' !important;
 }
 .servicesImg img{
     width: 100%;
