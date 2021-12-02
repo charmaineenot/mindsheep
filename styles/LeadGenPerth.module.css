@@ -10,7 +10,9 @@
     line-height: normal;
     padding: 16px 35px;
 }
-
+.btnExtended{
+    min-width: 280px;
+}
 .bannerSection{
     height: auto !important;
 }
@@ -32,7 +34,7 @@
     margin-bottom: 70px;
 }
 .denesHeading{
-    font-size: 43px;
+    font-size: 40px;
     font-weight: 500;
     padding: 40px 0;
     border-top: 2px solid #f55700;
@@ -104,8 +106,9 @@
     width: 25%;
 }
 .howeworkHeading{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
+    line-height: 45px;
     margin-bottom: 30px;
     text-transform: capitalize !important;
 }
@@ -224,6 +227,9 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+    .leadGenBtn{
+        font-size: 20px;
+    }
     .smPtPb{
         padding-top: 4rem;
         padding-bottom: 4rem;

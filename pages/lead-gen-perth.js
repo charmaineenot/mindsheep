@@ -83,7 +83,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </ul>
                 </div>
                 <div className="col-md-12 text-center">
-                  <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5 mb-5"}>LET'S CHAT!</a>
+                  <a href="#talktous" className={[styles.leadGenBtn] + " " + [styles.btnExtended] + " btn btn-warning bg-orange text-white mt-5 mb-5"}>LET'S CHAT!</a>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
             <div className="row">
               <div className="col-md-12 text-center">
-                <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT NOW</a>
+                <a href="#talktous" className={[styles.leadGenBtn] +" "+[styles.btnExtended] + " btn btn-warning bg-orange text-white mt-5"}>LET'S CHAT NOW</a>
               </div>
             </div>
           </div>
