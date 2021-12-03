@@ -62,7 +62,7 @@ const Footer = ({elements}) => (
             <div className="crateImgCont">
               <Image width="400" height="270" className="crateImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Crate-01-Min-400x270-1.webp"/>
             </div>
-            <p className="sectionTitle contactTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</p>
+            <h4 className="sectionTitle contactTitle mt-5 mb-4">{elements.homeContact.homeContactHeading}</h4>
             <p className="text-black contactSubText">{elements.homeContact.homeContactDescription}</p>
           </div>
           <div className="col-md-6 vmiddle">

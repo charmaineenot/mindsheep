@@ -53,7 +53,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className={styles.denesSectoinH + " text-center text-orange"}>{elements.landingWhatWeDeliver.landingDeliverHeading}</h3>
+                <h3 className={styles.denesSectoinH + " text-center text-orange-dark"}>{elements.landingWhatWeDeliver.landingDeliverHeading}</h3>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className="col-md-6 order-sm-first order-last">
                 <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
               </div>
-              <div className="col-md-6 vmiddle">
+              <div className="col-md-6 ps-30 vmiddle">
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>
                 <div className={styles.denesList}>
                   <ul>
@@ -93,10 +93,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="text-center text-orange mb-5">{elements.landingTestimonials.landingTestimonialHeading}</h3>
+                <h3 className="text-center text-orange-dark mb-5">{elements.landingTestimonials.landingTestimonialHeading}</h3>
               </div>
             </div>
-            <div className="row">
+            <div className="row mt-5">
               <div className="col-lg-6 col-md-12">
                 <div className={styles.testimonialContainer+" align-items-center"}>
                   <div className={styles.testimonialText + " text-center"}>
@@ -168,7 +168,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 </div>
               </div>
               <div className="col-md-6 text-center">
-                <img className={styles.davidDenesImg} src={elements.landingHowWeWork.image.sourceUrl} width="500"/>
+                <img className={styles.davidDenesImg} src={elements.landingHowWeWork.image.sourceUrl} width="95%"/>
               </div>
             </div>
           </div>
@@ -235,9 +235,9 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           </div>
         </section>
         <section className={styles.mobilepx3+" pt-8 pb-8"}>
-          <div className="container">
+          <div className="wide">
             <div className={ styles.ServicesFirstrow + " row"}>
-              <div className="col-md-6">
+              <div className="col-md-6 pr-25">
                 <a href="/lead-generation/#google" className={styles.clickableDiv}>
                   <div className={styles.services}>
                     <div className={styles.servicesImg}>
@@ -250,7 +250,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                 </a>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 pl-25">
                 <a href="/lead-generation/#facebook-ads" className={styles.clickableDiv}>
                   <div className={styles.services}>
                     <div className={styles.servicesImg}>
@@ -265,7 +265,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 pr-25">
                 <a href="/automate-your-business" className={styles.clickableDiv}>
                   <div className={styles.services}>
                     <div className={styles.servicesImg}>
@@ -278,7 +278,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>
                 </a>  
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 pl-25">
                 <a href="/automate-your-business/#bot-automation" className={styles.clickableDiv}>
                   <div className={styles.services}>
                     <div className={styles.servicesImg}>

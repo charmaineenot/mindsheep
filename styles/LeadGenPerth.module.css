@@ -27,22 +27,22 @@
     z-index: 1;
 }
 .bannerText{
-    font-size: 39px;
-    font-weight: 500;
+    font-size: 41px;
+    font-weight: 600;
     line-height: 1.5em;
     text-transform: inherit;
     margin-bottom: 70px;
 }
 .denesHeading{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 40px 0;
     border-top: 2px solid #f55700;
     border-bottom: 2px solid #f55700;
 }
 .denesImg{
     position: relative;
-    left: 0;
+    left: -50px;
     width: 100%;
 }
 .denesSection{
@@ -52,7 +52,7 @@
     background-size: cover;
 }
 .denesSectoinH{
-    padding: 0 5%;
+    padding: 0 14%;
     line-height: 50px;
 }
 .denesList ul{
@@ -73,7 +73,7 @@
 }
 .testimonialContainer{
     background-color: #fff;
-    border: 1px solid #000;
+    border: 3px solid #272727;
     display: flex;
     padding: 15px;
     margin-bottom: 30px;
@@ -95,6 +95,9 @@
     font-size: 20px;
     font-weight: 400;
 }
+.whyText p{
+    margin-right: 80px;
+}
 .testimonialTitle > p b{
     font-size: 28px;
 }
@@ -106,12 +109,10 @@
     width: 25%;
 }
 .howeworkHeading{
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
     margin-bottom: 30px;
-    font-family: 'Josefin Sans';
-    text-transform: capitalize;
 }
 .howeworkHeading:after,
 .whyText h4:after,
@@ -125,9 +126,9 @@
     margin-bottom: 50px;
     bottom: -20px;
 }
-.howeworkHeading:after{
+/* .howeworkHeading:after{
     margin-top: 50px;
-}
+} */
 .whyContainer{
     display: flex;
 }
@@ -145,7 +146,6 @@
 }
 .whyText h4{
     font-size: 30px;
-    font-family: 'Josefin Sans';
 }
 .ServicesFirstrow{
     margin-bottom: 50px;
@@ -156,7 +156,6 @@
 }
 .servicesText h4{
     font-size: 34px;
-    font-family: 'Josefin Sans' !important;
 }
 .servicesImg img{
     width: 100%;
@@ -227,6 +226,7 @@
         right: -105px;
     }   
 
+
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
@@ -258,6 +258,12 @@
     .whySectionH{
         padding: 0 5%;
     }
+    .whyText p{
+        margin-right: 0;
+    }
+    .whyImg{
+        margin-right: 15px;
+    }
     .denesSectoinH{
         padding: 0 5%;
     }
@@ -271,7 +277,7 @@
         font-size: 22px;
     }
     .davidDenesImg{
-        width: 75%;
+        width: 90%;
         margin-bottom: 50px;
     }
     .testimonialImg{

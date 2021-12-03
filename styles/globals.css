@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "JosefinSansBold";
+  src: url("/fonts/AlyssumSans/JosefinSansBold.TTF");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
 /* DEFAULTS */
 .body{
   overflow-x: hidden;
@@ -31,6 +39,10 @@ p, span, ol{
 
 .text-orange{
   color: #f95800 !important;
+}
+
+.text-orange-dark{
+  color: #D04700
 }
 
 .text-white{
@@ -61,9 +73,29 @@ p, span, ol{
   padding-bottom: 10rem;
 }
 
+.ps-80{
+  padding: 0 80px;
+}
+
+.ps-30{
+  padding: 0 30px;
+}
+
+.pr-25{
+  padding-right: 25px;
+}
+
+.pl-25{
+  padding-left: 25px;
+}
+
 .vmiddle{
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mt-4{
+  margin-top: 8rem;
 }
 
 .mt-8{
@@ -315,8 +347,8 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .wateringImgCont{
   position: absolute;
-  right: -50px;
-  margin-top: -55px;
+  right: 0;
+  margin-top: -80px;
 }
 .watercingImg{
   position: absolute;
@@ -469,6 +501,7 @@ ul.dropdown-menu.services-dropdown.show {
 /* BEGIN Footer Form */
 .contactTitle{
   font-weight: 400;
+  margin-right: 120px;
 }
 .contactSubText{
   font-weight: 400;
@@ -557,9 +590,8 @@ ul.dropdown-menu.services-dropdown.show {
 
 /* START LEAD GEN PERTH */
 .LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
-  font-size: 41px;
-  font-weight: 400;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+  font-family: "JosefinSansBold";
   text-transform: uppercase;
 }
 .LeadGenPerth .Footer .partners,
@@ -611,6 +643,10 @@ ul.dropdown-menu.services-dropdown.show {
   .boxed{
       max-width: 1320px !important;
       margin: auto;
+  }
+  .wide{
+    max-width: 1320px !important;
+    margin: auto;
   }
 }
 @media (min-width: 1200px){
@@ -682,6 +718,13 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .wide{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
   .dropdown-menu.services-dropdown{
     display: block !important;
   }
@@ -799,7 +842,7 @@ ul.dropdown-menu.services-dropdown.show {
     --bs-gutter-x: auto !important;
   }
   .LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
-    font-size: 18px;
+    font-size: 22px;
     line-height: 30px;
   }
   .crateImgCont,
@@ -809,5 +852,11 @@ ul.dropdown-menu.services-dropdown.show {
   .contactTitle,
   .contactSubText{
     text-align: center;
+  }
+  .pr-25{
+    padding-right: 12px;
+  }
+  .pl-25{
+    padding-left: 12px;
   }
 }
