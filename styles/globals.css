@@ -853,6 +853,9 @@ ul.dropdown-menu.services-dropdown.show {
   .contactSubText{
     text-align: center;
   }
+  .contactTitle{
+    margin-right: 0;
+  }
   .pr-25{
     padding-right: 12px;
   }
