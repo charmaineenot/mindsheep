@@ -62,7 +62,8 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container">
             <div className="row">
               <div className={styles.denesCol1 + " col-md-6 "}>
-                <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
+                <img className={styles.denesImg + " hide-sm"} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
+                <img className={styles.denesImg + " visible-sm"} src="https://wp.mindsheep.com.au/wp-content/uploads/2021/11/denes-profile-img-01-scaled.webp" width="400"/>
               </div>
               <div className={styles.denesCol2 + " col-md-6 ps-30 vmiddle"}>
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>

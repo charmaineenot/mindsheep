@@ -245,6 +245,7 @@
     }
     .videoBanner{
         top: 39px;
+        left: -20px;
         position: relative;
     }
     .bannerSection{
@@ -285,11 +286,11 @@
     }
     .denesHeading{
         font-size: 18px;
-        padding: 20px 5px;
+        padding: 10px 5px;
     }
     .denesImg{
         left: -45px;
-        top: 140px;
+        top: 15px;
         width: 200px;
     }
     .denesList span{
@@ -308,17 +309,19 @@
     }
     .denesList ul{
         margin-left: -20px;
-        margin-top: 0;
+        margin-top: 30px;
         margin-bottom: 0;
         text-align: left;
     }
     .denesList ul li{
-        margin-top: 0;
+        margin-top: -5px;
     }
     .DenesBtn{
         min-width: 100%;
         font-size: 15px !important;
         padding: 10px 25px;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
     }
     .whyContainer{
         margin-bottom: 30px;
@@ -389,6 +392,10 @@
     .noMarginBottom{
         margin-bottom: 0;
     }
+    .noMarginTB{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 }
 
 /* Tablets */
@@ -423,5 +430,11 @@
     }
     .videoCol{
         order: 1;
+    }
+}
+
+@media (min-width: 480px) {
+    .denesMobileImg{
+        display: none;
     }
 }
