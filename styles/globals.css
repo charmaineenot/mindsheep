@@ -854,7 +854,11 @@ ul.dropdown-menu.services-dropdown.show {
     text-align: center;
   }
   .contactTitle{
+    font-size: 22px !important;
     margin-right: 0;
+  }
+  .contactSubText{
+    font-size: 15px;
   }
   .pr-25{
     padding-right: 12px;

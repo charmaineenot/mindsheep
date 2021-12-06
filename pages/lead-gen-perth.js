@@ -35,7 +35,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <div className={styles.bannerTextCont}>
                     <p className={styles.bannerText}>{elements.landingBanner.bannerContent}</p>
                     <div className={styles.smCenter}>
-                      <a href="#talktous" className={styles.leadGenBtn + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
+                      <a href="#talktous" className={[styles.leadGenBtn] +" "+ [styles.bannerBtn] + " btn btn-warning bg-orange text-white"}>LET'S CHAT!
                       </a>
                     </div>  
                   </div>  
@@ -61,10 +61,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
         <section className={styles.denesSection + " pt-5 bg-darken"}>
           <div className="container">
             <div className="row">
-              <div className="col-md-6 order-sm-first order-last">
+              <div className={styles.denesCol1 + " col-md-6 "}>
                 <img className={styles.denesImg} src={elements.landingWhatWeDeliver.denesImage.sourceUrl} width="400"/>
               </div>
-              <div className="col-md-6 ps-30 vmiddle">
+              <div className={styles.denesCol2 + " col-md-6 ps-30 vmiddle"}>
                 <p className={styles.denesHeading + " text-white text-center"}>{elements.landingWhatWeDeliver.leadsCountHeading}</p>
                 <div className={styles.denesList}>
                   <ul>
@@ -83,20 +83,20 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </ul>
                 </div>
                 <div className="col-md-12 text-center">
-                  <a href="#talktous" className={[styles.leadGenBtn] + " " + [styles.btnExtended] + " btn btn-warning bg-orange text-white mt-5 mb-5"}>LET'S CHAT!</a>
+                  <a href="#talktous" className={[styles.leadGenBtn] + " " + [styles.btnExtended] +" "+ [styles.DenesBtn] + " btn btn-warning bg-orange text-white mt-5 mb-5"}>LET'S CHAT!</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className={styles.smPtPb + " pt-8 pb-8 bg-gray"}>
+        <section className={styles.MobilePT + " pt-8 pb-8 bg-gray"}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="text-center text-orange-dark mb-5">{elements.landingTestimonials.landingTestimonialHeading}</h3>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className={styles.mobileMTRev10 + " row mt-5"}>
               <div className="col-lg-6 col-md-12">
                 <div className={styles.testimonialContainer+" align-items-center"}>
                   <div className={styles.testimonialText + " text-center"}>
@@ -157,7 +157,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8">
+        <section className= {styles.MobilePT + " pt-8 pb-8"}>
           <div className="container">
             <div className="row">
               <div className="col-md-6 order-sm-first order-last">
@@ -184,7 +184,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
         </section>
         <section className={styles.mobilepx3+" pt-8 pb-8 bg-gray"}>
           <div className="container">
-            <div className="row mb-50">
+            <div className={styles.noMarginBottom + " row mb-50"}>
               <div className="col-md-6">
                 <div className={styles.whyContainer}>
                   <div className={styles.whyImg}>

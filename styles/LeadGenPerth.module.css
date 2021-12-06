@@ -231,7 +231,9 @@
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
     .leadGenBtn{
-        font-size: 20px;
+        font-size: 15px;
+        min-width: auto;
+        padding: 10px 25px;
     }
     .smPtPb{
         padding-top: 4rem;
@@ -241,22 +243,30 @@
         padding-top: 3em;
         padding-bottom: 3em;
     }
+    .videoBanner{
+        top: 39px;
+        position: relative;
+    }
     .bannerSection{
         height: auto !important;
         padding-bottom: 30px;
     }
     .bannerText{
-        font-size: 24px;
+        font-size: 15px;
         line-height: 30px;
         margin-bottom: 10px;
         text-align: center;
+    }
+    .bannerBtn{
+        font-size: 15px !important;
+        padding: 10px 25px;
     }
     .denesSection{
         padding-top: 3em;
         text-align: center;
     }
     .whySectionH{
-        padding: 0 5%;
+        padding: 0 10%;
     }
     .whyText p{
         margin-right: 0;
@@ -264,17 +274,29 @@
     .whyImg{
         margin-right: 15px;
     }
+    .denesCol1{
+        width: 40%;
+    }
+    .denesCol2{
+        width: 60%;
+    }
     .denesSectoinH{
         padding: 0 5%;
     }
     .denesHeading{
-        font-size: 30px;
+        font-size: 18px;
+        padding: 20px 5px;
     }
     .denesImg{
-        width: 250px;
+        left: -45px;
+        top: 140px;
+        width: 200px;
     }
     .denesList span{
-        font-size: 22px;
+        font-size: 12px;
+    }
+    .denesList img{
+        width: 32px;
     }
     .davidDenesImg{
         width: 90%;
@@ -285,8 +307,18 @@
         padding-right: 5px;
     }
     .denesList ul{
-        margin-left: 5%;
+        margin-left: -20px;
+        margin-top: 0;
+        margin-bottom: 0;
         text-align: left;
+    }
+    .denesList ul li{
+        margin-top: 0;
+    }
+    .DenesBtn{
+        min-width: 100%;
+        font-size: 15px !important;
+        padding: 10px 25px;
     }
     .whyContainer{
         margin-bottom: 30px;
@@ -312,9 +344,11 @@
     }
     .textCol{
         order: 2;
+        width: 50%;
     }
     .videoCol{
         order: 1;
+        width: 50%;
     }
     .testimonialText p,
     .companyText,
@@ -344,6 +378,16 @@
         font-size: 20px;
         line-height: 30px;
         margin-left: 5%;
+    }
+    .mobileMTRev10{
+        margin-top: -10px !important;
+    }
+    .MobilePT{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .noMarginBottom{
+        margin-bottom: 0;
     }
 }
 
