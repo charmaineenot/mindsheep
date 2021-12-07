@@ -244,13 +244,13 @@
         padding-bottom: 3em;
     }
     .videoBanner{
-        top: 39px;
+        top: 25px;
         left: -20px;
         position: relative;
     }
     .bannerSection{
         height: auto !important;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
     .bannerText{
         font-size: 15px;
