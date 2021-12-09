@@ -13,7 +13,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
     const footerData = footerContent;
     const pageData = pageMeta;
     const bannerStyle = {
-        backgroundColor: '#272831'
+        backgroundColor: '#24242c'
     };
     const valuesSection = {
       //background: `url('${elements.whoWeAre.backgroundImage.sourceUrl}') #e8e8e8`,
@@ -58,7 +58,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className={styles.denesSection + " pt-5 bg-darken"}>
+        <section className={styles.denesSection + " pt-3 bg-darken"}>
           <div className="container">
             <div className="row">
               <div className={styles.denesCol1 + " col-md-6 "}>
