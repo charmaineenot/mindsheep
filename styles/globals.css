@@ -785,6 +785,7 @@ ul.dropdown-menu.services-dropdown.show {
     margin-top: 0 !important;
     padding: 8px !important;
     background-color: #4d5055;
+    display: none !important;
   }
   .statTestimonial p {
     line-height: 1em;
