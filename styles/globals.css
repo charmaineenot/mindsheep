@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h5{
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
 }
 .clear{
   clear: both;
@@ -131,12 +131,13 @@ p, span, ol{
 }
 
 .bg-orange{
-  background-color: #bc4002;
+  background-color: #24242c;
 }
-
+/*
 .h-75p{
   height: 75px;
 }
+*/
 
 .logo{
   cursor: pointer;
@@ -214,7 +215,7 @@ ul.dropdown-menu.services-dropdown.show {
   margin-right: 5px;
   color:#fa5801;
 }
-
+/*
 .btn-more{
   background-color: #fa5801;
   color: #fff;
@@ -222,7 +223,7 @@ ul.dropdown-menu.services-dropdown.show {
   border-radius: 0;
   margin-left: 15px;
   margin-right: 15px;
-}
+}*/
 
 .btn-more:hover{
   background-color: #FFF;
@@ -290,6 +291,7 @@ ul.dropdown-menu.services-dropdown.show {
 .whyUsHeading{
   position: relative;
 }
+/*
 .whyUsHeading:after{
   width: 80px;
   border-top: 7px solid #f95800;
@@ -298,7 +300,7 @@ ul.dropdown-menu.services-dropdown.show {
   position: absolute;
   left: 34%;
   margin-top: 15px;
-}
+}*/
 .services-section{
   background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/09/Our-Services-background-01-min-scaled.webp);
   background-repeat: no-repeat;
@@ -313,6 +315,7 @@ ul.dropdown-menu.services-dropdown.show {
 .HomeServicesHading{
   position: relative;
 }
+/*
 .HomeServicesHading:after{
   width: 80px;
   border-top: 7px solid #f95800;
@@ -321,7 +324,7 @@ ul.dropdown-menu.services-dropdown.show {
   position: absolute;
   right: 38%;
   margin-top: 15px;
-}
+}*/
 .testimonialHeading{
   position: relative;
 }
@@ -486,11 +489,12 @@ ul.dropdown-menu.services-dropdown.show {
   }
 
   .contact-form button{
+    color:white;
     width: 25%;
     font-size: 17px;
     font-weight: 600;
     padding: 8px 12px;
-    background-color: transparent;
+    background-color: #f55a00;
     border: 2px solid #f55a00;
     border-radius: 2px;
     font-family: 'Josefin Sans', sans-serif;
@@ -517,6 +521,7 @@ ul.dropdown-menu.services-dropdown.show {
   font-weight: 300;
   padding: 8px 10px 8px 10px;
   line-height: normal;
+  display:none;
 }
 
 .footer-form button{
@@ -529,6 +534,7 @@ ul.dropdown-menu.services-dropdown.show {
   border-bottom-right-radius: 3px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+  display:none;
 }
 
 .newsletter-form-error{
@@ -547,6 +553,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .footerSheepCont{
   margin-bottom: -6px;
+  display:none;
 }
 /* END Footer Form */
 
@@ -690,7 +697,7 @@ ul.dropdown-menu.services-dropdown.show {
     width: 300px;
   }
   .contact-form input{
-    width: 100%;
+    width: 70%;
   }
   .contact-form button{
     width: 50%;
@@ -768,15 +775,16 @@ ul.dropdown-menu.services-dropdown.show {
     padding-top: 0;
   }
   .statMobileBG{
-    margin-top: 15px;
-    padding: 0 !important;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px !important;
     background-color: #383b40;
   }
   .stat h5{
-    font-size: 16px;
+    font-size: 12px;
   }
   .statText{
-    font-size: 12px;
+    font-size: 9px;
     line-height: 0.9em;
   }
   .statTestimonial{
@@ -819,7 +827,7 @@ ul.dropdown-menu.services-dropdown.show {
     margin-top: 10px !important;
   }
   section.partners img{
-    width: 100% !important;
+    width: 80% !important;
   }
   .sectionTitle{
     font-size: 30px;
@@ -857,9 +865,12 @@ ul.dropdown-menu.services-dropdown.show {
   .contactTitle{
     font-size: 22px !important;
     margin-right: 0;
+    margin: 30px;
   }
   .contactSubText{
     font-size: 15px;
+    margin: 40px;
+    margin-bottom: 35px;
   }
   .pr-25{
     padding-right: 12px;

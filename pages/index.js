@@ -75,17 +75,17 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </video>
           </div>
         </section>
-        <section className="pt-3 pb-6 bg-darken border-t">
+        <section className="pt-5 pb-6 bg-darken border-t">
           <div className="container sm-p-20">
             <div className="row rowAuto">
-              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+              <div className="col col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
-                  <div className="col-5 col-md-12 col-lg-12">
+                  <div className="col-12 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
                       <Image width="230" height="68" src={elements.homePartners.partner1Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
-                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                  <div className="col-12 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat1}
                       <h5 className="text-orange">{elements.homeStats.stat1Heading}</h5>
@@ -109,14 +109,14 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <span className="text-orange">{elements.homeStats.stat1Company}</span>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+              <div className="col col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
-                  <div className="col-5 col-md-12 col-lg-12">
+                  <div className="col-12 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
                       <Image width="230" height="45" src={elements.homePartners.partner2Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
-                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                  <div className="col-12 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat2}
                       <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
@@ -144,14 +144,14 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <span className="text-orange">{elements.homeStats.stat2Company}</span>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+              <div className="col col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
-                  <div className="col-5 col-md-12 col-lg-12">
+                  <div className="col-12 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer}>
                       <Image width="230" height="73"  src={elements.homePartners.partner3Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
-                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                  <div className="col-12 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat3}
                       <Image width="30" height="51" src="/Arrow-01.png" alt="arrow up" className="statArrow"/>
@@ -179,14 +179,14 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <span className="text-orange">{elements.homeStats.stat3Company}</span>
                 </div>   
               </div>
-              <div className="col-md-6 col-lg-3 text-center statMobileBG">
+              <div className="col col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row">
-                  <div className="col-5 col-md-12 col-lg-12">
+                  <div className="col-12 col-md-12 col-lg-12">
                     <div className={styles.partnersImgContainer + " wchfImg"}>
                       <Image width="230" height="59" src={elements.homePartners.partner4Image.sourceUrl} className={styles.partnersImg} />
                     </div>
                   </div>
-                  <div className="col-7 col-md-12 col-lg-12 statData-r">
+                  <div className="col-12 col-md-12 col-lg-12 statData-r">
                     <div className="stat text-orange hide-sm">
                       {elements.homeStats.stat4}
                       <h5 className="text-orange">{elements.homeStats.stat4Heading}</h5>

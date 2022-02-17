@@ -43,9 +43,9 @@
 .btnViewServices{
     margin-top: 50%;
     padding: 20px 60px 15px 60px;
-    color: #fff;
-    background-color: #fa5801;
-    border: none;
+    color: white;
+    background-color: #21242B;
+    border-color: #fa5801;
     border-radius: 0;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
