@@ -201,6 +201,10 @@ ul.dropdown-menu.services-dropdown.show {
   border-radius: 0;
 }
 
+#icon-call{
+  display: none;
+}
+
 .btn-call:hover{
   background-color: #fa5801;
   border: 0px;
@@ -618,7 +622,16 @@ ul.dropdown-menu.services-dropdown.show {
   color: #fff;
 }
 .navbar-toggler{
-  background-color: #fa5801;
+  /*
+  background-color: #fa5801;*/
+  border: 0;
+}
+.navbar-toggler svg{
+  color: #fa5801;
+  font-size: x-large;
+  margin: -5px 0 0 0;
+  padding: 0;
+  
 }
 .navbar-toggler span{
   color: #fff !important;
@@ -738,6 +751,8 @@ ul.dropdown-menu.services-dropdown.show {
   .hide-sm{
     display: none;
   }
+
+
   .visible-sm{
     position: relative;
     display: block !important;
@@ -880,5 +895,15 @@ ul.dropdown-menu.services-dropdown.show {
   }
   body.LeadGenPerth .banner-content{
     padding-top: 0;
+  }
+  .contact{
+    display: none!important;
+  }
+  #icon-call{
+    margin: 5px 0 0 40px;
+    font-size: x-large;
+    padding: 0;
+    float: left;
+    display: block;
   }
 }

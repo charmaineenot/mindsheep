@@ -1,7 +1,7 @@
 import Link from "next/link";  
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { faBars, faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
   
   const headerStyle = {
     backgroundColor: "#24242c",
@@ -26,10 +26,13 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
             </Link>
           </div>
           <div class="col-4 col-md-2 col-lg-5 order-md-last order-sm-last vmiddle">
+             <a href="tel:0861026678" class="btn btn-call" id="icon-call">
+              <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+            </a>
             <nav class="navbar-expand-lg navbar-dark text-center">
               <div class="container-fluid nav-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
@@ -97,7 +100,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               </div>
             </div> */}
           </div>
-          <div class="col-md-6 col-lg-4 order-lg-last d-grid d-sm-flex align-items-center">
+          <div class="contact col-md-6 col-lg-4 order-lg-last d-grid d-sm-flex align-items-center">
             <a href="tel:0861026678" class="btn btn-call">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               (08) 6102 6678
