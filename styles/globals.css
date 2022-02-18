@@ -19,7 +19,7 @@
   overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h5{
-  font-family: "AlyssumSans";
+  font-family: "Matteo Bold";
 }
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
@@ -207,6 +207,10 @@ ul.dropdown-menu.services-dropdown.show {
 
 .homeDesk{
   display: none;
+}
+
+.servicesNot{
+  display:none;
 }
 
 .btn-call:hover{
@@ -938,5 +942,24 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .homeDesk{
     display:block;
+  }
+  .serviceRow{
+    margin: 0px 6px 0 6px; 
+  }
+  .serviceMob{
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+  }
+  .serviceR2{
+    margin: 0 -50px 0 40px; 
+  }
+  .mServices{
+    margin: 0 0 -148px 0;
+  }
+  #services{
+    display:none;
   }
 }

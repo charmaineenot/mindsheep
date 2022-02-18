@@ -277,7 +277,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           <div className="container p-5">
             <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
           </div>
-        </section>  
+        </section>
+
+
+
         <section className="services-section pt-8 pb-10" id="services">
           <div className="container">
             <div className="text-center">
@@ -335,6 +338,68 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
+        
+        <section className="services-section pt-7 pb-10 homeDesk">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="sectionTitle HomeServicesHading">{elements.homeServices.servicesHeading}</h2>
+              <div className="section-divider text-center"></div>
+            </div></div>
+            <br/><br/>
+            <div class ="container mServices">
+              <div class="row serviceRow">
+                <div class="col-3">
+                <a href="/lead-generation">
+                <Image src={elements.homeServices.homeServices1Icon.sourceUrl} width={150} height={150} />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices1Title}</h5>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="/automate-your-business">
+                <Image src={elements.homeServices.homeServices2Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices2Title}</h5>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="/automate-your-business/#bot-automation">
+                <Image src={elements.homeServices.homeServices3Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices3Title}</h5>
+                </a>
+                </div>
+                <div class="col-3">
+                <a href="/automate-your-business/#web-design-development">
+                <Image src={elements.homeServices.homeServices4Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices4Title}</h5>
+              </a>
+                </div>
+              </div>
+              <div class="row serviceR2">
+                <div class="col-3">
+                <a href="/brand-building/#graphic-design">
+                <Image src={elements.homeServices.homeServices6Icon.sourceUrl} width="100" height="100" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices6Title}</h5>
+              </a>
+                </div>
+                <div class="col-3">
+                <a href="/brand-building">
+                <Image src={elements.homeServices.homeServices5Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices5Title}</h5>
+              </a>
+                </div>
+                <div class="col-3">
+                <a href="/brand-building/#social-media">
+                <Image src={elements.homeServices.homeServices7Icon.sourceUrl} width="150" height="150" />
+                <h5 className="mt-3 mb-4 serviceMob" >{elements.homeServices.homeServices7Title}</h5>
+              </a>
+                </div>
+              </div>
+            </div>
+  
+            </section>
+
+
+
+
         <section className="pt-8 pb-10" id="typeform" style={websiteHidden}>
           <div className="container">
               <div className="row mt-5">
