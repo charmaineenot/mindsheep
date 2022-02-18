@@ -38,7 +38,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
 
   return(
       <Layout page={pageData} elements={elements,footerData}>
-        <section className={styles.homeBanner+" banner-section text-center"} style={bannerStyle}>
+        <section className={styles.homeBanner+" banner-section text-center homeSec"} style={bannerStyle}>
           {/* <video autoPlay muted loop id="video-banner">
               <source src={elements.homeFieldGroup.bannerImage.mediaItemUrl} type="video/mp4"/>
           </video>
@@ -75,6 +75,27 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </video>
           </div>
         </section>
+        
+        <section class="pt-5 pb-6 hmoBG homeDesk">
+        <div class="container sm-p-20">
+        <div class="row">
+          <div class="col-8">
+          <h1 class="text-white">GROWING LEADS</h1>
+          <br></br>
+          <a href ="#services" class="btn btn-warning btnViewServices hmoView">VIEW SERVICES
+          <FontAwesomeIcon className={styles.btnViewServicesIcon} icon={faLongArrowAltRight}></FontAwesomeIcon></a>
+          </div>
+          <div class="col-4">
+           <div class="float-start visible-sm hmoIcon">
+            <video autoPlay muted loop playsInline className="hmoIcon">
+             <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
+             </video>
+           </div>
+          </div>
+        </div>
+        </div>
+        </section>
+
         <section className="pt-5 pb-6 bg-darken border-t">
           <div className="container sm-p-20">
             <div className="row rowAuto">

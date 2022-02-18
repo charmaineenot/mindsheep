@@ -205,6 +205,10 @@ ul.dropdown-menu.services-dropdown.show {
   display: none;
 }
 
+.homeDesk{
+  display: none;
+}
+
 .btn-call:hover{
   background-color: #fa5801;
   border: 0px;
@@ -905,5 +909,34 @@ ul.dropdown-menu.services-dropdown.show {
     padding: 0;
     float: left;
     display: block;
+  }
+  .hmoBG{
+    background-color: #24242c;
+    padding: 0;
+    margin: 0 0 -23px 0px;
+}
+
+  .hmoView{
+    position: relative;
+    margin-top: auto;
+    padding: 8px px 0px 0;
+    color: white;
+    background-color: #21242B;
+    border-color: #fa5801;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: normal;
+  }
+  .hmoIcon{
+    width: 200px;
+    padding: 0;
+    margin: -23px 0 0px -45px;
+  }
+  .homeSec{
+    display: none!important;
+  }
+  .homeDesk{
+    display:block;
   }
 }
