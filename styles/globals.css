@@ -24,7 +24,9 @@ h1,h2,h3,h4,h5,h5{
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 10px;
+  text-align: initial;
+  padding-left: 9px;
 }
 .clear{
   clear: both;
@@ -39,6 +41,10 @@ p, span, ol{
 
 .text-orange{
   color: #f95800 !important;
+}
+
+.text-grey{
+  color: #24242C !important;
 }
 
 .text-orange-dark{
@@ -556,9 +562,11 @@ ul.dropdown-menu.services-dropdown.show {
   list-style: none;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+  font-size: 12px;
+  text-align: left;
 }
 .footerlogo ul li{
-  line-height: 2em;
+  line-height: 2.5em;
 }
 .footerlogo ul li a{
   text-decoration: none;
@@ -854,6 +862,7 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .sectionTitle{
     font-size: 30px;
+    padding-top: 30px;
   }
   .embla__slide {
     min-width: 100%;
@@ -961,5 +970,18 @@ ul.dropdown-menu.services-dropdown.show {
   }
   #services{
     display:none;
+  }
+  #leftMindsheep{
+    padding-left: 35px;
+    margin: 3px 0 0 0;
+  }
+  #pMind{
+    font-size: 10px;
+    text-align: left;
+  }
+  #pRight{
+    font-size: 15px;
+    padding: 3px 0 0 0;
+    text-align: left;
   }
 }
