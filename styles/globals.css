@@ -24,10 +24,9 @@ h1,h2,h3,h4,h5,h5{
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 10px;
-  text-align: initial;
-  padding-left: 9px;
+  font-size: 14px;
 }
+
 .clear{
   clear: both;
 }
