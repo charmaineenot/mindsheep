@@ -121,7 +121,7 @@ const Footer = ({elements}) => (
       </div>
     </section>
 
-    <section className="align-items-center footerlogo homeDesk" style={footerStyle}> 
+    <section className="align-items-center footerlogo homeDesk bgFooter" style={footerStyle}> 
       {/* Mobile Footer */}
       <div className="container-fluid p-0">
         <div className="h-75p bg-darken"></div>
@@ -131,7 +131,7 @@ const Footer = ({elements}) => (
           <div className="row">
               <div class="col-6 leftMindsheep">
               <Image width="405" height="104" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Footer-Logo-01-Min-401x105-1.webp" />
-              <p class="mt-2">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
+              <div class="mt-2 pLeft">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</div>
             </div>
             <div class="col-6 pRight">
               <ul class="pMind">
