@@ -322,8 +322,8 @@ const content = ({pageMeta,pageContent,footerContent}) => {
 
         <section className="pt-5 pb-5 bg-darken">
           <div className="container p-3">
-            <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
-            <p className="p-0 mt-3 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription2}</i></p>
+            <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription}</a></p>
+            <p className="p-0 mt-3 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription2}</a></p>
           </div>
         </section>
 
