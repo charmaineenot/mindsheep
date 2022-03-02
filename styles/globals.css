@@ -19,7 +19,8 @@
   overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h5{
-  font-family: "Matteo Bold";
+  font-family: "JosefinSansBold";
+  text-transform: uppercase;
 }
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
@@ -43,7 +44,7 @@ p, span, ol{
 }
 
 .text-grey{
-  color: #24242C !important;
+  color: white !important;
 }
 
 .text-orange-dark{
@@ -208,6 +209,10 @@ ul.dropdown-menu.services-dropdown.show {
 
 #icon-call{
   display: none;
+}
+
+#bBottom{
+  border-bottom: 1px solid;
 }
 
 .homeDesk{
@@ -572,7 +577,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .footerSheepCont{
   margin-bottom: -6px;
-  display:none;
+  display:block;
 }
 /* END Footer Form */
 
@@ -985,8 +990,17 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .pLeft{
     font-size:10px;
+    text-align: start;
+    font-weight: lighter;
   }
   #bgFooter{
     background: #24242C;
+  }
+  #bBottom{
+    border-bottom: 1px solid;
+  }
+  .footerSheepCont{
+    margin-bottom: -6px;
+    display:none;
   }
 }

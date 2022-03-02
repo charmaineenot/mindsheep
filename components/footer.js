@@ -74,12 +74,12 @@ const Footer = ({elements}) => (
         </div>
       </div>
     </section>
-    <section className="align-items-center footerlogo homeSec" style={footerStyle}> 
+    <section className="align-items-center bg-orange footerlogo homeSec" style={footerStyle}> 
       {/* Main Footer */}
       <div className="container-fluid p-0">
         <div className="h-75p bg-darken"></div>
       </div>
-      <div className="container-fluid p-3 pb-0 bg-orange text-center text-sm-start">
+      <div className="container-fluid p-3 pb-0  text-center text-sm-start" id="bBottom">
         <div className="boxed">
           <div className="row">
             <div className="col-md-5 vmiddle">
@@ -121,12 +121,12 @@ const Footer = ({elements}) => (
       </div>
     </section>
 
-    <section className="align-items-center footerlogo homeDesk bgFooter" style={footerStyle}> 
+    <section className="align-items-center bg-orange footerlogo homeDesk bgFooter" style={footerStyle}> 
       {/* Mobile Footer */}
       <div className="container-fluid p-0">
         <div className="h-75p bg-darken"></div>
       </div>
-      <div className="container-fluid p-3 pb-0 bg-orange text-center text-sm-start">
+      <div className="container-fluid p-3 pb-0 text-center text-sm-start" id="bBottom">
         <div className="boxed">
           <div className="row">
               <div class="col-6 leftMindsheep">
