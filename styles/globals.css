@@ -44,7 +44,7 @@ p, span, ol{
 }
 
 .text-grey{
-  color: white !important;
+  color: grey !important;
 }
 
 .text-orange-dark{
@@ -881,7 +881,8 @@ ul.dropdown-menu.services-dropdown.show {
     margin-top: 1rem !important;
   }
   .sm-p-0{
-    padding: 0 !important;
+    padding: 0 14px 0 10px !important;
+    margin: 0px 5px 0px -5px;
   }
   .rowAuto{
     --bs-gutter-x: auto !important;
@@ -998,6 +999,9 @@ ul.dropdown-menu.services-dropdown.show {
   }
   #bBottom{
     border-bottom: 1px solid;
+    color: grey;
+    width: 93%;
+    margin-left: 11px;
   }
   .footerSheepCont{
     margin-bottom: -6px;

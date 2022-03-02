@@ -96,7 +96,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
         </div>
         </section>
 
-        <section className="pt-5 pb-6 bg-darken border-t">
+        <section className="pt-5 pb-5 bg-darken border-t">
           <div className="container sm-p-20">
             <div className="row rowAuto">
               <div className="col col-md-6 col-lg-3 text-center statMobileBG">
