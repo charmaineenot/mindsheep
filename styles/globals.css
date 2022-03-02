@@ -865,7 +865,7 @@ ul.dropdown-menu.services-dropdown.show {
     width: 80% !important;
   }
   .sectionTitle{
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 30px;
   }
   .embla__slide {
@@ -882,7 +882,7 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .sm-p-0{
     padding: 0 14px 0 10px !important;
-    margin: 0px 5px 0px -5px;
+    margin: 0px 18px 0px 25px;
   }
   .rowAuto{
     --bs-gutter-x: auto !important;
@@ -1006,5 +1006,11 @@ ul.dropdown-menu.services-dropdown.show {
   .footerSheepCont{
     margin-bottom: -6px;
     display:none;
+  }
+  .whyUs-sectionmob{
+    background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2022/03/Gray-Image.png);
+    background-repeat: no-repeat;
+    background-position: -95px center;
+    background-size: cover;
   }
 }

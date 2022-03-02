@@ -234,7 +234,8 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="whyUs-section pt-6 pb-5 mb--100">
+
+        <section className="whyUs-section pt-6 pb-5 mb--100 homeSec">
           <div className="container">
             <div className="text-center">
               <h2 className="sectionTitle whyUsHeading">{elements.homeWhyUs.whyUsHeading}</h2>
@@ -273,6 +274,52 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
+
+        <section className="whyUs-sectionmob pt-3 pb-5 mb--100 homeDesk">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="sectionTitle whyUsHeading">{elements.homeWhyUs.whyUsHeading}</h2>
+            </div>    
+            <div className="row">
+              <div className="col-md-4 mtsm1">
+                <div className="card m-20 p-3 h-100">
+                  <div className="card-body text-center position-relative">
+                    <Image src={elements.homeWhyUs.whyUs1Icon.sourceUrl} width="100" height="100"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs1Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs1Description}</p>
+                    <a href="/lead-generation" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mtsm1">
+                <div className="card m-20 p-3 h-100">
+                  <div className="card-body text-center position-relative">
+                    <Image src={elements.homeWhyUs.whyUs2Icon.sourceUrl} width="100" height="100"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs2Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs2Description}</p>
+                    <a href="/automate-your-business" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 mtsm1">
+                <div className="card m-20 p-3 h-100">
+                  <div className="card-body text-center position-relative">
+                  <Image src={elements.homeWhyUs.whyUs3Icon.sourceUrl} width="100" height="100"/>
+                    <h5 className="card-title mt-5 text-orange">{elements.homeWhyUs.whyUs3Title}</h5>
+                    <p className="card-text mt-4">{elements.homeWhyUs.whyUs3Description}</p>
+                    <a href="/brand-building" className={styles.btnWhyUs+" btn btn-warning top-100 start-50 translate-middle"}>Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
         <section className="pt-5 pb-5 bg-darken">
           <div className="container p-3">
             <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
