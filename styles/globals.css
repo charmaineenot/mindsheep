@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h5{
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .clear{
@@ -543,7 +543,7 @@ ul.dropdown-menu.services-dropdown.show {
   font-weight: 300;
   padding: 8px 10px 8px 10px;
   line-height: normal;
-  display:none;
+
 }
 
 .footer-form button{
@@ -556,7 +556,6 @@ ul.dropdown-menu.services-dropdown.show {
   border-bottom-right-radius: 3px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  display:none;
 }
 
 .newsletter-form-error{
@@ -1010,10 +1009,21 @@ ul.dropdown-menu.services-dropdown.show {
   .whyUs-sectionmob{
     background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2022/03/Gray-Image.png);
     background-repeat: no-repeat;
-    background-position: -95px center;
+    background-position: -112px center;
     background-size: cover;
   }
   #smText{
     font-size:15px;
+  }
+  .footer-form input[type=email]{
+    display:none;
+  }
+  .footer-form button{
+    display:none;
+  }
+  span{
+  font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
   }
 }
