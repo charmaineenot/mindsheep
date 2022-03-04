@@ -992,6 +992,7 @@ ul.dropdown-menu.services-dropdown.show {
     font-size:10px;
     text-align: start;
     font-weight: lighter;
+    padding-left: 15px;
   }
   #bgFooter{
     background: #24242C;
@@ -1009,7 +1010,7 @@ ul.dropdown-menu.services-dropdown.show {
   .whyUs-sectionmob{
     background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2022/03/Gray-Image.png);
     background-repeat: no-repeat;
-    background-position: -112px center;
+    background-position: -119px center;
     background-size: cover;
   }
   #smText{

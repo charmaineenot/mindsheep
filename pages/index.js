@@ -275,7 +275,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           </div>
         </section>
 
-        <section className="whyUs-sectionmob pt-3 pb-5 mb--100 homeDesk">
+        <section className="whyUs-sectionmob pt-3 pb-6 homeDesk">
           <div className="container">
             <div className="text-center">
               <h2 className="sectionTitle whyUsHeading">{elements.homeWhyUs.whyUsHeading}</h2>
@@ -320,9 +320,17 @@ const content = ({pageMeta,pageContent,footerContent}) => {
 
 
 
-        <section className="pt-5 pb-5 bg-darken">
+        <section className="pt-5 pb-5 bg-darken homeSec">
           <div className="container p-3">
             <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription}</a></p>
+            <p className="p-0 mt-3 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription2}</a></p>
+          </div>
+        </section>
+
+
+        <section className="pb-3 bg-darken homeDesk">
+          <div className="container p-3">
+            <p className="p-0 mt-3 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription}</a></p>
             <p className="p-0 mt-3 text-white text-center sm-p-0 fs-4"><a id='smText'>{elements.homeAbout.shortDescription2}</a></p>
           </div>
         </section>
