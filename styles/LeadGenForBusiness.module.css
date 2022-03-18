@@ -49,3 +49,21 @@
 .section4{
     border-bottom: 1px solid #FFF;
 }
+
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .gearSmallContainer, .gearMedContainer, .gearLargeContainer{
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .gearSmallContainer, .gearMedContainer, .gearLargeContainer{
+        display: none;
+    }
+    #section2Video{
+        margin-top: 20px;
+    }
+}

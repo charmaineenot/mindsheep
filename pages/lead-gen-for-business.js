@@ -96,7 +96,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                             <h2 className={styles.bannerTitle}>And our secret sauce is the following:</h2>
                             <hr className={styles.borderBottomOrange+" mb-5"}></hr>
                         </div>
-                        <div className="col-md-6 mb-5">
+                        <div className="col-md-6">
                             <div className={styles.borderOrange +" d-flex mb-5"}>
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">01</h2>
@@ -114,7 +114,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 mb-5">
+                        <div className="col-md-6">
                             <div className={styles.borderOrange +" d-flex mb-5"}>
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">03</h2>
