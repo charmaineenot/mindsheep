@@ -88,12 +88,12 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                 </div>
             </section>
-            <section className="pt-8 pb-10 bg-gray">
+            <section className={styles.gearSection3 +" pt-8 pb-6 bg-gray"}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center mb-5">
                             <h2 className={styles.bannerTitle}>And our secret sauce is the following:</h2>
-                            <hr className={styles.borderBottomOrange}></hr>
+                            <hr className={styles.borderBottomOrange+" mb-5"}></hr>
                         </div>
                         <div className="col-md-6 mb-5">
                             <div className={styles.borderOrange +" d-flex mb-5"}>
@@ -134,9 +134,36 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                 </div>
             </section>
+            <section className={styles.section4+" pt-8 pb-8 bg-darken"}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center mb-5">
+                            <h2 className={styles.bannerTitle+" text-white"}>How Can We Improve Your Lead Generation?</h2>
+                        </div>
+                        <div className="col-lg-4 pt-4 px-5 vmiddle text-center">
+                            <Image width="87" height="74" src={elements.leadGenForBusinessBanner.section4Img1.sourceUrl} />
+                            <p className="mt-4 text-white">Refined Marketing Solution that provides consistent leads – our approach is established and working.</p>
+                        </div>
+                        <div className="col-lg-4 pt-4 px-5 vmiddle text-center">
+                            <Image width="79" height="78" src={elements.leadGenForBusinessBanner.section4Img2.sourceUrl} />
+                            <p className="mt-3 text-white">We become your marketing team; you get the marketing strategist, social media expert, graphic designer, and chatbot developer and they all work together to deliver returns</p>
+                        </div>
+                        <div className="col-lg-4 pt-4 px-5 vmiddle text-center">
+                            <Image width="105" height="72" src={elements.leadGenForBusinessBanner.section4Img3.sourceUrl} />
+                            <p className="mt-4 text-white">You will have more freedom to negotiate with your existing builder or maybe new ones to improve your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="pt-8 pb-10 bg-darken">
                 <div className="container">
                     <div className="row">
+                        <div className="col-md-12 text-center mb-5">
+                            <h2 className={styles.bannerTitle+" text-orange"}>Why Act Now?</h2>
+                        </div>
+                        <div className="col-lg-12 pt-4 px-5 vmiddle text-center">
+                            <p className="fs-18 text-white">Right now, we are reaching out to gain one client per city only. We do this to avoid any potential conflicts. <br/>So please don’t wait, we have had some demand but we are looking to partner with the right client as not everyone is suitable for this service.</p>
+                        </div>
                     </div>
                 </div>
             </section>

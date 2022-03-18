@@ -39,3 +39,13 @@
     opacity: 1;
     margin: 40px auto 0 auto;
 }
+
+.gearSection3{
+    background: url(https://wp.mindsheep.com.au/wp-content/uploads/2022/03/Gear4-01-1.png) #E8E8E8;
+    background-repeat: no-repeat;
+    background-position: 96% 110%;
+}
+
+.section4{
+    border-bottom: 1px solid #FFF;
+}
