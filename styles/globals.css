@@ -18,12 +18,12 @@
 .body{
   overflow-x: hidden;
 }
-h1,h2,h3,h4,h5,h5{
+h1,h2,h3,h4,h5,h6{
   font-family: "AlyssumSans";
 }
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
 }
 .clear{
@@ -51,6 +51,10 @@ p, span, ol{
 
 .text-black{
   color: #24242c;
+}
+
+.fs-18{
+  font-size: 18px;
 }
 
 .pt-6{
@@ -123,7 +127,7 @@ p, span, ol{
 }
 
 .bg-gray{
-  background-color: #e5e5e5;
+  background-color: #E8E8E8;
 }
 
 .bg-darken{
@@ -137,6 +141,7 @@ p, span, ol{
 .h-75p{
   height: 75px;
 }
+/* END DEFAULTS */
 
 .logo{
   cursor: pointer;
@@ -602,6 +607,21 @@ ul.dropdown-menu.services-dropdown.show {
     background-color: #e5e5e5;
 }
 /* END LEAD GEN PERTH */
+
+/* BEGIN LEAD GEN FOR BUSINESS */
+.leadGenForBusiness .Footer .testimonials,
+.leadGenForBusiness .Footer .testimonials{
+  display: none;
+}
+.leadGenForBusiness .Footer .partners,
+.leadGenForBusiness .Footer .partners{
+  display: none;
+}
+.leadGenForBusiness .Footer .talktous,
+.leadGenForBusiness .Footer .talktous{
+  background-color: #E8E8E8;
+}
+/* END LEAD GEN FOR BUSINESS */
 
 /* BEGIN MENU */
 .navbar-nav .nav-item{
