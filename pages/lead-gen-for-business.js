@@ -67,6 +67,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                             <p className={styles.borderLeftOrange+" ps-5"}>These were actually qualified leads that provided names and their details.</p>
                             <p className="mt-4 fst-italic">Many of these leads all came through our Chatbot Automation which has been refined to provide the best possible outcome.</p>
                             <p className="fst-italic">So, the client didn’t have to lift a finger to gain the vast majority of these leads.</p>
+                            <a href="#talktous" className="mt-2 btn btn-orange">Learn More</a>
                         </div>
                         <div className="col-md-5 px-5">
                             <video autoPlay muted loop playsInline id={styles.section2Video}>
@@ -100,7 +101,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">01</h2>
                                 </div>
-                                <div className="flex-fill p-5  pb-4">
+                                <div className="flex-fill p-4 vmiddle">
                                     <p>Our visuals use genuine imagery from you & your existing clients.</p>
                                 </div>
                             </div>
@@ -108,7 +109,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">02</h2>
                                 </div>
-                                <div className="flex-fill p-5  pb-4">
+                                <div className="flex-fill p-4 vmiddle">
                                     <p>Top-notch designer to ensure our creatives are professional, fresh, and engaging.</p>
                                 </div>
                             </div>
@@ -118,7 +119,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">03</h2>
                                 </div>
-                                <div className="flex-fill p-5  pb-4">
+                                <div className="flex-fill p-4 vmiddle">
                                     <p>Closely monitoring of local competitors' ads to make sure we are ahead of the pack.</p>
                                 </div>
                             </div>
@@ -126,7 +127,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                                 <div className="bg-orange flex-fill p-5">
                                     <h2 className="text-white text-center">04</h2>
                                 </div>
-                                <div className="flex-fill p-5  pb-4">
+                                <div className="flex-fill p-4 vmiddle">
                                     <p>We regularly refresh our clients’ ads so they are always current and never go stale.</p>
                                 </div>
                             </div>
@@ -163,6 +164,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         </div>
                         <div className="col-lg-12 pt-4 px-5 vmiddle text-center">
                             <p className="fs-18 text-white">Right now, we are reaching out to gain one client per city only. We do this to avoid any potential conflicts. <br/>So please don’t wait, we have had some demand but we are looking to partner with the right client as not everyone is suitable for this service.</p>
+                            <a href="#talktous" className="mt-5 btn btn-orange">Get Started Now</a>
                         </div>
                     </div>
                 </div>

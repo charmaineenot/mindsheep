@@ -235,6 +235,20 @@ ul.dropdown-menu.services-dropdown.show {
   border: 0px;
 }
 
+.btn-orange{
+  background-color: #fa5801;
+  color: #fff;
+  border: 2px solid #fa5801;
+  border-radius: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 8px 30px;
+}
+
+.btn-orange:hover{
+  background-color: #FFF;
+  color: #000;
+}
+
 
 /** HOME PAGE **/
 #video-banner{
