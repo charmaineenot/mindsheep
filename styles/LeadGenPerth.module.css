@@ -1,0 +1,441 @@
+/* Defaults */
+.leadGenBtn {
+    /* width: 250px; */
+    color: #fff;
+    background-color: #fa5801;
+    border: none;
+    border-radius: 0;
+    font-size: 30px;
+    font-family: Josefin Sans,sans-serif;
+    line-height: normal;
+    padding: 16px 35px;
+}
+.btnExtended{
+    min-width: 280px;
+}
+.bannerSection{
+    height: auto !important;
+}
+.videoBanner{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    -webkit-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+}
+.bannerText{
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-transform: inherit;
+    margin-bottom: 70px;
+}
+.denesHeading{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 25px 0;
+    border-top: 2px solid #f55700;
+    border-bottom: 2px solid #f55700;
+}
+.denesImg{
+    position: relative;
+    left: -50px;
+    width: 100%;
+}
+.denesSection{
+    background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/11/denes-bg-img-01-1-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.denesSectoinH{
+    padding: 0 14%;
+    line-height: 50px;
+}
+.denesList ul{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.denesList ul li{
+    margin-top: 5px;
+}
+.denesList span{
+    font-size: 28px;
+    font-weight: 400;
+}
+.denesList svg{
+    font-size: 25px;
+    color: #e85c00;
+}
+.testimonialContainer{
+    background-color: #fff;
+    border: 3px solid #272727;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+.testimonialText{
+    width: 55%;
+    padding: 10px;
+    min-height: 120px;
+    align-items: center;
+    display: flex;
+    border-right: 1px solid #000;
+}
+.testimonialText p,
+.companyText,
+.howeworkText p,
+.whyText p,
+.servicesText p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.whyText p{
+    margin-right: 80px;
+}
+.testimonialTitle > p b{
+    font-size: 28px;
+}
+.testimonialImg{
+    width: 20%;
+    padding-left: 15px;
+}
+.testimonialTitle{
+    width: 25%;
+}
+.howeworkHeading{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.howeworkHeading:after,
+.whyText h4:after,
+.servicesText h4:after{
+    width: 80px;
+    border-top: 7px solid #f95800;
+    content: "";
+    display: block;
+    position: relative;
+    right: 0;
+    margin-bottom: 50px;
+    bottom: -20px;
+}
+/* .howeworkHeading:after{
+    margin-top: 50px;
+} */
+.whyContainer{
+    display: flex;
+}
+.whySectionH{
+    padding: 0 25%;
+    line-height: 1.5em;
+    font-size: 45px;
+}
+.whyImg{
+    width: auto;
+    margin-right: 45px;
+}
+.whyText{
+    width: 70%;
+}
+.whyText h4{
+    font-size: 30px;
+}
+.ServicesFirstrow{
+    margin-bottom: 50px;
+}
+.services{
+    min-height: 600px;
+    border: 1px solid #030303;
+}
+.servicesText h4{
+    font-size: 34px;
+}
+.servicesImg img{
+    width: 100%;
+}
+.serviceImg1{
+    margin-top: -14px;
+}
+.serviceImg2{
+    margin-top: -18px;
+}
+.serviceImg3{
+    margin-top: -16px;
+}
+.serviceImg4{
+    margin-top: -31px;
+}
+.servicesText{
+    padding: 20px;
+}
+.clickableDiv{
+    color: #212529;
+    text-decoration: none;
+}
+.clickableDiv:hover{
+    color:  #212529;
+}
+
+/* XS Mobile */
+@media (max-width: 320px) {
+    .testimonialContainer{
+        display: block;
+        text-align: center;
+    }
+    .testimonialText{
+        width: 100%;
+    }
+    .testimonialImg{
+        border-left: 0px;
+        border-top: 1px solid #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .testimonialTitle{
+        width: 100%;
+    }
+    .denesSectoinH{
+        padding: 0;
+    }
+    .denesHeading{
+        font-size: 25px;
+    }
+    .denesList span{
+        font-size: 18px;
+    }
+    .whyContainer{
+        display: block;
+    }
+    .whyImg{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .whyText{
+        width: 100%;
+        text-align: center;
+    }
+    .whyText h4:after{
+        right: -105px;
+    }   
+
+
+}
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .leadGenBtn{
+        font-size: 15px;
+        min-width: auto;
+        padding: 10px 25px;
+    }
+    .smPtPb{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .mobilepx3{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .videoBanner{
+        top: 25px;
+        left: -22px;
+        position: relative;
+    }
+    .bannerSection{
+        height: auto !important;
+        padding-bottom: 15px;
+    }
+    .bannerText{
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bannerBtn{
+        font-size: 15px !important;
+        padding: 10px 25px;
+    }
+    .denesSection{
+        padding-top: 3em;
+        text-align: center;
+    }
+    .whySectionH{
+        padding: 0 10%;
+    }
+    .whyText p{
+        margin-right: 0;
+    }
+    .whyImg{
+        margin-right: 15px;
+    }
+    .denesCol1{
+        width: 40%;
+    }
+    .denesCol2{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .denesSectoinH{
+        padding: 0 5%;
+    }
+    .denesHeading{
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .denesImg{
+        left: -45px;
+        top: 35px;
+        width: 200px;
+    }
+    .denesList span{
+        font-size: 12px;
+    }
+    .denesList img{
+        width: 32px;
+    }
+    .davidDenesImg{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .testimonialImg{
+        width: auto;
+        padding-right: 5px;
+    }
+    .denesList ul{
+        margin-left: -20px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .denesList ul li{
+        margin-top: -5px;
+    }
+    .DenesBtn{
+        min-width: 100%;
+        font-size: 15px !important;
+        padding: 10px 25px;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .whyContainer{
+        margin-bottom: 30px;
+    }
+    .services{
+        min-height: auto;
+        margin-bottom: 50px;
+    }
+    .ServicesFirstrow{
+        margin-bottom: 0;
+    }
+    .serviceImg1{
+        margin-top: -7px;
+    }
+    .serviceImg2{
+        margin-top: -9px;
+    }
+    .serviceImg3{
+        margin-top: -8px;
+    }
+    .serviceImg4{
+        margin-top: -16px;
+    }
+    .textCol{
+        order: 2;
+        width: 50%;
+    }
+    .videoCol{
+        order: 1;
+        width: 50%;
+    }
+    .testimonialText p,
+    .companyText,
+    .howeworkText p,
+    .whyText p,
+    .servicesText p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .testimonialTitle > p b{
+        font-size: 20px;
+    }
+    .whyText h4{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .servicesText h4{
+        font-size: 20px;
+    }
+    .smCenter{
+        text-align: center;
+    }
+    .howeworkText p{
+        margin-left: 20px;
+    }
+    .howeworkHeading{
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: 5%;
+    }
+    .mobileMTRev10{
+        margin-top: -10px !important;
+    }
+    .MobilePT{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .noMarginBottom{
+        margin-bottom: 0;
+    }
+    .noMarginTB{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .davidDenesImg{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .denesSectoinH , .whySectionH{
+        padding: 0;
+    }
+    .denesList ul{
+        margin-left: 15%;
+    }
+    .services{
+        min-height: 450px;
+    }
+    .serviceImg1{
+        margin-top: -7px;
+    }
+    .serviceImg2{
+        margin-top: -9px;
+    }
+    .serviceImg3{
+        margin-top: -8px;
+    }
+    .serviceImg4{
+        margin-top: -16px;
+    }
+    .textCol{
+        order: 2;
+    }
+    .videoCol{
+        order: 1;
+    }
+}
+
+@media (min-width: 480px) {
+    .denesMobileImg{
+        display: none;
+    }
+}

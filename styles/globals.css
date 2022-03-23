@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "JosefinSansBold";
+  src: url("/fonts/AlyssumSans/JosefinSansBold.TTF");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
 /* DEFAULTS */
 .body{
   overflow-x: hidden;
@@ -31,6 +39,10 @@ p, span, ol{
 
 .text-orange{
   color: #f95800 !important;
+}
+
+.text-orange-dark{
+  color: #D04700
 }
 
 .text-white{
@@ -61,17 +73,49 @@ p, span, ol{
   padding-bottom: 10rem;
 }
 
+.ps-80{
+  padding: 0 80px;
+}
+
+.ps-30{
+  padding: 0 30px;
+}
+
+.pr-25{
+  padding-right: 25px;
+}
+
+.pl-25{
+  padding-left: 25px;
+}
+
 .vmiddle{
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mt-4{
+  margin-top: 8rem;
 }
 
 .mt-8{
   margin-top: 8rem;
 }
 
+.mt-30{
+  margin-top: 30px;
+}
+
 .m-20{
   margin: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;;
+}
+
+.mb-50{
+  margin-bottom: 50px;
 }
 
 .mb--100{
@@ -147,7 +191,7 @@ ul.dropdown-menu.services-dropdown.show {
 
 .services-dropdown .services-inner-menu li a:hover{
   background-color: transparent;
-  color: #e85c00 !important;
+  color: #fa5801 !important;
 }
 
 .btn-call{
@@ -157,7 +201,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 
 .btn-call:hover{
-  background-color: #e85c00;
+  background-color: #fa5801;
   border: 0px;
   color: #FFF;
 }
@@ -168,11 +212,11 @@ ul.dropdown-menu.services-dropdown.show {
 
 .btn-call svg{
   margin-right: 5px;
-  color:#e85c00;
+  color:#fa5801;
 }
 
 .btn-more{
-  background-color: #e85c00;
+  background-color: #fa5801;
   color: #fff;
   border: 0px;
   border-radius: 0;
@@ -292,7 +336,8 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .crateImgCont{
   position: absolute;
-  left: 15px;
+  left: -150px;
+  margin-top: -280px;
 }
 .crateImg{
   position: absolute;
@@ -302,8 +347,8 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .wateringImgCont{
   position: absolute;
-  right: 15px;
-  margin-top: -75px;
+  right: 0;
+  margin-top: -80px;
 }
 .watercingImg{
   position: absolute;
@@ -426,6 +471,9 @@ ul.dropdown-menu.services-dropdown.show {
 /* END Embla Carousel */
 
 /* BEGIN Home Contact Form */
+  .contact-form .mc-field-group{
+    margin-bottom: 10px;
+  }
   .contact-form input{
     width: 50%;
     margin-bottom: 12px;
@@ -434,7 +482,7 @@ ul.dropdown-menu.services-dropdown.show {
     border-color: #000000;
     background: transparent;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .contact-form button{
@@ -446,11 +494,19 @@ ul.dropdown-menu.services-dropdown.show {
     border: 2px solid #f55a00;
     border-radius: 2px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 /* END Home Contact Form */
 
 /* BEGIN Footer Form */
+.contactTitle{
+  font-weight: 400;
+  margin-right: 120px;
+}
+.contactSubText{
+  font-weight: 400;
+  font-size: 19px;
+}
 .footer-form input[type=email]{
   width: 300px;
   height: 40px;
@@ -532,6 +588,21 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* END AUTOMATE BUSINESS */
 
+/* START LEAD GEN PERTH */
+.LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
+  font-size: 45px;
+  font-family: "JosefinSansBold";
+  text-transform: uppercase;
+}
+.LeadGenPerth .Footer .partners,
+.LeadGenPerth .Footer .testimonials{
+  display: none;
+}
+.LeadGenPerth .Footer .talktous{
+    background-color: #e5e5e5;
+}
+/* END LEAD GEN PERTH */
+
 /* BEGIN MENU */
 .navbar-nav .nav-item{
   margin-right: 19px;
@@ -540,7 +611,7 @@ ul.dropdown-menu.services-dropdown.show {
   color: #fff;
 }
 .navbar-toggler{
-  background-color: #e85c00;
+  background-color: #fa5801;
 }
 .navbar-toggler span{
   color: #fff !important;
@@ -552,7 +623,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .navbar-nav .nav-item .nav-link:hover,
 .dropdown-menu.services-dropdown a:hover{
-  background-color: #e85c00;
+  background-color: #fa5801;
   color: #FFF !important;
 }
 
@@ -572,6 +643,15 @@ ul.dropdown-menu.services-dropdown.show {
   .boxed{
       max-width: 1320px !important;
       margin: auto;
+  }
+  .wide{
+    max-width: 1320px !important;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px){
+  .ps-100{
+    padding: 0 100px;
   }
 }
 /* Tablets and Mobile */
@@ -638,6 +718,13 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .wide{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
   .dropdown-menu.services-dropdown{
     display: block !important;
   }
@@ -671,6 +758,10 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .nav-container{
     padding-right: 0 !important;
+  }
+  .smPbPt{
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .sm-p-20{
     padding: 20px;
@@ -749,5 +840,33 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .rowAuto{
     --bs-gutter-x: auto !important;
+  }
+  .LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .crateImgCont,
+  .wateringImgCont{
+    display: none;
+  }
+  .contactTitle,
+  .contactSubText{
+    text-align: center;
+  }
+  .contactTitle{
+    font-size: 22px !important;
+    margin-right: 0;
+  }
+  .contactSubText{
+    font-size: 15px;
+  }
+  .pr-25{
+    padding-right: 12px;
+  }
+  .pl-25{
+    padding-left: 12px;
+  }
+  body.LeadGenPerth .banner-content{
+    padding-top: 0;
   }
 }

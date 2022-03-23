@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
 import { config } from "@fortawesome/fontawesome-svg-core";
+import ReactQuoraPixel from 'react-quora-pixel';
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 function MyApp({ Component, pageProps }) {
@@ -48,6 +49,14 @@ function MyApp({ Component, pageProps }) {
       s.async = 1;
       d.getElementsByTagName("body")[0].appendChild(s);
     })();
+  });
+
+  useEffect(() => {
+    !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', 'e9b821e7c54040bcacba26fbe2ff3931');
+    qp('track', 'ViewContent');
+
+    <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/e9b821e7c54040bcacba26fbe2ff3931/pixel?tag=ViewContent&noscript=1"/></noscript>
   });
 
   return (
