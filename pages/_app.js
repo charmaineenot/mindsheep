@@ -25,15 +25,15 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
-  useEffect(async () => {
-    const { default: ReactPixel } = await import('react-facebook-pixel');
-    ReactPixel.init('1083310298772388', null, {
-        autoConfig: true,
-        debug: true,
-      });
-    ReactPixel.pageView();
-    ReactPixel.track("ViewContent")
-  });
+  // useEffect(async () => {
+  //   const { default: ReactPixel } = await import('react-facebook-pixel');
+  //   ReactPixel.init('1083310298772388', null, {
+  //       autoConfig: true,
+  //       debug: true,
+  //     });
+  //   ReactPixel.pageView();
+  //   ReactPixel.track("ViewContent")
+  // });
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle")
@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
     // Responsive meta tag
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="facebook-domain-verification" content="eaw09084tc0bpcfl2ukw56x6cmybeh" />
+    {/* <meta name="facebook-domain-verification" content="eaw09084tc0bpcfl2ukw56x6cmybeh" /> */}
     <link rel="shortcut icon" href="/favicon.png" />
     <link rel="preload" href="/fonts/AlyssumSans/AlyssumSans.TTF" as="font" crossOrigin="" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -90,6 +90,26 @@ function MyApp({ Component, pageProps }) {
         `,
       }}
     />
+
+    <script strategy="lazyOnload"
+      dangerouslySetInnerHTML={{
+        __html: `
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1083310298772388');
+        fbq('track', 'PageView');
+        `,
+      }}
+    />
+    <noscript><img height="1" width="1" style={{display:"none"}}
+    src="https://www.facebook.com/tr?id=1083310298772388&ev=PageView&noscript=1"
+    /></noscript>
     </Head>
     <Component {...pageProps} />
     </>
