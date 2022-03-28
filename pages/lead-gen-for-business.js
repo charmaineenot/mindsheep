@@ -60,21 +60,21 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                             <h2 className={styles.bannerTitle+" text-orange"}>{elements.leadGenForBusinessBanner.section2Heading730}</h2>
                         </div>
                         <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-5 px-5 vmiddle">
+                        
+                        <div className="col-md-6 px-5 vmiddle">
                             <p className={styles.borderLeftOrange+" ps-5"}>Last year alone, we set up our client in Perth which created a massive number of leads.</p>
-                            <p className={styles.borderLeftOrange+" ps-5"}>At one point we had close to 200 leads in just a span of one month.</p>
+                            <p className={styles.borderLeftOrange+" ps-5"}>Leads were coming it so fast, we implemented our chatbot system far sooner than expected so Denes could keep up!</p>
                             <p className={styles.borderLeftOrange+" ps-5"}>These were actually qualified leads that provided names and their details.</p>
                             <p className="mt-4 fst-italic">Many of these leads all came through our Chatbot Automation which has been refined to provide the best possible outcome.</p>
                             <p className="fst-italic">So, the client didn’t have to lift a finger to gain the vast majority of these leads.</p>
                             <a href="#talktous" className="mt-2 btn btn-orange">Learn More</a>
                         </div>
-                        <div className="col-md-5 px-5">
+                        <div className="col-md-6 px-5">
                             <video autoPlay muted loop playsInline id={styles.section2Video}>
                                 <source src={elements.leadGenForBusinessBanner.section2Image.mediaItemUrl} type="video/mp4"/>
                             </video>
                         </div>
-                        <div className="col-md-1"></div>
+                        
 
                         <div className="col-md-6">
                             <div className={styles.gearLargeContainer}>
@@ -163,7 +163,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                             <h2 className={styles.bannerTitle+" text-orange"}>Why Act Now?</h2>
                         </div>
                         <div className="col-lg-12 pt-4 px-5 vmiddle text-center">
-                            <p className="fs-18 text-white">Right now, we are reaching out to gain one client per city only. We do this to avoid any potential conflicts. <br/>So please don’t wait, we have had some demand but we are looking to partner with the right client as not everyone is suitable for this service.</p>
+                            <p className="fs-18 text-white">Right now, with the market in Australia quite hot, we only have capacity for 2 more clients.  We limit our capacity to ensure a high quality of service.  <br/>So, don’t wait, we are looking to partner with the right client as not everyone is suitable for this service.</p>
                             <a href="#talktous" className="mt-5 btn btn-orange">Get Started Now</a>
                         </div>
                     </div>
