@@ -1,0 +1,71 @@
+.leadGenForBusinessBanner{
+    height: auto !important;
+    background: #24242c;
+}
+#section2Video{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.gearSmallContainer{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+.gearMedContainer{
+    position: absolute;
+    right: 0px;
+    margin-top: -20px;
+}
+.gearLargeContainer{
+    position: absolute;
+    left: 0px;
+    margin-top: -200px;
+    z-index: -1;
+}
+
+.borderOrange{
+    border: 3px solid #bc4002;
+}
+.borderLeftOrange{
+    border-left: 7px solid #f95800;
+    font-size: 24px;
+}
+.borderBottomOrange{
+    border-bottom: 7px solid #f95800;
+    width: 100px;
+    opacity: 1;
+    margin: 40px auto 0 auto;
+}
+
+.gearSection3{
+    background: url(https://wp.mindsheep.com.au/wp-content/uploads/2022/03/Gear4-01-1.png) #E8E8E8;
+    background-repeat: no-repeat;
+    background-position: 96% 110%;
+}
+
+.section4{
+    border-bottom: 1px solid #FFF;
+}
+
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .gearSmallContainer, .gearMedContainer, .gearLargeContainer{
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .gearSmallContainer, .gearMedContainer, .gearLargeContainer{
+        display: none;
+    }
+    #section2Video{
+        margin-top: 20px;
+    }
+}
