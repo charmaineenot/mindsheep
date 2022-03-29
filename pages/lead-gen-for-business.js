@@ -4,13 +4,18 @@ import { GET_LEAD_GEN_FOR_BUSINESS } from "../lib/wordpress/api";
 import { FOOTER_DATA } from "../lib/wordpress/api";
 import Layout from "../components/layout";
 import styles from "../styles/LeadGenForBusiness.module.css";
+import React from "react";
 import { useEffect } from "react";
+import ContactSubmit from "../components/contact-form/contact-submit";
+// reactstrap components
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 
 const content = ({pageMeta,pageContent,footerContent}) => {
     useEffect( () => { document.querySelector("body").classList.add("leadGenForBusiness") } );
     const elements = pageContent;
     const footerData = footerContent;
     const pageData = pageMeta;
+    const [modalOpen, setModalOpen] = React.useState(false);
 
     return(
         <Layout page={pageData} elements={elements,footerData}>
@@ -67,7 +72,40 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                             <p className={styles.borderLeftOrange+" ps-5"}>These were actually qualified leads that provided names and their details.</p>
                             <p className="mt-4 fst-italic">Many of these leads all came through our Chatbot Automation which has been refined to provide the best possible outcome.</p>
                             <p className="fst-italic">So, the client didn’t have to lift a finger to gain the vast majority of these leads.</p>
-                            <a href="#talktous" className="mt-2 btn btn-orange">Learn More</a>
+                            {/* <a href="#talktous" className="mt-2 btn btn-orange">Learn More</a> */}
+                            <Button
+                            color="primary"
+                            type="button"
+                            className="mt-2 btn btn-orange"
+                            onClick={() => setModalOpen(!modalOpen)}
+                            >Learn More</Button>
+                            <Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen}>
+                                <div className=" modal-header">
+                                <h5 className=" modal-title" id="exampleModalLabel">
+                                    Get in touch with us
+                                </h5>
+                                <button
+                                    aria-label="Close"
+                                    className=" close"
+                                    type="button"
+                                    onClick={() => setModalOpen(!modalOpen)}
+                                >
+                                    <span aria-hidden={true}>×</span>
+                                </button>
+                                </div>
+                                <ModalBody>
+                                    <ContactSubmit/>
+                                </ModalBody>
+                                <ModalFooter>
+                                <Button
+                                    color="secondary"
+                                    type="button"
+                                    onClick={() => setModalOpen(!modalOpen)}
+                                >
+                                    Close
+                                </Button>
+                                </ModalFooter>
+                            </Modal>
                         </div>
                         <div className="col-md-6 px-5">
                             <video autoPlay muted loop playsInline id={styles.section2Video}>
@@ -164,7 +202,13 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         </div>
                         <div className="col-lg-12 pt-4 px-5 vmiddle text-center">
                             <p className="fs-18 text-white">Right now, with the market in Australia quite hot, we only have capacity for 2 more clients.  We limit our capacity to ensure a high quality of service.  <br/>So, don’t wait, we are looking to partner with the right client as not everyone is suitable for this service.</p>
-                            <a href="#talktous" className="mt-5 btn btn-orange">Get Started Now</a>
+                            {/* <a href="#talktous" className="mt-5 btn btn-orange">Get Started Now</a> */}
+                            <Button
+                            color="primary"
+                            type="button"
+                            className="mt-2 btn btn-orange"
+                            onClick={() => setModalOpen(!modalOpen)}
+                            >Get Started Now</Button>
                         </div>
                     </div>
                 </div>

@@ -74,7 +74,7 @@ const ContactForm = ( { status, message, onValidated }) => {
 
   return (
     <>
-      <div className="contact-form text-center">
+      <div className="contact-form text-center mt-5">
         <div className="mc-field-group">
           <input
             onChange={(event) => setFullname(event?.target?.value ?? '')}
