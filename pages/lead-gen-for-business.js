@@ -67,7 +67,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         <div className="col-md-1"></div>
                         
                         <div className="col-md-6 px-5 vmiddle">
-                            <p className={styles.borderLeftOrange+" ps-5"}>Last year alone, we set up our client in Perth which created a massive number of leads.</p>
+                            <p className={styles.borderLeftOrange+" ps-5"}>Recently, we setup a new client from zero leads and no online presence to now gaining a massive and sustainable number of leads.</p>
                             <p className={styles.borderLeftOrange+" ps-5"}>Leads were coming it so fast, we implemented our chatbot system far sooner than expected so Denes could keep up!</p>
                             <p className={styles.borderLeftOrange+" ps-5"}>These were actually qualified leads that provided names and their details.</p>
                             <p className="mt-4 fst-italic">Many of these leads all came through our Chatbot Automation which has been refined to provide the best possible outcome.</p>
@@ -127,7 +127,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                     </div>
                 </div>
             </section>
-            <section className={styles.gearSection3 +" pt-8 pb-6 bg-gray"}>
+            <section className={styles.gearSection3 +" pt-8 pb-6 bg-gray d-none"}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center mb-5">
@@ -189,7 +189,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         </div>
                         <div className="col-lg-4 pt-4 px-5 vmiddle text-center">
                             <Image width="105" height="72" src={elements.leadGenForBusinessBanner.section4Img3.sourceUrl} />
-                            <p className="mt-4 text-white">You will have more freedom to negotiate with your existing builder or maybe new ones to improve your business.</p>
+                            <p className="mt-4 text-white">We get you talking to your ideal client, and by the time they are talking to you.. they are pre-qualified and very interested in what you have to offer.</p>
                         </div>
                     </div>
                 </div>
