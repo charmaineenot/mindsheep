@@ -68,7 +68,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         
                         <div className="col-md-6 px-5 vmiddle">
                             <p className={styles.borderLeftOrange+" ps-5"}>Recently, we setup a new client from zero leads and no online presence to now gaining a massive and sustainable number of leads.</p>
-                            <p className={styles.borderLeftOrange+" ps-5"}>Leads were coming it so fast, we implemented our chatbot system far sooner than expected so Denes could keep up!</p>
+                            <p className={styles.borderLeftOrange+" ps-5"}>Leads were coming in so fast, we implemented our chatbot system far sooner than expected so Denes could keep up!</p>
                             <p className={styles.borderLeftOrange+" ps-5"}>These were actually qualified leads that provided names and their details.</p>
                             <p className="mt-4 fst-italic">Many of these leads all came through our Chatbot Automation which has been refined to provide the best possible outcome.</p>
                             <p className="fst-italic">So, the client didn’t have to lift a finger to gain the vast majority of these leads.</p>
