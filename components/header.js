@@ -25,7 +25,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               <Image src="/logo-white-min.png" width="306" height="103" alt="Mindsheep logo" class="w-100 logo"/>
             </Link>
           </div>
-          <div class="col-4 col-md-2 col-lg-5 order-md-last order-sm-last vmiddle">
+          <div class="col-4 col-md-2 col-lg-6 order-md-last order-sm-last vmiddle">
             <nav class="navbar-expand-lg navbar-dark text-center">
               <div class="container-fluid nav-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,8 +97,8 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               </div>
             </div> */}
           </div>
-          <div class="col-md-6 col-lg-4 order-lg-last d-grid d-sm-flex align-items-center">
-            <a href="tel:0861026678" class="btn btn-call">
+          <div class="col-md-6 col-lg-3 order-lg-last d-grid d-sm-flex align-items-center">
+            <a href="tel:0861026678" class="btn btn-call d-none">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               (08) 6102 6678
             </a>
