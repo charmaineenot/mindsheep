@@ -90,7 +90,6 @@ function MyApp({ Component, pageProps }) {
         `,
       }}
     />
-
     <script strategy="lazyOnload"
       dangerouslySetInnerHTML={{
         __html: `
