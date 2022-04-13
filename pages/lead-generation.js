@@ -114,7 +114,7 @@ export async function getStaticProps(){
     return{
         props: {
             pageMeta: {
-              title: "Best Lead Generation Practices in Perth | Mindsheep Marketing",
+              title: "Best Lead Generation Practices in Australia | Mindsheep Marketing",
               description: "Our own tried and true methods can generate sustainable and quality leads for your business. Send us a message if you’d like to learn more."
             }, 
             pageContent,

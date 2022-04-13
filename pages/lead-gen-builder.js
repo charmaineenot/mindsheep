@@ -310,7 +310,7 @@ export async function getStaticProps(){
     return{
         props: {
           pageMeta: {
-            title: "Lead Generation Perth | Mindsheep Marketing",
+            title: "Lead Generation Australia | Mindsheep Marketing",
             description: "We have our own tried and true methods to generate sustainable, quality, and consistent leads. Message us to get started."
           }, 
           pageContent,

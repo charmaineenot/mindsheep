@@ -328,8 +328,8 @@ export async function getStaticProps(){
   return{   
       props: {
         pageMeta: {
-          title: "Marketing for Small/Medium Businesses in Perth | Mindsheep",
-          description: "More Leads. Simply Stand Out. Mindsheep uses proven marketing tactics to generate high-value leads for businesses in Perth WA. Contact us today!"
+          title: "Lead Generation for SMEs in Australia | Mindsheep",
+          description: "More Leads. Simply Stand Out. Mindsheep uses proven marketing tactics to generate high-value leads for businesses in Australia. Contact us today!"
         }, 
         pageContent,
         footerContent
