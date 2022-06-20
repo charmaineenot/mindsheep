@@ -7,12 +7,14 @@ import { useCallback } from 'react';
 import { useEffect } from 'react';
 import { useRecursiveTimeout } from './useRecursiveTimeout';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
+import { faQuoteRight } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+ // import the icons you need
 
 const AUTOPLAY_INTERVAL = 4000;
 
-const Testimonials = ({elements}) => {
-  const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false, loop : true});
+const Testimonials = ({ elements }) => {
+  const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false, loop: true });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
 
@@ -56,71 +58,107 @@ const Testimonials = ({elements}) => {
     play();
   }, [play]);
 
-    return (
-        <div className="embla">
-          <div className="embla__viewport" ref={viewportRef}>
-            <div className="embla__container text-center">
-                <div className="embla__slide">
-                  <div className="embla__slide__inner">
-                        <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3 text-black">
-                            <i>"{elements.homeTestimonials.testimonial1}"</i>
-                        </p>
-                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image1.sourceUrl}/>
-                        <h4 className="pt-4 pb-2">{elements.homeTestimonials.name1}</h4>
-                        <h5>{elements.homeTestimonials.titleposition1}</h5>
-                  </div>
+  return (
+    <div className="embla">
+      <div className="embla__viewport" ref={viewportRef}>
+        <div className="embla__container text-center">
+          <div className="embla__slide">
+            <div className="embla__slide__inner">
+              <FontAwesomeIcon icon={faQuoteRight}></FontAwesomeIcon>
+              <p className="pt-3 pb-3 text-black">
+                "{elements.homeTestimonials.testimonial1}"
+              </p>
+              <div className="row row-testimonial">
+                <div className="col-ts-2 text-right">
+                  <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image1.sourceUrl} />
                 </div>
-                <div className="embla__slide">
-                  <div className="embla__slide__inner">
-                        <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3 text-black">
-                            <i>"{elements.homeTestimonials.testimonial2}"</i>
-                        </p>
-                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image2.sourceUrl}/>
-                        <h4 className="pt-4 pb-2">{elements.homeTestimonials.name2}</h4>
-                        <h5>{elements.homeTestimonials.titleposition2}</h5>
-                  </div>
+                <div className="col-ts-3 text-left">
+                  <h4 className="pt-4 pb-2">{elements.homeTestimonials.name1}</h4>
+                  <h5>{elements.homeTestimonials.titleposition1}</h5>
                 </div>
-                <div className="embla__slide">
-                  <div className="embla__slide__inner">
-                        <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3 text-black">
-                            <i>"{elements.homeTestimonials.testimonial3}"</i>
-                        </p>
-                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl}/>
-                        <h4 className="pt-4 pb-2">{elements.homeTestimonials.name3}</h4>
-                        <h5>{elements.homeTestimonials.titleposition3}</h5>
-                  </div>
-                </div>
-                <div className="embla__slide">
-                  <div className="embla__slide__inner">
-                        <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3 text-black">
-                            <i>"{elements.homeTestimonials.testimonial4}"</i>
-                        </p>
-                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image4.sourceUrl}/>
-                        <h4 className="pt-4 pb-2">{elements.homeTestimonials.name4}</h4>
-                        <h5>{elements.homeTestimonials.titleposition4}</h5>
-                  </div>
-                </div>
-                <div className="embla__slide">
-                  <div className="embla__slide__inner">
-                        <FontAwesomeIcon icon={faQuoteLeft}></FontAwesomeIcon>
-                        <p className="pt-3 pb-3 text-black">
-                            <i>"{elements.homeTestimonials.testimonial5}"</i>
-                        </p>
-                        <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image5.sourceUrl}/>
-                        <h4 className="pt-4 pb-2">{elements.homeTestimonials.name5}</h4>
-                        <h5>{elements.homeTestimonials.titleposition5}</h5>
-                  </div>
-                </div>
+              </div>
+
             </div>
           </div>
-          <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-          <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+          <div className="embla__slide">
+            <div className="embla__slide__inner">
+              <FontAwesomeIcon icon={faQuoteRight}></FontAwesomeIcon>
+              <p className="pt-3 pb-3 text-black">
+                "{elements.homeTestimonials.testimonial2}"
+              </p>
+              <div className="row row-testimonial">
+                <div className="col-ts-2 text-right">
+                <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image2.sourceUrl} />
+                </div>
+                <div className="col-ts-3 text-left">
+                  <h4 className="pt-4 pb-2">{elements.homeTestimonials.name2}</h4>
+                  <h5>{elements.homeTestimonials.titleposition2}</h5>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div className="embla__slide">
+            <div className="embla__slide__inner">
+              <FontAwesomeIcon icon={faQuoteRight}></FontAwesomeIcon>
+              <p className="pt-3 pb-3 text-black">
+                "{elements.homeTestimonials.testimonial3}"
+              </p>
+              <div className="row row-testimonial">
+                <div className="col-ts-2 text-right">
+                <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image3.sourceUrl} />
+                </div>
+                <div className="col-ts-3 text-left">
+                <h4 className="pt-4 pb-2">{elements.homeTestimonials.name3}</h4>
+              <h5>{elements.homeTestimonials.titleposition3}</h5>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+          <div className="embla__slide">
+            <div className="embla__slide__inner">
+              <FontAwesomeIcon icon={faQuoteRight}></FontAwesomeIcon>
+              <p className="pt-3 pb-3 text-black">
+                "{elements.homeTestimonials.testimonial4}"
+              </p>
+              <div className="row row-testimonial">
+                <div className="col-ts-2 text-right">
+                <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image4.sourceUrl} />
+                </div>
+                <div className="col-ts-3 text-left">
+                <h4 className="pt-4 pb-2">{elements.homeTestimonials.name4}</h4>
+              <h5>{elements.homeTestimonials.titleposition4}</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <div className="embla__slide__inner">
+              <FontAwesomeIcon icon={faQuoteRight}></FontAwesomeIcon>
+              <p className="pt-3 pb-3 text-black">
+                "{elements.homeTestimonials.testimonial5}"
+              </p>
+              <div className="row row-testimonial">
+                <div className="col-ts-2 text-right">
+                  <Image width="84" height="84" className="embla__slide__img" src={elements.homeTestimonials.image5.sourceUrl} />
+                </div>
+                <div className="col-ts-3 text-left">
+                <h4 className="pt-4 pb-2">{elements.homeTestimonials.name5}</h4>
+              <h5>{elements.homeTestimonials.titleposition5}</h5>
+                </div>
+
+
+              </div>
+              
+            </div>
+          </div>
         </div>
-      );
+      </div>
+      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+    </div>
+  );
 };
 
 export default Testimonials;

@@ -79,7 +79,7 @@ const ContactForm = ( { status, message, onValidated }) => {
           <input
             onChange={(event) => setFullname(event?.target?.value ?? '')}
             type="text"
-            placeholder="Enter your full name"
+            placeholder="  Enter your full name"
             className="mr-2"
             onKeyUp={(event) => handleInputKeyEvent(event)}
           />
@@ -88,7 +88,7 @@ const ContactForm = ( { status, message, onValidated }) => {
           <input
             onChange={(event) => setPhoneNumber(event?.target?.value ?? '')}
             type="text"
-            placeholder="Enter your phone number"
+            placeholder="  Enter your phone number"
             className="mr-2"
             onKeyUp={(event) => handleInputKeyEvent(event)}
           />
@@ -97,7 +97,7 @@ const ContactForm = ( { status, message, onValidated }) => {
           <input
             onChange={(event) => setEmail(event?.target?.value ?? '')}
             type="email"
-            placeholder="Enter your email address"
+            placeholder="  Enter your email address"
             className="mr-2"
             onKeyUp={(event) => handleInputKeyEvent(event)}
           />

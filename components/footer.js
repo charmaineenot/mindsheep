@@ -41,7 +41,7 @@ const Footer = ({elements}) => (
     </section>
     <section className="align-items-center testimonials" style={footerStyle}>
       {/* Testimonials Section */}
-      <div className="container-fluid pt-8 pb-8 bg-gray">
+      <div className="container-fluid pt-8 pb-8 bg-gray testimonials-container">
         <div className="boxed">
           <div className="text-center">
             <h2 className="sectionTitle">{elements.homeTestimonials.testimonialHeading}</h2>
@@ -74,19 +74,19 @@ const Footer = ({elements}) => (
         </div>
       </div>
     </section>
-    <section className="align-items-center footerlogo" style={footerStyle}> 
+    <section className="align-items-center footerlogo bg-darken" style={footerStyle}> 
       {/* Main Footer */}
       <div className="container-fluid p-0">
-        <div className="h-75p bg-darken"></div>
+        <div className="h-75p bg-darken hidden"></div>
       </div>
-      <div className="container-fluid p-3 pb-0 bg-orange text-center text-sm-start">
+      <div className="container-fluid p-3 pb-0 bg-darken text-center text-sm-start border-dark">
         <div className="boxed">
           <div className="row">
-            <div className="col-md-5 vmiddle">
+            <div className="col-md-5 vmiddle footer-col2">
               <Image width="405" height="104" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Footer-Logo-01-Min-401x105-1.webp" />
-              <p class="mt-4">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
+              <p class="mt-4 fs-">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
-            <div className="col-md-3 vmiddle">
+            <div className="col-md-3 footer-col2">
               <ul>
                 <li><a className="text-white" href="/who-we-are">Who We Are</a></li>
                 <li><a className="text-white" href="/our-approach">Our Approach</a></li>      
@@ -103,9 +103,9 @@ const Footer = ({elements}) => (
           </div>
         </div>
       </div>
-      <div className="container p-3 text-center text-sm-start"> 
+      <div className="container p-3 text-center text-sm-start bg-darken bt-white"> 
         <div className="row">
-          <div class="col-lg-7 col-md-8 vmiddle">
+          <div class="col-lg-7 col-md-8 vmiddle hidden">
             <NewsletterSubscribe/>
           </div>
           <div class="col-lg-5 col-md-4 vmiddle text-center">
@@ -120,11 +120,11 @@ const Footer = ({elements}) => (
         </div>
       </div>
     </section>
-    <section className="pt-3 pb-3 bg-orange align-items-center text-white text-center text-sm-start">
+    <section className="pb-3 bg-darken align-items-center text-white text-center text-sm-start border-dark">
       <div className="container p-0">
         <div className="row rowAuto">
-          <div className="col-md-12 vmiddle">
-            <span>Copyright @ 2021 Mindsheep. All Rights Reserved.</span>
+          <div className="col-md-12 vmiddle footer-disclaimer">
+            <span classname="disclaimer">Copyright @ 2021 Mindsheep. All Rights Reserved.</span>
           </div>
         </div>
       </div>

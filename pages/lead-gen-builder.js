@@ -25,7 +25,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
     };
     
     return(
-        <Layout page={pageData} elements={elements,footerData}>
+        <Layout page={pageData} elements={(elements,footerData)}>
         <section className={styles.bannerSection + " banner-section"} style={bannerStyle}>
           <div className="banner-content">
             <div className="container-fluid">

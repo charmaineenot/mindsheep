@@ -1,7 +1,7 @@
 .homeBanner{
     position: relative;
     background-size: cover;
-    height: 88vh;
+    height: auto;
     color: #FFF;
     display: flow-root;
     -moz-box-align: center;
@@ -14,6 +14,7 @@
     height: inherit;
 }
 .videoContainer:nth-child(2){
+    z-index: 2;
     margin-left: -1px;
 }
 .homeBanner #video-banner{
@@ -41,12 +42,11 @@
     right: 15vw;
 }
 .btnViewServices{
-    margin-top: 50%;
+    /* margin-top: 50%; */
     padding: 20px 60px 15px 60px;
     color: #fff;
-    background-color: #fa5801;
-    border: none;
-    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #FA5901;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     line-height: normal;
@@ -65,7 +65,8 @@
     align-items: center;
 }
 .btnWhyUs{
-    margin-top: -25px;
+    display: inline-block;
+    /* margin-top: -25px; */
     width: 140px;
     color: #fff;
     background-color: #fa5801;
@@ -74,14 +75,18 @@
     font-size: 1em;
     font-family: 'Josefin Sans', sans-serif;
     line-height: normal;
-    position: absolute;
+    text-align:center;
+    /* position: absolute; */
     /* bottom: 0; */
     left: 87px;
     /* height: 40px; */
     padding: 14px;
 }
+/*Additional CSs by Jenn*/
+
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+  
     .homeBanner{
         height: 43vh;
     }
@@ -93,6 +98,7 @@
     }
     .btnViewServices{
         font-size: 1.2em;
+        
     }
     .partnersImg{
         width: 100% !important;
@@ -100,14 +106,35 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+   
+   .mb-0{
+       margin-bottom: 0 ;
+   }
+    #logo-hero{
+        position: absolute!important;
+        margin-left: 50%;
+    }
+    .btnWhyUs{
+        position: sticky;
+        padding: 10px;
+        width: 152px;
+        font-size: 12px;
+    }
     .homeBanner{
         height: inherit;
+        z-index: -1;
         padding-top: 0;
         /* padding-bottom: 75px; */
         margin-top: -12px;
+        display: flex;
+        justify-content: flex-start;
+
     }
     .videoContainer{
-        width: 25%;
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+        margin-bottom: 20px;
     }
     .videoContainer2{
         width: 65%;
@@ -120,14 +147,15 @@
         top: -12px;
     }
     .btnViewServices{
-        font-size: 18px;
-        padding: 10px 25px;
-        right: -13px;
+        margin-bottom: 15%;
+        margin-left: 44px;
+        font-size: 10px;
+        padding: 5px;
+        float: left;
     }
     .partnersImgContainer{
-        /* width: 145px; */
         width: 130px;
-        height: 75px;
-        padding: 15px;
+        height: auto;
+        margin-bottom: 10px;
     }
 }

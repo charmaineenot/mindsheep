@@ -15,6 +15,9 @@
 }
 
 /* DEFAULTS */
+.show-c{
+  display:none;
+}
 .body{
   overflow-x: hidden;
 }
@@ -23,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
 }
 p, span, ol{
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 16px;
 }
 .clear{
@@ -131,7 +134,7 @@ p, span, ol{
 }
 
 .bg-darken{
-  background-color: #24242c;
+  background-color: #21242B;
 }
 
 .bg-orange{
@@ -303,21 +306,13 @@ ul.dropdown-menu.services-dropdown.show {
 .whyUs-section{
   background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Gray-Image-01-min-scaled.webp);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 21% 45%;
   background-size: cover;
 }
 .whyUsHeading{
   position: relative;
 }
-.whyUsHeading:after{
-  width: 80px;
-  border-top: 7px solid #f95800;
-  content: "";
-  display: block;
-  position: absolute;
-  left: 34%;
-  margin-top: 15px;
-}
+
 .services-section{
   background-image: url(https://wp.mindsheep.com.au/wp-content/uploads/2021/09/Our-Services-background-01-min-scaled.webp);
   background-repeat: no-repeat;
@@ -332,7 +327,7 @@ ul.dropdown-menu.services-dropdown.show {
 .HomeServicesHading{
   position: relative;
 }
-.HomeServicesHading:after{
+/* .HomeServicesHading:after{
   width: 80px;
   border-top: 7px solid #f95800;
   content: "";
@@ -340,7 +335,7 @@ ul.dropdown-menu.services-dropdown.show {
   position: absolute;
   right: 38%;
   margin-top: 15px;
-}
+} */
 .testimonialHeading{
   position: relative;
 }
@@ -422,12 +417,12 @@ ul.dropdown-menu.services-dropdown.show {
   margin: 10px;
   padding: 40px 20px;
   background-color: #fff;
-  border: 2px solid #24242c;
+  /* border: 2px solid #24242c; */
 }
 
 .embla__slide__inner .svg-inline--fa{
-  width: 3em !important;
-  height: 3em !important;
+  width: 3em;
+  height: 3em ;
   color: #f95800 !important;
 }
 
@@ -437,18 +432,18 @@ ul.dropdown-menu.services-dropdown.show {
 }
 
 .embla__slide__inner p{
-  font-weight: 400 !important;
+  font-weight: 200 !important;
 }
 
 .embla__slide__inner h4{
   color: #f95800 !important;
-  font-size:21px !important;
+  font-size:21px;
 }
 
 .embla__slide__inner h5{
-  color: #f95800 !important;
-  font-weight: 400 !important;
-  font-size:18px !important;
+  color: #000 !important;
+  font-weight: 400 ;
+  font-size:18px;
 }
 
 .embla__button {
@@ -498,10 +493,10 @@ ul.dropdown-menu.services-dropdown.show {
     margin-bottom: 12px;
     outline: 0;
     border-width: 0 0 2px;
-    border-color: #000000;
+    border-color: #CDCDCD;
     background: transparent;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .contact-form button{
@@ -645,7 +640,7 @@ ul.dropdown-menu.services-dropdown.show {
   color: #fff;
 }
 .navbar-toggler{
-  background-color: #fa5801;
+  /* background-color: #fa5801; */
 }
 .navbar-toggler span{
   color: #fff !important;
@@ -668,6 +663,7 @@ ul.dropdown-menu.services-dropdown.show {
 
 /* END MENU */
 @media (min-width: 1024px) and (max-width: 1366px) {
+
   .navbar-nav .nav-item {
     margin-right: 10px;
     font-size: 14px;
@@ -732,6 +728,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+
   .navbar-nav{
     position: absolute;
     top: 100px; 
@@ -752,6 +749,120 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+
+  
+  .pt-3.pb-6.pb-s2.bg-darken.border-t{
+    z-index: 10;
+  }
+  .card.m-20.pt-3.h-100{
+        margin-left: 2rem;
+        margin-right: 2rem;
+  }
+  .embla{
+    /* padding-left: 20px; */
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin-top: 0;
+  }
+
+  .pt-4.pb-2{
+    margin-bottom: 0;
+  }
+  .embla__slide__inner .svg-inline--fa{
+    width: 2em!important;
+    height: auto;
+  }
+  .row.text-center.d-flex.align-items-center{
+    padding: 0 50px;
+  }
+  a.show-c > svg {
+    transform: scaleX(-1);
+}
+  .navbar-toggler {
+    margin: 5px auto 9px auto;
+}
+  .navbar-toggler-icon {
+    height: 2em;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-size: 38px;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+  .col-md-4.col-2.col-lg-3.order-lg-last.d-grid.d-sm-flex.align-items-center{
+    justify-content: end;
+  }
+  .show-c{
+    display: block;
+    color: #fb6300;
+    font-size: 1.7rem;
+    display: grid;
+    justify-content: end;
+    align-content: stretch;
+  }
+  .col-ts-2.text-right{
+    padding-right:0;
+  }
+  .embla__slide__inner h4 {
+    font-size: 15px !important;
+}
+  .embla__slide__inner h5{
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    font-family: unset;
+    margin-bottom: 13px;
+  
+  }
+  
+  
+  .services-section{
+    background-position: 24% 20%;
+  }
+  .card-body.text-center.position-relative{     
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  .contact-form button {
+    width: 200px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    background-color: #f55a00;
+    border: 2px solid #f55a00;
+    border-radius: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+  .testimonials-container{    padding: 51px 10px;}
+  #services{
+    padding: 50px 0;
+  }
+  .fs-10{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700; 
+  }
+  #row-services{
+    display:flex;
+    justify-content: space-evenly!important;
+  }
+  .w-24{
+    width: 24%!important;
+  }
+  .mb--100{
+    margin-bottom: unset;
+  }
+  .pb-s2{
+    padding:1rem!important;
+  }
+  .s-2{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px 30px 5px;
+  }
   .wide{
     width: 100%;
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -773,7 +884,7 @@ ul.dropdown-menu.services-dropdown.show {
     width: 100% !important;
   }
   .btnViewServices-sm{
-    position: absolute;
+    /* position: absolute; */
     right: -39px;
   }
   .headerRow>*{
@@ -791,6 +902,7 @@ ul.dropdown-menu.services-dropdown.show {
     border-top: 1px solid #31323a;
   }
   .nav-container{
+    padding-left: 0!important;
     padding-right: 0 !important;
   }
   .smPbPt{
@@ -802,15 +914,16 @@ ul.dropdown-menu.services-dropdown.show {
     padding-top: 0;
   }
   .statMobileBG{
+    width: 47%;
     margin-top: 15px;
     padding: 0 !important;
     background-color: #383b40;
   }
   .stat h5{
-    font-size: 16px;
+    font-size: 12px;
   }
   .statText{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.9em;
   }
   .statTestimonial{
@@ -874,6 +987,7 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .rowAuto{
     --bs-gutter-x: auto !important;
+    justify-content: space-between;
   }
   .LeadGenPerth h3:not(.LeadGenPerth_howeworkHeading__1fC8d){
     font-size: 22px;
@@ -888,11 +1002,23 @@ ul.dropdown-menu.services-dropdown.show {
     text-align: center;
   }
   .contactTitle{
-    font-size: 22px !important;
+    font-size: 28px !important;
     margin-right: 0;
+    padding: 0 30px;
+    font-weight: 600;
   }
   .contactSubText{
     font-size: 15px;
+    padding: 0 30px;
+    font-weight: 200;
+  }
+  .vmiddle {
+    padding: 0 50px;
+  }
+  .footer-col2{
+    width: 50%;
+    text-align: left;
+    padding: 20px 0 20px 20px;
   }
   .pr-25{
     padding-right: 12px;
@@ -903,4 +1029,58 @@ ul.dropdown-menu.services-dropdown.show {
   body.LeadGenPerth .banner-content{
     padding-top: 0;
   }
+  .footerlogo ul{
+    padding-left: 10px;
+  }
+  .footerlogo ul li {
+    line-height: 3.6em;
+  }
+  .footerSheepCont{
+    display: none;
+  }
+  .hidden{
+    display: none!important;
+  }
+  .border-dark{
+    border: 1px solid #21242B;
+  }
+  .bt-white{
+    margin: 0 15px;
+    width: auto;
+    border-top: 1px solid #fff;
+    padding-top: 2rem!important;
+  }
+ 
+  .footer-disclaimer{
+    padding: 0 20px 20px 20px;
+  }
+ section.pt-3.pb-3.bg-darken.align-items-center.text-white.text-center.text-sm-start.border-dark > div > div > div > span{
+    font-size: 14px;
+    font-weight: 100;
+
+  }
+
+}
+
+
+.navbar-toggler{
+  border-color: transparent!important;
+}
+.col-ts-2{
+  width:45%;
+}
+.col-ts-3{
+  width:55%;
+}
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}
+.row-testimonial{
+  align-items: flex-end;
+}
+.card-title.mt-5.text-orange{
+  font-weight: 700;
 }
