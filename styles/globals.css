@@ -13,10 +13,22 @@
   font-weight: bold;
   font-display: swap;
 }
-
-/* DEFAULTS */
+footer-icon{
+  color: #9C9696;
+}
+#__next > div > div.Content > section.Home_homeBanner___O_Cr.banner-section.text-center > div.Home_videoContainer__1ziwP.float-start.hide-sm > video{
+  height: 90vh;
+  margin-left: 10%;
+}
 .show-c{
   display:none;
+}
+.short-d{
+  padding:3rem;
+}
+.short-descriptions{
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .body{
   overflow-x: hidden;
@@ -29,6 +41,11 @@ p, span, ol{
   font-weight: 100;
   font-size: 16px;
 }
+
+ div.col-2.col-md-2.col-lg-6.order-md-last.order-sm-last.vmiddle > nav > div > button > span{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28251, 99, 0, 1.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .clear{
   clear: both;
 }
@@ -749,6 +766,16 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  .short-d{
+    padding:0;
+  }
+  .short-descriptions{
+    font-size: 20px!important;
+    font-weight:100!important;
+}
+  .pb-s3{
+    padding: 1rem 0.5rem 1.5rem 0.5rem!important;
+}
 
   
   .pt-3.pb-6.pb-s2.bg-darken.border-t{
@@ -841,13 +868,13 @@ ul.dropdown-menu.services-dropdown.show {
     padding: 50px 0;
   }
   .fs-10{
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 100; 
   }
   #row-services{
     display:flex;
-    justify-content: space-evenly!important;
+    justify-content: center;
   }
   .w-24{
     width: 24%!important;

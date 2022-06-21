@@ -74,8 +74,8 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </video>
           </div>
         </section>
-        <section className="pt-3 pb-6 pb-s2 bg-darken border-t">
-          <div className="container sm-p-20">
+        <section className="pt-3 pb-6 pb-s3 bg-darken border-t">
+          <div className="container">
             <div className="row rowAuto">
               <div className="col-md-6 col-lg-3 text-center statMobileBG">
                 <div className="row s-2">
@@ -240,10 +240,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-5 pb-5 bg-darken">
+        <section className="bg-darken short-d">
           <div className="container p-5">
-            <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription}</i></p>
-            <p className="p-0 mt-5 text-white text-center sm-p-0 fs-4"><i>{elements.homeAbout.shortDescription2}</i></p>
+            <p className="p-0 mt-3 text-white text-center sm-p-0 short-descriptions"><i>{elements.homeAbout.shortDescription}</i></p>
+            <p className="p-0 mt-5 text-white text-center sm-p-0 short-descriptions"><i>{elements.homeAbout.shortDescription2}</i></p>
 
           </div>
         </section>  

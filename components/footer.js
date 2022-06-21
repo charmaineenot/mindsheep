@@ -3,7 +3,7 @@ import ContactSubmit from "./contact-form/contact-submit";
 import Testimonials from "./embla-carousel/embla-carousel";
 import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faFacebookSquare,faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 
 const footerStyle = {
@@ -110,11 +110,12 @@ const Footer = ({elements}) => (
           </div>
           <div class="col-lg-5 col-md-4 vmiddle text-center">
             <p className="text-black mb-0 d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <span className="text-orange me-2">
-              <a href="https://www.facebook.com/mindsheepmarketing/" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faFacebookSquare} size="3x"></FontAwesomeIcon></a>
-            </span>
+          
+            <span className="text-orange  me-3">
+              <a href="https://www.instagram.com/mindsheepmarketing/" target="_blank" className="text-orange text-decoration-none"><FontAwesomeIcon color="#9C9696" icon={faInstagram} size="2x"></FontAwesomeIcon></a>
+            </span>  
             <span className="text-orange">
-              <a href="https://www.instagram.com/mindsheepmarketing/" target="_blank" className="text-orange text-decoration-none"><FontAwesomeIcon icon={faInstagramSquare} size="3x"></FontAwesomeIcon></a>
+              <a href="https://www.facebook.com/mindsheepmarketing/" className="text-orange text-decoration-none"><FontAwesomeIcon color="#9C9696" icon={faFacebookF} size="2x" ></FontAwesomeIcon></a>
             </span>
           </div>
         </div>

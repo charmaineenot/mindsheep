@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-icons";
+
   
   const headerStyle = {
     backgroundColor: "#272831",
@@ -39,6 +41,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"; // import the icons
               <div class="container-fluid nav-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
+                  {/* <img src="../public/bars-solid.svg" alt='next' /> */}
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">

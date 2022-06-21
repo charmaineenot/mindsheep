@@ -9,11 +9,13 @@
     -moz-box-pack: center;
     justify-content: center;
 }
+
 .videoContainer{
     width: 50%;
     height: inherit;
 }
 .videoContainer:nth-child(2){
+    margin-top: 10rem;
     z-index: 2;
     margin-left: -1px;
 }
@@ -106,6 +108,12 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+    .short-descriptions{
+        font-size: 20px!important;
+    }
+    .videoContainer:nth-child(2) {
+        margin-top: 0!important;
+    }
    
    .mb-0{
        margin-bottom: 0 ;
