@@ -82,7 +82,7 @@ const Footer = ({elements}) => (
       <div className="container-fluid p-3 pb-0 bg-darken text-center text-sm-start border-dark">
         <div className="boxed">
           <div className="row">
-            <div className="col-md-5 vmiddle footer-col2">
+            <div className="col-md-5 footer-col2">
               <Image width="405" height="104" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Footer-Logo-01-Min-401x105-1.webp" />
               <p class="mt-4 fs-">We are a company of bold and strategic thinkers — a diverse team with a deep desire to create sustainable marketing and lead generating systems, ultimately generating wealth for our clients.</p>
             </div>
@@ -103,7 +103,7 @@ const Footer = ({elements}) => (
           </div>
         </div>
       </div>
-      <div className="container p-3 text-center text-sm-start bg-darken bt-white"> 
+      <div className="container p-30 text-center text-sm-start bg-darken bt-white"> 
         <div className="row">
           <div class="col-lg-7 col-md-8 vmiddle hidden">
             <NewsletterSubscribe/>

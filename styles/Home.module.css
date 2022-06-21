@@ -9,6 +9,10 @@
     -moz-box-pack: center;
     justify-content: center;
 }
+.footer-col2{
+    padding-top:16px;
+    
+}
 
 .videoContainer{
     width: 50%;
@@ -108,9 +112,7 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
-    .short-descriptions{
-        font-size: 20px!important;
-    }
+  
     .videoContainer:nth-child(2) {
         margin-top: 0!important;
     }

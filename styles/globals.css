@@ -13,6 +13,9 @@
   font-weight: bold;
   font-display: swap;
 }
+section.align-items-center.footerlogo.bg-darken > div.container.p-3.text-center.text-sm-start.bg-darken.bt-white > div > div.col-lg-7.col-md-8.vmiddle.hidden{
+  padding-left: 0;
+}
 footer-icon{
   color: #9C9696;
 }
@@ -566,6 +569,7 @@ ul.dropdown-menu.services-dropdown.show {
   color: red !important;
 }
 .footerlogo ul {
+  margin-top:16px;
   list-style: none;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
@@ -575,6 +579,9 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .footerlogo ul li a{
   text-decoration: none;
+}
+.p-30{
+  padding: 1.2rem 1.5rem 1.5rem 0;
 }
 .footerSheepCont{
   margin-bottom: -6px;
@@ -1058,9 +1065,10 @@ ul.dropdown-menu.services-dropdown.show {
   }
   .footerlogo ul{
     padding-left: 10px;
+    margin-top: 0;
   }
   .footerlogo ul li {
-    line-height: 3.6em;
+    line-height: 3.2em;
   }
   .footerSheepCont{
     display: none;
