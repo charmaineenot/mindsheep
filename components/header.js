@@ -6,7 +6,7 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
 
   
   const headerStyle = {
-    backgroundColor: "#272831",
+    backgroundColor: "#282832",
     color: "white",
     width: "100%",
     // height: "15vh"
