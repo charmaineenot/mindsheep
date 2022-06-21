@@ -63,6 +63,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
             </video>
+            
             <div>
               <a href="#services" className={styles.btnViewServices+" btn btn-warning btnViewServices-sm"}>VIEW SERVICES</a>
             </div>

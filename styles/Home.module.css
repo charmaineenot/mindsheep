@@ -132,7 +132,7 @@
     }
     .homeBanner{
         height: inherit;
-        z-index: -1;
+        /* z-index: -1; */
         padding-top: 0;
         /* padding-bottom: 75px; */
         margin-top: -12px;
