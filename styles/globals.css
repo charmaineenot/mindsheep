@@ -773,6 +773,11 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  #__next > div > div.Content > section.pt-3.pb-6.pb-s3.bg-darken.border-t{
+    position: relative;
+    z-index: 1;
+}
+
   .short-d{
     padding:0;
   }

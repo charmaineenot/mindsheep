@@ -112,7 +112,7 @@
 }
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
-  
+ 
     .videoContainer:nth-child(2) {
         margin-top: 0!important;
     }
@@ -141,9 +141,9 @@
 
     }
     .videoContainer{
-        width: 50%;
+        width: 49%;
         position: absolute;
-        margin-left: 50%;
+        margin-left: 54%;
         margin-bottom: 20px;
     }
     .videoContainer2{
