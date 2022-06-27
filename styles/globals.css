@@ -710,6 +710,15 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Tablets and Mobile */
 @media (max-width: 768px) {
+  .show-c {
+    display: block;
+    color: #fb6300;
+    font-size: 1.7rem;
+    display: grid;
+    -moz-box-pack: end;
+    justify-content: end;
+    align-content: stretch;
+}
   .banner-content{
     padding: 10px;
   }
@@ -752,6 +761,23 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+  .Home_videoContainer__1ziwP{
+    width: 45%!important;
+  }
+
+  .hidden{
+    display:none!important;
+  }
+  div.Home_videoContainer__1ziwP.Home_videoContainer2__3lGWc.float-start > video{
+    margin-top: 3rem;
+  }
+  .Home_videoBanner__qo6Ls{
+    height: unset!important;
+  }
+  #__next > div > div.Content > section.Home_homeBanner___O_Cr.banner-section.text-center > div.Home_videoContainer__1ziwP.float-start.hide-sm > video{
+    height: unset;
+    /* margin-left: 10%; */
+  }
 
   .navbar-nav{
     position: absolute;
@@ -774,7 +800,7 @@ ul.dropdown-menu.services-dropdown.show {
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
   #__next > div > section,#__next > div > div.Content > section.Home_homeBanner___O_Cr.banner-section.text-center{
-    background-color: #21242B!important;
+    background-color: #272831!important;
   }
   #__next > div > div.Content > section.pt-3.pb-6.pb-s3.bg-darken.border-t{
     position: relative;
