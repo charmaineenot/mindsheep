@@ -800,7 +800,7 @@ ul.dropdown-menu.services-dropdown.show {
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
   #__next > div > section,#__next > div > div.Content > section.Home_homeBanner___O_Cr.banner-section.text-center{
-    background-color: #21252b!important;
+    background-color: #232528!important;
   }
   #__next > div > div.Content > section.pt-3.pb-6.pb-s3.bg-darken.border-t{
     position: relative;
