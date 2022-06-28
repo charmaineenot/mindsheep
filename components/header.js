@@ -36,7 +36,7 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
               Keen to know more?
             </a>
           </div>
-          <div class="col-2 col-md-2 col-lg-6 order-md-last order-sm-last vmiddle">
+          <div class="col-2 col-md-2 col-lg-7 order-md-last order-sm-last vmiddle">
             <nav class="navbar-expand-lg navbar-dark text-center">
               <div class="container-fluid nav-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,10 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="/who-we-are">Who We Are</a>
+                      <a class="nav-link text-white" href="/who-we-are">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="/the-team">Meet The Team</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-white" href="/our-approach">Our Approach</a>
@@ -109,7 +112,7 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
               </div>
             </div> */}
           </div>
-          <div class="col-md-4 col-2 col-lg-3 order-lg-last d-grid d-sm-flex align-items-center hidden">
+          <div class="col-md-3 col-2 col-lg-2 order-lg-last d-grid d-sm-flex align-items-center hidden">
      
             <a href="#talktous" class="btn btn-more hidden">
               Keen to know more?

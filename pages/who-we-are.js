@@ -30,7 +30,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
     };
     
     return(
-        <Layout page={pageData} elements={elements,footerData}>
+        <Layout page={pageData} elements={(elements,footerData)}>
         <section className={styles.bannerSection+ " banner-section"} style={bannerStyle}>
           <div className="banner-content">
             <div className="container-fluid">
@@ -92,68 +92,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div>
         </section>
-        <section className="pt-8 pb-8 bg-gray" style={teamSection}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <h2 className={styles.teamHeading}>{elements.ourTeam.ourTeamSectionHeading}</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage1.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName1}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle1}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription1}}></p>
-                </div>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage2.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName2}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle2}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription2}}></p>
-                </div>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage3.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName3}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle3}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription3}}></p>
-                </div>
-              </div>
-              <div className={styles.teamContainer+" col-md-12"}>
-                <p></p>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage4.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName4}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle4}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription4}}></p>
-                </div>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage5.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName5}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle5}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription5}}></p>
-                </div>
-              </div>
-              <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer+" mb-md-0 mb-0"}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage6.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName6}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle6}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription6}}></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+   
         </Layout>
     )
 };
