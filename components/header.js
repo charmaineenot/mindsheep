@@ -32,7 +32,7 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
               {/* (08) 6102 6678 */}
             </a>
-            <a href="#talktous" class="btn btn-more hidden">
+            <a href="#talktous" class="btn btn-more hidden" id="keenToknow">
               Keen to know more?
             </a>
           </div>

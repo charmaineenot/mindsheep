@@ -764,10 +764,10 @@ ul.dropdown-menu.services-dropdown.show {
   .Home_videoContainer__1ziwP{
     width: 45%!important;
   }
-
-  .hidden{
-    display:none!important;
+  #__next > div > section > div > div > div.col-md-4.col-2.col-lg-3.order-lg-last.align-items-center.show-c{
+    display: none;
   }
+
   div.Home_videoContainer__1ziwP.Home_videoContainer2__3lGWc.float-start > video{
     margin-top: 3rem;
   }
