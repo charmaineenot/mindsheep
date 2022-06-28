@@ -104,7 +104,7 @@ export async function getStaticProps(){
     const footerResponse = await fetcher(FOOTER_DATA);
     const pageContent = response.data.page;
     const footerContent = footerResponse.data.page;
-    
+
     return{
         props: {
           pageMeta: {
