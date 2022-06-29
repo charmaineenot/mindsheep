@@ -714,6 +714,9 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Tablets and Mobile */
 @media (max-width: 768px) {
+  .row.text-center.d-flex.align-items-center{
+    padding: 0 50px;
+  }
   .show-c {
     display: block;
     color: #fb6300;
@@ -765,6 +768,12 @@ ul.dropdown-menu.services-dropdown.show {
 }
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+  #nav-button{
+    width:auto;
+  }
+  .row.headerRow{
+    justify-content: space-between;
+  }
   .Home_videoContainer__1ziwP{
     width: 45%!important;
   }
@@ -844,9 +853,7 @@ ul.dropdown-menu.services-dropdown.show {
     width: 2em!important;
     height: auto;
   }
-  .row.text-center.d-flex.align-items-center{
-    padding: 0 50px;
-  }
+ 
   a.show-c > svg {
     transform: scaleX(-1);
 }

@@ -112,7 +112,7 @@ import { faInstagram, faFacebookF,faBars } from "@fortawesome/free-brands-svg-ic
               </div>
             </div> */}
           </div>
-          <div class="col-md-3 col-2 col-lg-2 order-lg-last d-grid d-sm-flex align-items-center hidden">
+          <div class="col-md-3 col-2 col-lg-2 order-lg-last d-grid d-sm-flex align-items-center hidden" id="nav-button">
      
             <a href="#talktous" class="btn btn-more hidden">
               Keen to know more?

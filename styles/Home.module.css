@@ -92,6 +92,9 @@
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+    .Home_btnViewServices__14a7g{
+        margin-left: 3rem;
+    }
     /* .Home_videoBanner__qo6Ls{
         height: unset!important;
     } */
