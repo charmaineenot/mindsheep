@@ -96,6 +96,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className={styles.teamContainer+" col-md-12"}>
                 <p></p>
               </div>
+              
               <div className="col-md-12 col-lg-4">
                 <div className={styles.memberContainer+" mb-md-0 mb-0"}>
                   <img className={styles.memberImg} src={elements.ourTeam.memberImage7.sourceUrl}/>
