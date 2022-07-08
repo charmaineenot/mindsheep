@@ -93,6 +93,17 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription6}}></p>
                 </div>
               </div>
+              <div className={styles.teamContainer+" col-md-12"}>
+                <p></p>
+              </div>
+              <div className="col-md-12 col-lg-4">
+                <div className={styles.memberContainer+" mb-md-0 mb-0"}>
+                  <img className={styles.memberImg} src={elements.ourTeam.memberImage7.sourceUrl}/>
+                  <h4 className={styles.memberName}>{elements.ourTeam.memberName7}</h4>
+                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle7}</span>
+                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription7}}></p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
