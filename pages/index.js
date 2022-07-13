@@ -26,7 +26,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
   const pageData = pageMeta;
   const bannerStyle = {
     //backgroundImage: `url('${elements.homeFieldGroup.bannerImage.sourceUrl}')`
-    backgroundColor: '#23232b'
+    backgroundColor: '#21242B'
   };
   const typeformStyle = {
     width: '100%',
