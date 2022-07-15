@@ -56,12 +56,12 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           </div> */}
           <div className={styles.videoContainer+" float-start hide-sm"}>
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
-              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
+              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/webm"/>
             </video>
           </div>
           <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
-              <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/mp4"/>
+              <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/webm"/>
             </video>
             
             <div>
@@ -71,7 +71,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
           
           <div className={styles.videoContainer+" float-start visible-sm"}>
             <video id="logo-hero" autoPlay muted loop playsInline className={styles.videoBanner}>
-              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/mp4"/>
+              <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/webm"/>
             </video>
           </div>
         </section>

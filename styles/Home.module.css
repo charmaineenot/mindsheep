@@ -8,6 +8,7 @@
     align-items: center;
     -moz-box-pack: center;
     justify-content: center;
+    padding: 0 1rem;
 }
 .footer-col2{
     padding-top:16px;
@@ -21,7 +22,7 @@
 .videoContainer:nth-child(2){
     margin-top: 10rem;
     z-index: 2;
-    margin-left: -1px;
+    margin-left: -5%;
 }
 .homeBanner #video-banner{
     position: relative;
