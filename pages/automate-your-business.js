@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import styles from "../styles/Automate.module.css";
 import { useEffect } from 'react'
 
+
 const content = ({pageMeta,pageContent,footerContent}) => {
     useEffect( () => { document.querySelector("body").classList.add("automateBusiness") } );
     const elements = pageContent;
