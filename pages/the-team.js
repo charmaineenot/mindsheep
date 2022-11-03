@@ -96,7 +96,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               <div className={styles.teamContainer+" col-md-12"}>
                 <p></p>
               </div>
-              {/* <div className="col-md-12 col-lg-4">
+              <div className="col-md-12 col-lg-4">
                 <div className={styles.memberContainer}>
                   <img className={styles.memberImg} src={elements.ourTeam.memberImage7.sourceUrl}/>
                   <h4 className={styles.memberName}>{elements.ourTeam.memberName7}</h4>
@@ -111,7 +111,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   <span className={styles.memberTitle}>{elements.ourTeam.memberTitle8}</span>
                   <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription8}}></p>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </section>
