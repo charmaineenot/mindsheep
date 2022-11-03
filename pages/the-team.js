@@ -106,10 +106,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
               </div>
               <div className="col-md-12 col-lg-4">
                 <div className={styles.memberContainer}>
-                  <img className={styles.memberImg} src={elements.ourTeam.memberImage8.sourceUrl}/>
-                  <h4 className={styles.memberName}>{elements.ourTeam.memberName8}</h4>
-                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle8}</span>
-                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription8}}></p>
+                  <img className={styles.memberImg} src={elements.ourTeam.memberImage6.sourceUrl}/>
+                  <h4 className={styles.memberName}>{elements.ourTeam.memberName6}</h4>
+                  <span className={styles.memberTitle}>{elements.ourTeam.memberTitle6}</span>
+                  <p className={styles.memberDescription} dangerouslySetInnerHTML={{__html: elements.ourTeam.memberDescription6}}></p>
                 </div>
               </div>
             </div>
