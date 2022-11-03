@@ -86,7 +86,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                 </div>
               </div>
               <div className="col-md-12 col-lg-4">
-                <div className={styles.memberContainer+" mb-md-0 mb-0"}>
+                <div className={styles.memberContainer}>
                   <img className={styles.memberImg} src={elements.ourTeam.memberImage8.sourceUrl}/>
                   <h4 className={styles.memberName}>{elements.ourTeam.memberName8}</h4>
                   <span className={styles.memberTitle}>{elements.ourTeam.memberTitle8}</span>
