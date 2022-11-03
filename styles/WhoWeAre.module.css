@@ -93,7 +93,7 @@
 }
 
 /* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 990px) {
     .bannerSection{
         height: auto !important;
         background: #272831;
