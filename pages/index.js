@@ -55,9 +55,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             </div>
           </div> */}
           <div className={styles.videoContainer+" float-start hide-sm"}>
-            <video autoPlay muted loop playsInline className={styles.videoBanner}>
+            {/* <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/webm"/>
-            </video>
+            </video> */}
+            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/MindSheep-Fawn-Mickey.gif" class="Home_videoBanner__qo6Ls"/>
           </div>
           <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
             <video autoPlay muted loop playsInline className={styles.videoBanner}>
