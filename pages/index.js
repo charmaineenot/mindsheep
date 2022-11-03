@@ -58,7 +58,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             {/* <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/webm"/>
             </video> */}
-            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/ezgif.com-gif-maker-1.gif" class="Home_videoBanner__qo6Ls"/>
+            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/Animated_sheep.gif" class="Home_videoBanner__qo6Ls"/>
           </div>
           <div className={styles.videoContainer+" "+styles.videoContainer2+"  float-start"}>
             {/* <video autoPlay muted loop playsInline className={styles.videoBanner}>
@@ -74,7 +74,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             {/* <video id="logo-hero" autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo1.mediaItemUrl} type="video/webm"/>
             </video> */}
-            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/ezgif.com-gif-maker-1.gif" class="Home_videoBanner__qo6Ls" id="logo-hero"/>
+            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/Animated_sheep.gif" class="Home_videoBanner__qo6Ls" id="logo-hero"/>
           </div>
         </section>
         <section className="pt-3 pb-6 pb-s3 bg-darken border-t">
