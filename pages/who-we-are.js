@@ -44,10 +44,10 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                   </div>  
                 </div>
                 <div className={styles.videoCol+" col-lg-6"}>
-                  {/* <video autoPlay muted loop playsInline className={styles.videoBanner}>
+                  <video autoPlay muted loop playsInline className={styles.videoBanner}>
                     <source src={elements.ourStory.ourStoryBannerVideo.mediaItemUrl} type="video/mp4"/>
-                  </video> */}
-                  <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/MindSheep-fawn-HI-diffusion-1-scaled.gif" className={styles.videoBanner}/>
+                  </video>
+                  {/* <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/MindSheep-fawn-HI-diffusion-1-scaled.gif" className={styles.videoBanner}/> */}
                 </div>
               </div>
             </div>
