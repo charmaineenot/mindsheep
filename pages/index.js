@@ -64,7 +64,7 @@ const content = ({pageMeta,pageContent,footerContent}) => {
             {/* <video autoPlay muted loop playsInline className={styles.videoBanner}>
               <source src={elements.homeFieldGroup.bannerVideo2.mediaItemUrl} type="video/webm"/>
             </video> */}
-            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/Text-Loop-1.gif" class="Home_videoBanner__qo6Ls"/>
+            <img src="https://wp.mindsheep.com.au/wp-content/uploads/2022/11/Text-on-loop-Revel-diagonally.gif" class="Home_videoBanner__qo6Ls"/>
             <div>
               <a href="#services" className={styles.btnViewServices+" btn btn-warning btnViewServices-sm"}>VIEW SERVICES</a>
             </div>
