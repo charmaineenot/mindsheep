@@ -1,22 +1,29 @@
 import fetcher from "../lib/fetcher";
 import styles from "../styles/LeadGeneration.module.css";
 import { GET_GENERATE_LEADS_PAGE } from "../lib/wordpress/api";
-import { FOOTER_DATA } from '../lib/wordpress/api';
+import { FOOTER_DATA } from "../lib/wordpress/api";
 import Layout from "../components/layout";
-import { useEffect } from 'react'
+import { useEffect } from "react";
+import Section1 from "../components/lead-generation/Section1";
+import Section2 from "../components/lead-generation/Section2";
+import Section3 from "../components/lead-generation/Section3";
+const content = ({ pageMeta, pageContent, footerContent }) => {
+  useEffect(() => {
+    document.querySelector("body").classList.add("leadGeneration");
+  });
+  const elements = pageContent;
+  const footerData = footerContent;
+  const pageData = pageMeta;
+  const clientSection = {
+    backgroundColor: `${elements.leadGenerationPage.leadGenSection2BackgroundColor}`,
+  };
 
-const content = ({pageMeta,pageContent,footerContent}) => {
-    useEffect( () => { document.querySelector("body").classList.add("leadGeneration") } );
-    const elements = pageContent;
-    const footerData = footerContent;
-    const pageData = pageMeta;
-    const clientSection = {
-      backgroundColor: `${elements.leadGenerationPage.leadGenSection2BackgroundColor}`
-    };
-    
-    return(
-        <Layout page={pageData} elements={elements,footerData}>
-            <section className="pt-8 pb-8">
+  return (
+    <Layout page={pageData} elements={(elements, footerData)}>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      {/* <section className="pt-8 pb-8">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-6">
@@ -98,28 +105,30 @@ const content = ({pageMeta,pageContent,footerContent}) => {
                         </div>
                     </div>
                 </div>
-            </section>
-        </Layout>
-    )
+            </section> */}
+    </Layout>
+  );
 };
 
 export default content;
 
-export async function getStaticProps(){
-    const response = await fetcher(GET_GENERATE_LEADS_PAGE);
-    const footerResponse = await fetcher(FOOTER_DATA);
-    const pageContent = response.data.page;
-    const footerContent = footerResponse.data.page;
-    
-    return{
-        props: {
-            pageMeta: {
-              title: "Best Lead Generation Practices in Australia | Mindsheep Marketing",
-              description: "Our own tried and true methods can generate sustainable and quality leads for your business. Send us a message if you’d like to learn more."
-            }, 
-            pageContent,
-            footerContent
-        },
-        revalidate: 1,
-    };
+export async function getStaticProps() {
+  const response = await fetcher(GET_GENERATE_LEADS_PAGE);
+  const footerResponse = await fetcher(FOOTER_DATA);
+  const pageContent = response.data.page;
+  const footerContent = footerResponse.data.page;
+
+  return {
+    props: {
+      pageMeta: {
+        title:
+          "Best Lead Generation Practices in Australia | Mindsheep Marketing",
+        description:
+          "Our own tried and true methods can generate sustainable and quality leads for your business. Send us a message if you’d like to learn more.",
+      },
+      pageContent,
+      footerContent,
+    },
+    revalidate: 1,
+  };
 }
