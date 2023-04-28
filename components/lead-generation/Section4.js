@@ -40,15 +40,12 @@ export default function Section4() {
             </div>
           </div>
           <div className="col-lg-6 px-0">
-            <img src={"./PhotoOfTeam/Inna.jpg"} style={{ width: "100%" }}></img>
+            <img src={"./Inna.jpg"} style={{ width: "100%" }}></img>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-6 px-0">
-            <img
-              src={"./PhotoOfTeam/Theresa.png"}
-              style={{ width: "100%" }}
-            ></img>
+            <img src={"./Theresa.png"} style={{ width: "100%" }}></img>
           </div>
           <div className="col-lg-6 d-flex align-items-center px-lg-5 pt-5 pt-lg-0">
             <div className="container px-md-5">
@@ -95,18 +92,12 @@ export default function Section4() {
             </div>
           </div>
           <div className="col-lg-6 px-0">
-            <img
-              src={"./PhotoOfTeam/Jules.png"}
-              style={{ width: "100%" }}
-            ></img>
+            <img src={"./Jules.png"} style={{ width: "100%" }}></img>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-6 px-0">
-            <img
-              src={"./PhotoOfTeam/Charm.png"}
-              style={{ width: "100%" }}
-            ></img>
+            <img src={"./Charm.png"} style={{ width: "100%" }}></img>
           </div>
           <div className="col-lg-6 d-flex align-items-center px-lg-5 pt-5 pt-lg-0">
             <div className="container px-md-5">
@@ -153,10 +144,7 @@ export default function Section4() {
             </div>
           </div>
           <div className="col-lg-6 px-0">
-            <img
-              src={"./PhotoOfTeam/Team.jpeg"}
-              style={{ width: "100%" }}
-            ></img>
+            <img src={"./Team.jpeg"} style={{ width: "100%" }}></img>
           </div>
         </div>
       </div>
