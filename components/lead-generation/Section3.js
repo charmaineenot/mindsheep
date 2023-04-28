@@ -11,19 +11,19 @@ export default function Section3() {
         <h1 className={" display-4 text-orange text-center py-3"}>
           WE GENERATE MOMENTUM
         </h1>
-        <div className={" text-center fw-light fs-4"}>
+        <div className={" text-center fw-light fs-4 text-content"}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           ullamcorper nulla sagittis sapien pellentesque, et semper arcu
           sagittis. Phasellus rhoncus scelerisque ipsum, vel finibus purus.
         </div>
-        <div className={" text-center fs-4 py-3"}>
+        <div className={" text-center fs-4 py-3 text-content"}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
         <div className="row">
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-4"}>
-                <div className="col text-md-start text-center">
+                <div className="col text-md-start text-center text-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean ullamcorper nulla sagittis sapien pellentesque, et
                   semper arcu sagittis. Phasellus rhoncus scelerisque ipsum, vel
@@ -39,8 +39,8 @@ export default function Section3() {
                     />
                   </div>
                   <div className="col-md-4 d-flex flex-column justify-content-center align-items-center align-items-md-start">
-                    <p className="mb-0 text-orange">James Brown</p>
-                    <p className="mb-0">Fortune Cookies</p>
+                    <p className="mb-0 text-orange fs-4">James Brown</p>
+                    <p className="mb-0 fs-4">Fortune Cookies</p>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ export default function Section3() {
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-4"}>
-                <div className="col text-md-start text-center">
+                <div className="col text-md-start text-center text-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean ullamcorper nulla sagittis sapien pellentesque, et
                   semper arcu sagittis. Phasellus rhoncus scelerisque ipsum, vel
@@ -65,8 +65,8 @@ export default function Section3() {
                     />
                   </div>
                   <div className="col-md-4 d-flex flex-column justify-content-center align-items-center align-items-md-start">
-                    <p className="mb-0 text-orange">James Brown</p>
-                    <p className="mb-0">Fortune Cookies</p>
+                    <p className="mb-0 text-orange fs-4">James Brown</p>
+                    <p className="mb-0 fs-4">Fortune Cookies</p>
                   </div>
                 </div>
               </div>

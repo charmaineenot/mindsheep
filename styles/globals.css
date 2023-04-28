@@ -1248,3 +1248,12 @@ ul.dropdown-menu.services-dropdown.show {
 .text-header {
   font-family: "AlyssumSans" !important;
 }
+.text-content {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+.border-orange {
+  border-color: #fd7e14 !important;
+}
+.border-6 {
+  border-width: 10px !important;
+}

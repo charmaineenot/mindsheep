@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import Section1 from "../components/lead-generation/Section1";
 import Section2 from "../components/lead-generation/Section2";
 import Section3 from "../components/lead-generation/Section3";
+import Section4 from "../components/lead-generation/Section4";
 const content = ({ pageMeta, pageContent, footerContent }) => {
   useEffect(() => {
     document.querySelector("body").classList.add("leadGeneration");
@@ -23,6 +24,7 @@ const content = ({ pageMeta, pageContent, footerContent }) => {
       <Section1 />
       <Section2 />
       <Section3 />
+      <Section4 />
       {/* <section className="pt-8 pb-8">
                 <div className="container">
                     <div className="row">
