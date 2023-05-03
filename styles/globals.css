@@ -1271,3 +1271,13 @@ ul.dropdown-menu.services-dropdown.show {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.bg-growth {
+  background-image: url("/7_Generate_Growth_BG-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-momentum {
+  background-image: url("/4_Generate Momentum-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

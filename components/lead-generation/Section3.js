@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Section3() {
   return (
-    <div className="container-fluid bg-light-dark py-5">
+    <div className="container-fluid bg-momentum py-5">
       <div className="container text-light pt-5">
         <h1 className={" fs-3 text-orange text-center"}>
           WE DON'T JUST GENERATE LEADS.
