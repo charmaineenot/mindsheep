@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Section2() {
   return (
-    <div className="container-fluid position-relative px-0 bg-desktop">
+    <div className="container-fluid position-relative px-0 bg-desktop b-size-cover b-size-lg-contain">
       <div className="container-fluid h-100 position-absolute z-0 px-0 d-flex align-items-end">
         <div className="col bg-light-grey" style={{ height: "200px" }}></div>
       </div>
@@ -11,7 +11,7 @@ export default function Section2() {
           <h3 className={" fs-2 text-center pt-5"}>
             WE ARE BUILT ON RESULTS, NOT PROMISES
           </h3>
-          <p className={" fs-3 text-center fw-light"}>
+          <p className={" fs-4 text-center fw-light"}>
             Industry Leaders We're Working With
           </p>
         </div>
@@ -20,9 +20,15 @@ export default function Section2() {
           <div className="col-lg-4 py-2">
             <div className="card bg-light-dark rounded-0 h-100">
               <div className="card-body text-light d-flex flex-column justify-content-between">
-                <header className={" display-5 text-center py-4 text-header"}>
-                  WILLSHIP
-                </header>
+                <div className="container-fluid d-flex justify-content-center p-5">
+                  <div className="col-md-10">
+                    <img
+                      src="/willship_logo.png"
+                      className="w-100 h-100"
+                      style={{ objectFit: "contain" }}
+                    ></img>
+                  </div>
+                </div>
                 <div className="row d-flex justify-content-center">
                   <div className="col-1 px-0 d-flex align-items-center">
                     <img
@@ -54,9 +60,15 @@ export default function Section2() {
           <div className="col-lg-4 py-2">
             <div className="card bg-light-dark rounded-0 h-100">
               <div className="card-body text-light d-flex flex-column justify-content-between">
-                <header className={" display-5 text-center py-4 text-header"}>
-                  HIGHLINE
-                </header>
+                <div className="container-fluid d-flex justify-content-center p-5">
+                  <div className="col-md-10">
+                    <img
+                      src="/highline.png"
+                      className="w-100 h-100"
+                      style={{ objectFit: "contain" }}
+                    ></img>
+                  </div>
+                </div>
                 <div className="row d-flex justify-content-center">
                   <div className="row d-flex justify-content-center">
                     <div className="col-1 px-0 d-flex align-items-center">
@@ -90,9 +102,15 @@ export default function Section2() {
           <div className="col-lg-4 py-2">
             <div className="card bg-light-dark rounded-0 h-100">
               <div className="card-body text-light d-flex flex-column justify-content-between">
-                <header className={" display-6 text-center py-4 text-header"}>
-                  WestCoast hifi
-                </header>
+                <div className="container-fluid d-flex justify-content-center p-5">
+                  <div className="col-md-10">
+                    <img
+                      src="/highline.png"
+                      className="w-100 h-100"
+                      style={{ objectFit: "contain" }}
+                    ></img>
+                  </div>
+                </div>
                 <div className="row d-flex justify-content-center">
                   <div className="row d-flex justify-content-center">
                     <div className="col-1 px-0 d-flex align-items-center">
@@ -126,7 +144,7 @@ export default function Section2() {
       </div>
       <div className="container-fluid p-lg-5 mt-lg-4"></div>
       <div className="container pt-5">
-        <h1 className={" fs-2 text-center"}>
+        <h1 className={" fs-3 text-center px-3"}>
           WITH GREAT POWER, COMES GREAT CAPABILITY
         </h1>
         <p className={" fs-4 text-center fw-light py-3"}>
@@ -137,7 +155,7 @@ export default function Section2() {
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-5"}>
-                <div className="col text-md-start text-center text-content px-5 pt-5 pb-3">
+                <div className="col text-md-start text-center text-content px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   I've been working with Mindsheep now for the last 18 months
                   and have been thoroughly impressed with the team and their
                   skillset. They are constantly looking to improve and refine
@@ -146,8 +164,8 @@ export default function Section2() {
                   ideas to bring to the table. I'd definitely recommend them to
                   anyone looking for a marketing partner.
                 </div>
-                <div className="row d-flex justify-content-center">
-                  <div className="col-lg-3 col-4 p-0">
+                <div className="row d-flex justify-content-around">
+                  <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                     <img
                       src={"./Nick.jpg"}
                       style={{ objectFit: "cover!important" }}
@@ -155,8 +173,8 @@ export default function Section2() {
                       alt=""
                     />
                   </div>
-                  <div className="col-md-4 d-flex flex-column justify-content-center align-items-center align-items-md-start">
-                    <p className="mb-0 text-orange fs-5 fw-bold">
+                  <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                    <p className="mb-0 text-orange fs-5 fw-bold text-uppercase">
                       Nick Proctor
                     </p>
                     <p className="mb-0 fs-5">Willship International</p>
@@ -168,7 +186,7 @@ export default function Section2() {
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-5"}>
-                <div className="col text-md-start text-center text-content px-5 pt-5 pb-3">
+                <div className="col text-md-start text-center text-content px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   If you are looking for a fast way to generate leads and grow
                   your business, then get to work with Mindsheep. David’s team
                   is totally delivering the vision I had before meeting him.
@@ -177,8 +195,8 @@ export default function Section2() {
                   looking out for the next step. The only advice I have for you
                   is “be prepared” it will take off quicker than you think.
                 </div>
-                <div className="row d-flex justify-content-center">
-                  <div className="col-lg-3  col-4 p-0">
+                <div className="row d-flex justify-content-around">
+                  <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                     <img
                       src={"./denes.jpg"}
                       style={{ objectFit: "cover!important" }}
@@ -186,8 +204,8 @@ export default function Section2() {
                       alt=""
                     />
                   </div>
-                  <div className="col-md-4 d-flex flex-column justify-content-center align-items-center align-items-md-start">
-                    <p className="mb-0 text-orange fs-5 fw-bold">
+                  <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                    <p className="mb-0 text-orange fs-5 fw-bold text-uppercase">
                       Denes Aldott
                     </p>
                     <p className="mb-0 fs-5">Aldott Homes</p>

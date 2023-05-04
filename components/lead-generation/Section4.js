@@ -24,7 +24,8 @@ export default function Section4() {
             <div className="container px-lg-5">
               <div className="container px-lg-5">
                 <header className="fs-3 text-header text-orange text-lg-start text-center pt-4 pt-md-0">
-                  Holistic Strategy with proven Full Funnel Approach
+                  Holistic Strategy with proven
+                  <br className="d-none d-lg-block" /> Full Funnel Approach
                 </header>
                 <div className="container-fluid px-0 d-flex justify-content-center justify-content-lg-start">
                   <div className="col-4 col-lg-2  border-top mt-2 pb-4 border-2 border-orange"></div>
@@ -73,7 +74,8 @@ export default function Section4() {
             <div className="container px-lg-5">
               <div className="container px-lg-5">
                 <header className="fs-3 text-header text-orange text-lg-start text-center pt-4 pt-md-0">
-                  Simplify your Lead Generation experience with Mindsheep
+                  Simplify your Lead Generation
+                  <br className="d-none d-lg-block" /> experience with Mindsheep
                 </header>
                 <div className="container-fluid px-0 d-flex justify-content-center justify-content-lg-start">
                   <div className="col-4 col-lg-2  border-top mt-2 pb-4 border-2 border-orange"></div>

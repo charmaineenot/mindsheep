@@ -13,6 +13,13 @@
   font-weight: bold;
   font-display: swap;
 }
+@font-face {
+  font-family: "Avengeance-mightiest-avenger";
+  src: url("/fonts/avengeance_mightiest_avengers.TTF");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
 section.align-items-center.footerlogo.bg-darken
   > div.container.p-3.text-center.text-sm-start.bg-darken.bt-white
   > div
@@ -1231,16 +1238,16 @@ ul.dropdown-menu.services-dropdown.show {
   background-color: #22252a;
 }
 .btn-orange {
-  background-color: #fd7e14 !important;
+  background-color: #fb8141 !important;
 }
 .btn-orange:hover {
-  background-color: #ffa600 !important;
+  background-color: #fb8141 !important;
 }
 .btn-orange:checked {
-  background-color: #ffa600 !important;
+  background-color: #fb8141 !important;
 }
 .text-orange {
-  color: #fd7e14 !important;
+  color: #fb8141 !important;
 }
 .bg-light-grey {
   background-color: #e6e6e6;
@@ -1251,11 +1258,14 @@ ul.dropdown-menu.services-dropdown.show {
 .text-content {
   font-family: "Josefin Sans", sans-serif !important;
 }
+.text-sticker {
+  font-family: "Avengeance-mightiest-avenger" !important;
+}
 .border-orange {
-  border-color: #fd7e14 !important;
+  border-color: #fb8141 !important;
 }
 .border-6 {
-  border-width: 10px !important;
+  border-width: 8px !important;
 }
 .ls-1 {
   letter-spacing: 0.1rem;
@@ -1264,12 +1274,13 @@ ul.dropdown-menu.services-dropdown.show {
   background-image: url("/1_Header_BG-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom 0% right 0%;
+  background-position: right 0px bottom 0px;
 }
 .bg-desktop {
   background-image: url("/3_Stats BG-01.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+
+  /* background-size: contain; */
 }
 .bg-growth {
   background-image: url("/7_Generate_Growth_BG-01.jpg");
@@ -1280,4 +1291,62 @@ ul.dropdown-menu.services-dropdown.show {
   background-image: url("/4_Generate Momentum-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 992px) {
+  .b-size-lg-contain {
+    background-size: contain !important;
+    background-position: top -130px right 0px !important;
+  }
+  .gear-3-lg {
+    bottom: 70% !important;
+    right: -10% !important;
+  }
+  .gear-4-lg {
+    bottom: -150px !important;
+    right: -10% !important;
+  }
+  .gear-2-lg {
+    left: -1.5% !important;
+    bottom: -20px !important;
+  }
+  .gear-1-lg {
+    left: -2% !important;
+    top: 10% !important;
+  }
+  .box-lg {
+    top: 30px !important;
+    left: -150px !important;
+  }
+  .cutter-lg {
+    bottom: 250px !important;
+    right: -200px !important;
+  }
+}
+.b-size-cover {
+  background-size: 800%;
+  background-position: left 40% top 0px;
+}
+.gear-3 {
+  bottom: 80%;
+  right: -10%;
+}
+.gear-4 {
+  top: 40%;
+  left: 70%;
+}
+.gear-2 {
+  left: -5%;
+  bottom: 30%;
+}
+.gear-1 {
+  left: -10%;
+  top: 35%;
+}
+.box {
+  top: 30px;
+  left: -60px;
+}
+.cutter {
+  bottom: -20px;
+  right: -50px;
 }
