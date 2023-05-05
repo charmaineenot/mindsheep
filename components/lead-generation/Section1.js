@@ -13,10 +13,7 @@ export default function section1() {
       <div className="col-lg-1 col-3 position-absolute gear-1 gear-1-lg">
         <img src="/Gear-01.svg" className="h-100 w-100"></img>
       </div>
-      <div
-        className="col-lg-2 col-6 position-absolute gear-4 gear-4-lg"
-        style={{ right: "10%!important", bottom: "-150px!important" }}
-      >
+      <div className="col-lg-2 col-6 position-absolute gear-4 gear-4-lg">
         <img src="/Gear-04.svg" className="h-100 w-100"></img>
       </div>
       <div className="col-lg-4 col-7 position-absolute gear-3-lg gear-3">
@@ -48,7 +45,7 @@ export default function section1() {
         </div>
         <button className={" btn btn-orange ls-1"}>GET STARTED ➔</button>
       </div>
-      <div className="container-fluid d-none d-lg-block p-2"></div>
+      <div className="container-fluid d-none d-lg-block p-5"></div>
       <div
         className="container-fluid position-relative px-0 d-block d-lg-none"
         style={{ height: "300px" }}
