@@ -94,7 +94,7 @@ export default function Section3() {
       </div>
       <div className="container d-flex justify-content-center pt-5 pb-3">
         <button className={" btn btn-orange text-light ls-1"}>
-          GET STARTED ➡
+          GET STARTED ➔
         </button>
       </div>
     </div>

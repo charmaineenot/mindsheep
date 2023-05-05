@@ -46,7 +46,7 @@ export default function section1() {
             help grow your business
           </p>
         </div>
-        <button className={" btn btn-orange ls-1"}>GET STARTED ➡</button>
+        <button className={" btn btn-orange ls-1"}>GET STARTED ➔</button>
       </div>
       <div className="container-fluid d-none d-lg-block p-2"></div>
       <div

@@ -105,7 +105,7 @@ export default function Section2() {
                 <div className="container-fluid d-flex justify-content-center p-5">
                   <div className="col-md-10">
                     <img
-                      src="/highline.png"
+                      src="/aldott_homes.png"
                       className="w-100 h-100"
                       style={{ objectFit: "contain" }}
                     ></img>
@@ -113,29 +113,29 @@ export default function Section2() {
                 </div>
                 <div className="row d-flex justify-content-center">
                   <div className="row d-flex justify-content-center">
-                    <div className="col-1 px-0 d-flex align-items-center">
+                    {/* <div className="col-1 px-0 d-flex align-items-center">
                       <img
                         style={{ width: "100%", height: "100%" }}
                         src={"./Arrow-01.png"}
                         alt=""
                       />
-                    </div>
+                    </div> */}
                     <div className="col-3 col-xl-4 px-0 d-flex flex-column align-items-center justify-content-center">
-                      <h1 className={"stat fs-1 text-orange"}>40%</h1>
-                      <h1 className={"stat fs-4 text-orange"}>LEADS</h1>
+                      <h1 className={"stat fs-1 text-orange"}>385</h1>
+                      <h1 className={"stat fs-4 text-orange"}>LEADS/MTH</h1>
                     </div>
                   </div>
                 </div>
                 <p className={"stat fs-5 fw-normal text-center pt-3 px-5"}>
-                  40% increased website speed and performance
+                  From branch launch (zero) to 385 leads/month in just 6 months.
                 </p>
                 <p
                   className={
                     "stat fs-6 fw-normal text-center text-orange pt-3 px-5 text-uppercase"
                   }
                 >
-                  West Coast Hifi is the team of home theatre and surround sound
-                  experts in Perth.
+                  Aldott Homes is a real estate professional helping people
+                  achieve homeownership.
                 </p>
               </div>
             </div>
