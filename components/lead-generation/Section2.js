@@ -155,7 +155,7 @@ export default function Section2() {
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-4"}>
-                <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                <div className="col text-content text-center lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   I've been working with Mindsheep now for the last 18 months
                   and have been thoroughly impressed with the team and their
                   skillset. They are constantly looking to improve and refine
@@ -186,7 +186,7 @@ export default function Section2() {
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-4"}>
-                <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                <div className="col text-center text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   If you are looking for a fast way to generate leads and grow
                   your business, then get to work with Mindsheep. David’s team
                   is totally delivering the vision I had before meeting him.
@@ -226,7 +226,7 @@ export default function Section2() {
                 <div className="col-lg-6 py-2">
                   <div className="card bg-light-grey rounded-0 border-0">
                     <div className={" card-body text-dark fw-light fs-4"}>
-                      <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                      <div className="col text-center text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                         I've been working with Mindsheep now for the last 18
                         months and have been thoroughly impressed with the team
                         and their skillset. They are constantly looking to
@@ -260,7 +260,7 @@ export default function Section2() {
                 <div className="col-lg-6 py-2">
                   <div className="card bg-light-grey rounded-0 border-0">
                     <div className={" card-body text-dark fw-light fs-4"}>
-                      <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                      <div className="col text-center text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                         If you are looking for a fast way to generate leads and
                         grow your business, then get to work with Mindsheep.
                         David’s team is totally delivering the vision I had

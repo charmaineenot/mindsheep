@@ -106,7 +106,7 @@ const ContactForm = ({ status, message, onValidated }) => {
         </div>
         <div className="button-wrap wp-block-button mt-4">
           <button className="btn btn-orange" onClick={handleFormSubmit}>
-            Get Started ➡
+            Get Started
           </button>
         </div>
       </div>

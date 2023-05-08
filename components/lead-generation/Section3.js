@@ -17,7 +17,7 @@ export default function Section3() {
         <h1 className={" fs-1 text-orange text-center"}>
           WE GENERATE MOMENTUM
         </h1>
-        <div className={" text-center fw-light fs-4 text-content"}>
+        <div className={" text-center fw-light fs-4 text-content pt-3"}>
           At Mindsheep, we understand that generating leads is just the
           beginning. That's why we focus on <br className="d-none d-lg-block" />{" "}
           creating a sustainable, long-term momentum that drives your business
@@ -91,7 +91,7 @@ export default function Section3() {
       </div>
       <div className="container d-flex justify-content-center pt-5 pb-3">
         <button className={" btn btn-orange text-light ls-1"}>
-          GET STARTED ➔
+          GET STARTED
         </button>
       </div>
     </div>
