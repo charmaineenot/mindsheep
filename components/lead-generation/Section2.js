@@ -147,7 +147,18 @@ export default function Section2() {
         <h1 className={" fs-3 text-center px-3"}>
           WITH GREAT POWER, COMES GREAT CAPABILITY
         </h1>
-        <p className={" fs-5 text-center fw-light py-lg-3 py-1"}>
+        <p
+          className={
+            " fs-3 d-none d-md-block text-center fw-light py-lg-3 py-1"
+          }
+        >
+          What our partners say about our work
+        </p>
+        <p
+          className={
+            " fs-5 d-block d-md-none text-center fw-light py-lg-3 py-1"
+          }
+        >
           What our partners say about our work
         </p>
 
@@ -317,10 +328,8 @@ export default function Section2() {
             </button> */}
           </div>
         </div>
-        <div className={" text-center fs-4 py-5 text-content text-uppercase"}>
-          Let's work together to turn your business' potential into reality.
-        </div>
-        <div className="container-fluid pb-5 px-0 d-flex justify-content-center">
+
+        <div className="container-fluid pb-5 pt-3 px-0 d-flex justify-content-center">
           <div className="col-lg-8 col py-2">
             <div className="card bg-light-dark " style={{ height: "20rem" }}>
               <div className="card-body text-light">Video Here</div>

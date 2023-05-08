@@ -15,7 +15,7 @@ export default function Section4() {
           <p className="stat fs-2 text-center mb-0">
             Discover the Power of Collaboration
           </p>
-          <p className="lead fs-3 text-center mb-0">Why Choose Minsheep?</p>
+          <p className="lead fs-3 text-center mb-0">Why Choose Mindsheep?</p>
         </div>
       </div>
       <div className="container-fluid">
@@ -69,7 +69,7 @@ export default function Section4() {
           </div>
           <div className="col-lg-6 px-0">
             <img
-              src={"./Inna.jpg"}
+              src={"./Inna.png"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"
             ></img>
