@@ -30,25 +30,25 @@ export default function section1() {
         <img src="/2_Sheep-01.png" className="h-100 w-100"></img>
       </div>
       <div className="container-fluid p-4"></div>
-      <div className=" container text-light p-md-5 py-5 d-flex flex-column align-items-center">
-        <h1 className={" text-center fs-1"}>
+      <div className=" container text-light p-md-5 py-2 d-flex flex-column align-items-center">
+        <h1 className={" text-center fs-1 mb-0"}>
           WE RAISE THE{" "}
           <span className="display-4 text-orange text-sticker">BAAA</span>
         </h1>
         <h1 className={" text-center"}>IN LEAD GENERATION</h1>
-        <div className="col-lg-7 col p-md-5 py-5">
-          <p className={" text-center fs-4 fw-light"}>
+        <div className="col-lg-7 col p-md-5 py-3">
+          <p className={" text-center fs-4 fw-light lh-1"}>
             We make optimized, targeted, and effecient{" "}
             <br className="d-none d-xxl-block" /> lead generation campaigns to
             help grow your business
           </p>
         </div>
-        <button className={" btn btn-orange ls-1"}>GET STARTED ➔</button>
+        <button className={" btn btn-orange ls-1"}>GET STARTED</button>
       </div>
-      <div className="container-fluid d-none d-lg-block p-5"></div>
+      <div className="container-fluid d-none d-lg-block p-1 p-lg-5"></div>
       <div
         className="container-fluid position-relative px-0 d-block d-lg-none"
-        style={{ height: "300px" }}
+        style={{ height: "200px" }}
       >
         <img
           src="/2_Sheep-01.png"

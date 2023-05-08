@@ -1268,7 +1268,7 @@ ul.dropdown-menu.services-dropdown.show {
   border-width: 8px !important;
 }
 .ls-1 {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem !important;
 }
 .bg-gears {
   background-image: url("/1_Header_BG-01.jpg");
@@ -1318,12 +1318,12 @@ ul.dropdown-menu.services-dropdown.show {
     left: -150px !important;
   }
   .cutter-lg {
-    bottom: 250px !important;
+    bottom: 0px !important;
     right: -200px !important;
   }
 }
 .b-size-cover {
-  background-size: 800%;
+  background-size: 500%;
   background-position: left 40% top 0px;
 }
 .gear-3 {
@@ -1336,7 +1336,7 @@ ul.dropdown-menu.services-dropdown.show {
 }
 .gear-2 {
   left: -5%;
-  bottom: 30%;
+  bottom: 20%;
 }
 .gear-1 {
   left: -10%;

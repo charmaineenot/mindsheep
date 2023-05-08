@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function Section3() {
   return (
     <div className="container-fluid bg-light-dark py-5 position-relative overflow-hidden">
-      <div className="col-lg-3 col-8 position-absolute p-lg-5 position-absolute cutter cutter-lg">
+      <div className="col-lg-3 col-4 position-absolute p-lg-5 position-absolute cutter cutter-lg">
         <img src="/Cutter-02.svg" className="h-100 w-100"></img>
       </div>
-      <div className="col-lg-3 col-8 position-absolute p-lg-5 box box-lg">
+      <div className="col-lg-3 col-4 position-absolute p-lg-5 box box-lg">
         <img src="/Box-01.svg" className="h-100 w-100"></img>
       </div>
       <div className="container text-light pt-5">
@@ -24,10 +24,7 @@ export default function Section3() {
           forward.
         </div>
 
-        <div className={" text-center fs-4 py-5 text-content text-uppercase"}>
-          Let's work together to turn your business' potential into reality.
-        </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-5"}>
@@ -90,7 +87,7 @@ export default function Section3() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="container d-flex justify-content-center pt-5 pb-3">
         <button className={" btn btn-orange text-light ls-1"}>

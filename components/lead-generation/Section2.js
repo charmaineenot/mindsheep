@@ -48,7 +48,7 @@ export default function Section2() {
                 </p>
                 <p
                   className={
-                    "stat fs-6 fw-normal text-center text-orange pt-3 text-uppercase px-5"
+                    "stat fs-6 fw-normal text-center p-3 border border-orange"
                   }
                 >
                   Willship is an Award-Winning Industry Leader in international
@@ -90,7 +90,7 @@ export default function Section2() {
                 </p>
                 <p
                   className={
-                    "stat fs-6 fw-normal text-center text-orange pt-3 px-5 text-uppercase"
+                    "stat fs-6 fw-normal text-center border border-orange p-3"
                   }
                 >
                   Highline Sheds is one of Australia's trusted quality steel
@@ -131,7 +131,7 @@ export default function Section2() {
                 </p>
                 <p
                   className={
-                    "stat fs-6 fw-normal text-center text-orange pt-3 px-5 text-uppercase"
+                    "stat fs-6 fw-normal text-center border border-orange p-3"
                   }
                 >
                   Aldott Homes is a real estate professional helping people
@@ -142,20 +142,20 @@ export default function Section2() {
           </div>
         </div>
       </div>
-      <div className="container-fluid p-lg-5 mt-lg-4"></div>
-      <div className="container pt-5">
+      <div className="container-fluid p-lg-5"></div>
+      <div className="container pt-lg-5 pt-3">
         <h1 className={" fs-3 text-center px-3"}>
           WITH GREAT POWER, COMES GREAT CAPABILITY
         </h1>
-        <p className={" fs-4 text-center fw-light py-3"}>
+        <p className={" fs-5 text-center fw-light py-lg-3 py-1"}>
           What our partners say about our work
         </p>
 
-        <div className="row">
+        <div className="row d-none d-lg-flex">
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
-              <div className={" card-body text-dark fw-light fs-5"}>
-                <div className="col text-md-start text-center text-content px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+              <div className={" card-body text-dark fw-light fs-4"}>
+                <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   I've been working with Mindsheep now for the last 18 months
                   and have been thoroughly impressed with the team and their
                   skillset. They are constantly looking to improve and refine
@@ -185,8 +185,8 @@ export default function Section2() {
           </div>
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
-              <div className={" card-body text-dark fw-light fs-5"}>
-                <div className="col text-md-start text-center text-content px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+              <div className={" card-body text-dark fw-light fs-4"}>
+                <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
                   If you are looking for a fast way to generate leads and grow
                   your business, then get to work with Mindsheep. David’s team
                   is totally delivering the vision I had before meeting him.
@@ -215,7 +215,112 @@ export default function Section2() {
             </div>
           </div>
         </div>
-        <div className="container-fluid py-5 px-0 d-flex justify-content-center">
+        <div className="container-fluid d-block d-lg-none">
+          <div
+            id="clientCarousel"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active" data-bs-interval="5000">
+                <div className="col-lg-6 py-2">
+                  <div className="card bg-light-grey rounded-0 border-0">
+                    <div className={" card-body text-dark fw-light fs-4"}>
+                      <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                        I've been working with Mindsheep now for the last 18
+                        months and have been thoroughly impressed with the team
+                        and their skillset. They are constantly looking to
+                        improve and refine what they do to ensure we get the
+                        best results. They are very proactive in their approach
+                        to marketing and always have great ideas to bring to the
+                        table. I'd definitely recommend them to anyone looking
+                        for a marketing partner.
+                      </div>
+                      <div className="row d-flex justify-content-around">
+                        <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
+                          <img
+                            src={"./Nick.jpg"}
+                            style={{ objectFit: "cover!important" }}
+                            className="rounded-circle h-100 w-100"
+                            alt=""
+                          />
+                        </div>
+                        <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                          <p className="mb-0 text-orange fs-5 fw-bold text-uppercase">
+                            Nick Proctor
+                          </p>
+                          <p className="mb-0 fs-5">Willship International</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item" data-bs-interval="5000">
+                <div className="col-lg-6 py-2">
+                  <div className="card bg-light-grey rounded-0 border-0">
+                    <div className={" card-body text-dark fw-light fs-4"}>
+                      <div className="col text-start text-content lh-1 px-lg-5 px-3 pt-lg-5 pt-3 pb-3">
+                        If you are looking for a fast way to generate leads and
+                        grow your business, then get to work with Mindsheep.
+                        David’s team is totally delivering the vision I had
+                        before meeting him. They took me from A to so far in a
+                        short time I cannot cope with the inquires! We are now
+                        constantly growing and always looking out for the next
+                        step. The only advice I have for you is “be prepared” it
+                        will take off quicker than you think.
+                      </div>
+                      <div className="row d-flex justify-content-around">
+                        <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
+                          <img
+                            src={"./denes.jpg"}
+                            style={{ objectFit: "cover!important" }}
+                            className="rounded-circle h-100 w-100"
+                            alt=""
+                          />
+                        </div>
+                        <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                          <p className="mb-0 text-orange fs-5 fw-bold text-uppercase">
+                            Denes Aldott
+                          </p>
+                          <p className="mb-0 fs-5">Aldott Homes</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#clientCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#clientCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button> */}
+          </div>
+        </div>
+        <div className={" text-center fs-4 py-5 text-content text-uppercase"}>
+          Let's work together to turn your business' potential into reality.
+        </div>
+        <div className="container-fluid pb-5 px-0 d-flex justify-content-center">
           <div className="col-lg-8 col py-2">
             <div className="card bg-light-dark " style={{ height: "20rem" }}>
               <div className="card-body text-light">Video Here</div>
