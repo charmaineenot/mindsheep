@@ -1321,6 +1321,12 @@ ul.dropdown-menu.services-dropdown.show {
     bottom: 0px !important;
     right: -200px !important;
   }
+  .fs-lg-3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+  }
+  .fs-lg-1 {
+    font-size: 2.5rem !important;
+  }
 }
 .b-size-cover {
   background-size: 500%;

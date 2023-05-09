@@ -10,7 +10,7 @@ export default function Section4() {
           </div>
         </div>
         <div className="container py-lg-5 py-4">
-          <h1 className="fs-3 text-center mb-0">THE STRENGTH OF A HERD:</h1>
+          <h1 className="fs-3 text-center">THE STRENGTH OF A HERD:</h1>
 
           <p className="stat fs-2 text-center mb-0">
             Discover the Power of Collaboration
