@@ -43,7 +43,9 @@ export default function section1() {
             help grow your business
           </p>
         </div>
-        <button className={" btn btn-orange ls-1"}>GET STARTED</button>
+        <a className={" btn btn-orange ls-1"} href="#getStarted">
+          GET STARTED
+        </a>
       </div>
       <div className="container-fluid d-none d-lg-block p-1 p-lg-5"></div>
       <div

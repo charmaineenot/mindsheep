@@ -20,7 +20,7 @@ const content = ({ pageMeta, pageContent, footerContent }) => {
   };
 
   return (
-    <Layout page={pageData} elements={(elements, footerData)}>
+    <Layout id="leadGen" page={pageData} elements={(elements, footerData)}>
       <Section1 />
       <Section2 />
       <Section3 />

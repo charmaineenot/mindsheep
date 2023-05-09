@@ -82,9 +82,18 @@ const Footer = ({ elements }) => (
       style={footerStyle}
     >
       {/* Contact Section */}
-      <div className="container pt-8 pb-10 smPbPt">
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#leadGen"
+        className="container pt-8 pb-10 smPbPt"
+        data-bs-offset="0"
+        tabIndex={0}
+      >
         <div className="row">
-          <div className="col-md-6 d-flex flex-column justify-content-center">
+          <div
+            id="getStarted"
+            className="col-md-6 d-flex flex-column justify-content-center"
+          >
             {/* <div className="crateImgCont">
               <Image width="400" height="270" className="crateImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Crate-01-Min-400x270-1.webp"/>
             </div> */}
