@@ -1,5 +1,6 @@
 import React from "react";
-
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 export default function Section2() {
   return (
     <div className="container-fluid position-relative px-0 bg-desktop b-size-cover b-size-lg-contain">
@@ -330,10 +331,13 @@ export default function Section2() {
         </div>
 
         <div className="container-fluid pb-5 pt-3 px-0 d-flex justify-content-center">
-          <div className="col-lg-8 col py-2">
-            <div className="card bg-light-dark " style={{ height: "20rem" }}>
-              <div className="card-body text-light">Video Here</div>
-            </div>
+          <div className="col-lg-8 col py-2 px-0">
+            <LiteYouTubeEmbed
+              id="Iz8xpYqIfzs"
+              params="rel=0"
+              title="Boost Your Business's Online Visibility with Mindsheep | Digital Solutions That Get You Noticed"
+              poster="maxresdefault"
+            ></LiteYouTubeEmbed>
           </div>
         </div>
       </div>
