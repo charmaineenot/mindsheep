@@ -2,6 +2,8 @@ import Head from "next/head";
 import Header from "./header";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import GtmNoscript from "./gtm-noscript";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const layoutStyle = {
@@ -30,6 +32,7 @@ const Layout = ({ page, ...props }) => (
     <div className="Layout">
       <Header />
       <div className="Content" style={contentStyle}>
+        <GtmNoscript></GtmNoscript>
         {props.children}
       </div>
       <Footer elements={props.elements} />
