@@ -90,7 +90,7 @@ export default function Section3() {
         </div> */}
       </div>
       <div className="container d-flex justify-content-center pt-5 pb-3">
-        <a className={" btn btn-orange ls-1"} href="#getStarted">
+        <a className={" btn btn-orange ls-1 btngetStarted"} href="#getStarted">
           GET STARTED
         </a>
       </div>
