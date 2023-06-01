@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import BrevoForm from "../popup/brevo-form.js";
+import BrevoModal from "../popup/brevo-popup.js";
 
 export default function Section3() {
   return (
@@ -90,10 +92,16 @@ export default function Section3() {
         </div> */}
       </div>
       <div className="container d-flex justify-content-center pt-5 pb-3">
-        <a className={" btn btn-orange ls-1 btngetStarted"} href="#getStarted">
-          GET STARTED
-        </a>
+        <button
+          className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
+          data-bs-toggle="modal"
+          data-bs-target="#brevoModal"
+        >
+          subscribe
+        </button>
       </div>
+
+      <BrevoModal />
     </div>
   );
 }

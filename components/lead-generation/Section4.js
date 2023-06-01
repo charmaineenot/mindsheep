@@ -61,7 +61,7 @@ export default function Section4() {
                     data-bs-target="#innaCollapse"
                     data-bs-toggle="collapse"
                   >
-                    See more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Section4() {
                     data-bs-target="#theresaCollapse"
                     data-bs-toggle="collapse"
                   >
-                    See more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default function Section4() {
                     data-bs-target="#julesCollapse"
                     data-bs-toggle="collapse"
                   >
-                    See more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Section4() {
                     data-bs-target="#charmCollapse"
                     data-bs-toggle="collapse"
                   >
-                    See more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -257,7 +257,7 @@ export default function Section4() {
                     data-bs-target="#teamCollapse"
                     data-bs-toggle="collapse"
                   >
-                    See more
+                    Learn more
                   </button>
                 </div>
               </div>

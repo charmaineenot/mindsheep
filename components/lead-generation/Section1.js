@@ -1,5 +1,5 @@
 import React from "react";
-
+import BrevoModal from "../popup/brevo-popup.js";
 export default function section1() {
   return (
     <div
@@ -43,9 +43,14 @@ export default function section1() {
             help grow your business
           </p>
         </div>
-        <a className={" btn btn-orange ls-1"} href="#getStarted">
-          GET STARTED
-        </a>
+        <button
+          className={" btn btn-orange ls-1 text-uppercase"}
+          data-bs-toggle="modal"
+          data-bs-target="#brevoModal"
+        >
+          Subscribe
+        </button>
+        <BrevoModal />
       </div>
       <div className="container-fluid d-none d-lg-block p-1 p-lg-5"></div>
       <div
