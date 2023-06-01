@@ -97,7 +97,7 @@ export default function Section3() {
           data-bs-toggle="modal"
           data-bs-target="#brevoModal"
         >
-          subscribe
+          get started
         </button>
       </div>
 

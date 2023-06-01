@@ -48,7 +48,7 @@ export default function section1() {
           data-bs-toggle="modal"
           data-bs-target="#brevoModal"
         >
-          Subscribe
+          get started
         </button>
         <BrevoModal />
       </div>
