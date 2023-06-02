@@ -33,6 +33,7 @@ const Layout = ({ page, ...props }) => (
       <Header />
       <div className="Content" style={contentStyle}>
         <GtmNoscript></GtmNoscript>
+
         {props.children}
       </div>
       <Footer elements={props.elements} />
