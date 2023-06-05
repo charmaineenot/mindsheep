@@ -27,7 +27,7 @@ export default function section1() {
         className="col-2 position-absolute d-none d-lg-block"
         style={{ right: "10%!important", bottom: "-40px!important" }}
       >
-        <img src="/2_Sheep-01.png" loading="lazy" className="h-100 w-100"></img>
+        <img src="/2_Sheep-01.png" className="h-100 w-100"></img>
       </div>
       <div className="container-fluid p-4"></div>
       <div className=" container text-light p-md-5 py-2 d-flex flex-column align-items-center">
