@@ -69,6 +69,7 @@ export default function Section4() {
           </div>
           <div className="col-lg-6 px-0">
             <img
+              loading="lazy"
               src={"./Inna.png"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"
@@ -78,6 +79,7 @@ export default function Section4() {
         <div className="row">
           <div className="col-lg-6 px-0">
             <img
+              loading="lazy"
               src={"./Theresa.png"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"
@@ -163,6 +165,7 @@ export default function Section4() {
           </div>
           <div className="col-lg-6 px-0">
             <img
+              loading="lazy"
               src={"./Jules.png"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"
@@ -172,6 +175,7 @@ export default function Section4() {
         <div className="row">
           <div className="col-lg-6 px-0">
             <img
+              loading="lazy"
               src={"./Charm.png"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"
@@ -265,6 +269,7 @@ export default function Section4() {
           </div>
           <div className="col-lg-6 px-0">
             <img
+              loading="lazy"
               src={"./Team-cropped.jpeg"}
               style={{ objectFit: "cover" }}
               className="object-fit-cover h-100 w-100 position-top"

@@ -24,6 +24,7 @@ export default function Section2() {
                 <div className="container-fluid d-flex justify-content-center p-5">
                   <div className="col-md-10">
                     <img
+                      loading="lazy"
                       src="/willship_logo.png"
                       className="w-100 h-100"
                       style={{ objectFit: "contain" }}
@@ -33,6 +34,7 @@ export default function Section2() {
                 <div className="row d-flex justify-content-center">
                   <div className="col-1 px-0 d-flex align-items-center">
                     <img
+                      loading="lazy"
                       style={{ width: "100%", height: "100%" }}
                       src={"./Arrow-01.png"}
                       alt=""
@@ -64,6 +66,7 @@ export default function Section2() {
                 <div className="container-fluid d-flex justify-content-center p-5">
                   <div className="col-md-10">
                     <img
+                      loading="lazy"
                       src="/highline.png"
                       className="w-100 h-100"
                       style={{ objectFit: "contain" }}
@@ -74,6 +77,7 @@ export default function Section2() {
                   <div className="row d-flex justify-content-center">
                     <div className="col-1 px-0 d-flex align-items-center">
                       <img
+                        loading="lazy"
                         style={{ width: "100%", height: "100%" }}
                         src={"./Arrow-01.png"}
                         alt=""
@@ -106,6 +110,7 @@ export default function Section2() {
                 <div className="container-fluid d-flex justify-content-center p-5">
                   <div className="col-md-10">
                     <img
+                      loading="lazy"
                       src="/aldott_homes.png"
                       className="w-100 h-100"
                       style={{ objectFit: "contain" }}
@@ -179,6 +184,7 @@ export default function Section2() {
                 <div className="row d-flex justify-content-around">
                   <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                     <img
+                      loading="lazy"
                       src={"./Nick.jpg"}
                       style={{ objectFit: "cover!important" }}
                       className="rounded-circle h-100 w-100"
@@ -210,6 +216,7 @@ export default function Section2() {
                 <div className="row d-flex justify-content-around">
                   <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                     <img
+                      loading="lazy"
                       src={"./denes.jpg"}
                       style={{ objectFit: "cover!important" }}
                       className="rounded-circle h-100 w-100"
@@ -251,6 +258,7 @@ export default function Section2() {
                       <div className="row d-flex justify-content-around">
                         <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                           <img
+                            loading="lazy"
                             src={"./Nick.jpg"}
                             style={{ objectFit: "cover!important" }}
                             className="rounded-circle h-100 w-100"
@@ -285,6 +293,7 @@ export default function Section2() {
                       <div className="row d-flex justify-content-around">
                         <div className="col-md-4 col-4 ps-lg-5 pe-0 py-0">
                           <img
+                            loading="lazy"
                             src={"./denes.jpg"}
                             style={{ objectFit: "cover!important" }}
                             className="rounded-circle h-100 w-100"

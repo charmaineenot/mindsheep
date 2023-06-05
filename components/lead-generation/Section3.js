@@ -7,10 +7,10 @@ export default function Section3() {
   return (
     <div className="container-fluid bg-light-dark py-5 position-relative overflow-hidden">
       <div className="col-lg-3 col-4 position-absolute p-lg-5 position-absolute cutter cutter-lg">
-        <img src="/Cutter-02.svg" className="h-100 w-100"></img>
+        <img loading="lazy" src="/Cutter-02.svg" className="h-100 w-100"></img>
       </div>
       <div className="col-lg-3 col-4 position-absolute p-lg-5 box box-lg">
-        <img src="/Box-01.svg" className="h-100 w-100"></img>
+        <img loading="lazy" src="/Box-01.svg" className="h-100 w-100"></img>
       </div>
       <div className="container text-light pt-5">
         <h1 className={" fs-3 text-orange text-center"}>

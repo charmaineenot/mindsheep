@@ -19,6 +19,7 @@ export default function section1() {
       <div className="col-lg-4 col-7 position-absolute gear-3-lg gear-3">
         <img
           src="/Gear-03.svg"
+          loading="lazy"
           className="h-100 w-100"
           style={{ overflowX: "hidden" }}
         ></img>
@@ -27,7 +28,7 @@ export default function section1() {
         className="col-2 position-absolute d-none d-lg-block"
         style={{ right: "10%!important", bottom: "-40px!important" }}
       >
-        <img src="/2_Sheep-01.png" className="h-100 w-100"></img>
+        <img src="/2_Sheep-01.png" loading="lazy" className="h-100 w-100"></img>
       </div>
       <div className="container-fluid p-4"></div>
       <div className=" container text-light p-md-5 py-2 d-flex flex-column align-items-center">
@@ -59,6 +60,7 @@ export default function section1() {
       >
         <img
           src="/2_Sheep-01.png"
+          loading="lazy"
           className="h-100 w-100 position-absolute"
           style={{ objectFit: "contain", bottom: "-12%" }}
         ></img>
