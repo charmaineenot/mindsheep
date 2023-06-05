@@ -1360,3 +1360,6 @@ ul.dropdown-menu.services-dropdown.show {
   bottom: -20px;
   right: -50px;
 }
+.container-fluid {
+  content-visibility: auto !important;
+}
