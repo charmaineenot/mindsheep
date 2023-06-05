@@ -19,7 +19,6 @@ export default function section1() {
       <div className="col-lg-4 col-7 position-absolute gear-3-lg gear-3">
         <img
           src="/Gear-03.svg"
-          loading="lazy"
           className="h-100 w-100"
           style={{ overflowX: "hidden" }}
         ></img>
