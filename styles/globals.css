@@ -562,10 +562,14 @@ ul.dropdown-menu.services-dropdown.show {
   margin-bottom: 12px;
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #cdcdcd;
+  /* border-color: #cdcdcd; */
+  border-color: grey;
   background: transparent;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
+}
+.contact-form input::-webkit-input-placeholder {
+  color: grey !important;
 }
 
 .contact-form button {
