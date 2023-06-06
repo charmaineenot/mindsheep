@@ -95,13 +95,13 @@ export default function Section3() {
         <button
           className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
           data-bs-toggle="modal"
-          data-bs-target="#brevoModal"
+          data-bs-target="#brevoModal2"
         >
           get started
         </button>
       </div>
 
-      <BrevoModal />
+      <BrevoModal modalId={2} />
     </div>
   );
 }

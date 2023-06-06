@@ -33,10 +33,14 @@ export default class CustomDocument extends Document {
         };
       
         var AUTOHIDE = Boolean(0);
-      </script>
-      <script defer src="https://sibforms.com/forms/end-form/build/main.js">
+     
+      
       `,
           }}
+        ></script>
+        <script
+          defer
+          src="https://sibforms.com/forms/end-form/build/main.js"
         ></script>
       </Html>
     );
