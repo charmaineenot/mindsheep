@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BrevoForm(props) {
+export default function BrevoForm() {
   return (
     <div
       className="sib-form"
@@ -75,7 +75,7 @@ export default function BrevoForm(props) {
           }}
         >
           <form
-            id={`sib-form`}
+            id="sib-form"
             method="POST"
             action="https://92d930cf.sibforms.com/serve/MUIEADTFpGoooz5tyFydAXEEA4aIpfn8PJASkwtaCfwnUNkUVyx77IDkl5UUObNJZ_APqLIvS5W6gNq1daixGSFBL_cpdlRKonDtjN3PCEqYgZ5katDioesRFfF_dH3NvwQRVSOJnXIc_wjNOsQE96QZXWHo0Z_j-OR4Kn6mPIMJlFzK-nIDdvcsag14-TdX_TZrN3-91NmZOFb4"
             data-type="subscription"
@@ -526,7 +526,7 @@ export default function BrevoForm(props) {
                     backgroundColor: "#fb8141",
                     borderWidth: "0px",
                   }}
-                  form={`sib-form`}
+                  form="sib-form"
                   type="submit"
                 >
                   <svg

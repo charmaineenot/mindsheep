@@ -1,10 +1,14 @@
 import React from "react";
 import BrevoForm from "./brevo-form";
-export default function BrevoPopup(props) {
+export default function BrevoPopup() {
+  const btnClose = () => {
+    const data = document.getElementById("sib-form");
+    data.reset();
+  };
   return (
     <div
       className="modal fade"
-      id={`brevoModal${props.modalId}`}
+      id={`brevoModal`}
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -37,7 +41,7 @@ export default function BrevoPopup(props) {
             </div>
             <div className="col-md-6">
               <div className="modal-body">
-                <BrevoForm id={props.modalId} />
+                <BrevoForm />
               </div>
             </div>
           </div>
