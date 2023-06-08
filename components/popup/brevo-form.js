@@ -545,11 +545,12 @@ export default function BrevoForm() {
                   SUBSCRIBE
                 </button>
                 <button
-                  type="reset"
+                  type="reset           "
                   className="sib-form-block__button sib-form-block__button-with-loader"
                   data-bs-dismiss="modal"
                   aria-label="Close"
                   style={{
+                    marginLeft: "10px",
                     fontSize: "16px",
                     textAlign: "center",
                     fontWeight: "700",

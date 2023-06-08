@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import BrevoForm from "./popup/brevo-form";
-
+import FooterBrevoForm from "./footer-from/footer-brevo-form";
 const footerStyle = {
   color: "white",
   width: "100%",
@@ -110,7 +110,8 @@ const Footer = ({ elements }) => (
           </div>
           <div className="col-md-6 vmiddle text-dark">
             {/* <BrevoForm /> */}
-            <ContactSubmit />
+            {/* <ContactSubmit /> */}
+            <FooterBrevoForm />
             {/* <div className="wateringImgCont">
               <Image width="400" height="270" className="watercingImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Watering-Can-01-Min-400x270-1.webp"/>
             </div> */}
