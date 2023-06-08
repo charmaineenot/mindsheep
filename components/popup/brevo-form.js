@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 export default function BrevoForm() {
+  const [_document, setDocument] = useState(null);
+  useEffect(() => {
+    setDocument(document);
+  }, []);
+  const formRef = useRef();
+  const resetForm = () => {};
   return (
     <div
       className="sib-form"
@@ -75,6 +81,7 @@ export default function BrevoForm() {
           }}
         >
           <form
+            ref={formRef}
             id="sib-form"
             method="POST"
             action="https://92d930cf.sibforms.com/serve/MUIEADTFpGoooz5tyFydAXEEA4aIpfn8PJASkwtaCfwnUNkUVyx77IDkl5UUObNJZ_APqLIvS5W6gNq1daixGSFBL_cpdlRKonDtjN3PCEqYgZ5katDioesRFfF_dH3NvwQRVSOJnXIc_wjNOsQE96QZXWHo0Z_j-OR4Kn6mPIMJlFzK-nIDdvcsag14-TdX_TZrN3-91NmZOFb4"
@@ -536,6 +543,30 @@ export default function BrevoForm() {
                     <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
                   </svg>
                   SUBSCRIBE
+                </button>
+                <button
+                  type="reset"
+                  className="sib-form-block__button sib-form-block__button-with-loader"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                  style={{
+                    fontSize: "16px",
+                    textAlign: "center",
+                    fontWeight: "700",
+                    fontFamily: '"Helvetica", sans-serif',
+                    color: "#FFFFFF",
+                    backgroundColor: "#fb8141",
+                    borderWidth: "0px",
+                  }}
+                >
+                  {" "}
+                  <svg
+                    className="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
+                    viewBox="0 0 512 512"
+                  >
+                    <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+                  </svg>
+                  Close
                 </button>
               </div>
             </div>
