@@ -196,11 +196,11 @@ function MyApp({ Component, pageProps }) {
             src="https://www.facebook.com/tr?id=1083310298772388&ev=PageView&noscript=1"
           />
         </noscript>
-        <style>{brevoCss}</style>
+        {/* <style>{brevoCss}</style>
         <link
           rel="stylesheet"
           href="https://sibforms.com/forms/end-form/build/sib-styles.css"
-        />
+        /> */}
       </Head>
       <Component {...pageProps} />
     </>

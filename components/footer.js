@@ -109,9 +109,9 @@ const Footer = ({ elements }) => (
             </p>
           </div>
           <div className="col-md-6 vmiddle text-dark">
-            {/* <BrevoForm /> */}
+            <BrevoForm />
             {/* <ContactSubmit /> */}
-            <FooterBrevoForm />
+            {/* <FooterBrevoForm /> */}
             {/* <div className="wateringImgCont">
               <Image width="400" height="270" className="watercingImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Watering-Can-01-Min-400x270-1.webp"/>
             </div> */}

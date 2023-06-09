@@ -16,15 +16,13 @@ export default function BrevoPopup() {
       <div className="modal-dialog modal-dialog-centered modal-xl">
         <div className="modal-content text-dark">
           <div className="modal-header">
-            <h1 className="modal-title fs-5" id="exampleModalLabel">
-              Subscription Form
-            </h1>
-            {/* <button
+            {/* <h1 className="modal-title fs-5" id="exampleModalLabel"></h1> */}
+            <button
               type="button"
               className="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            ></button> */}
+            ></button>
           </div>
           <div className="row">
             <div className="col-md-6">
@@ -40,7 +38,7 @@ export default function BrevoPopup() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="modal-body">
+              <div className="modal-body h-100">
                 <BrevoForm />
               </div>
             </div>
