@@ -1366,3 +1366,10 @@ ul.dropdown-menu.services-dropdown.show {
 #leadGen .container-fluid {
   content-visibility: auto !important;
 }
+.brevo-form-hide {
+  overflow-x: hidden;
+  transform: translateX(100%);
+}
+.brevo-form {
+  transition: all 0.5s ease-in-out;
+}

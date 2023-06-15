@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import BrevoForm from "../popup/brevo-form.js";
 import BrevoModal from "../popup/brevo-popup.js";
 
 export default function Section3() {
+  const [_document, setDocument] = useState(null);
+  useEffect(() => {
+    setDocument(document);
+  }, []);
+  const showBrevoForm = () => {
+    document
+      .getElementById("brevoFormToggleContainer")
+      .classList.remove("brevo-form-hide");
+  };
   return (
     <div className="container-fluid bg-light-dark py-5 position-relative overflow-hidden">
       <div className="col-lg-3 col-4 position-absolute p-lg-5 position-absolute cutter cutter-lg">
@@ -94,10 +103,11 @@ export default function Section3() {
       <div className="container d-flex justify-content-center pt-5 pb-3">
         <button
           className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
-          data-bs-toggle="modal"
-          data-bs-target="#brevoModal"
+          // data-bs-toggle="modal"
+          // data-bs-target="#brevoModal"
+          onClick={() => showBrevoForm()}
         >
-          get started
+          lets talk
         </button>
       </div>
 

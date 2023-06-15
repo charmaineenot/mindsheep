@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import BrevoModal from "../popup/brevo-popup.js";
 export default function section1() {
+  const [_document, setDocument] = useState(null);
+  useEffect(() => {
+    setDocument(document);
+  }, []);
+  const showBrevoForm = () => {
+    document
+      .getElementById("brevoFormToggleContainer")
+      .classList.remove("brevo-form-hide");
+  };
   return (
     <div
       fluid
@@ -45,10 +54,11 @@ export default function section1() {
         </div>
         <button
           className={" btn btn-orange ls-1 text-uppercase"}
-          data-bs-toggle="modal"
-          data-bs-target="#brevoModal"
+          // data-bs-toggle="modal"
+          // data-bs-target="#brevoModal"
+          onClick={() => showBrevoForm()}
         >
-          get started
+          let's talk
         </button>
         <BrevoModal />
       </div>

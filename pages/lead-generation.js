@@ -3,11 +3,12 @@ import styles from "../styles/LeadGeneration.module.css";
 import { GET_GENERATE_LEADS_PAGE } from "../lib/wordpress/api";
 import { FOOTER_DATA } from "../lib/wordpress/api";
 import Layout from "../components/layout";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Section1 from "../components/lead-generation/Section1";
 import Section2 from "../components/lead-generation/Section2";
 import Section3 from "../components/lead-generation/Section3";
 import Section4 from "../components/lead-generation/Section4";
+import BrevoForm from "../components/popup/brevo-form";
 const content = ({ pageMeta, pageContent, footerContent }) => {
   useEffect(() => {
     document.querySelector("body").classList.add("leadGeneration");
@@ -18,9 +19,41 @@ const content = ({ pageMeta, pageContent, footerContent }) => {
   const clientSection = {
     backgroundColor: `${elements.leadGenerationPage.leadGenSection2BackgroundColor}`,
   };
-
+  const [_document, setDocument] = useState(null);
+  useEffect(() => {
+    setDocument(document);
+  }, []);
+  const toggleBrevo = () => {
+    _document
+      .getElementById("brevoFormToggleContainer")
+      .classList.add("brevo-form-hide");
+  };
   return (
     <Layout id="leadGen" page={pageData} elements={(elements, footerData)}>
+      <div
+        id="brevoFormToggleContainer"
+        className="container-fluid position-fixed px-0 d-flex justify-content-end brevo-form brevo-form-hide"
+        style={{ height: "100vh!important", zIndex: "100" }}
+      >
+        <div className="col-md-4 h-100 bg-light d-flex">
+          <button
+            type="button"
+            class="btn-close p-3"
+            aria-label="Close"
+            onClick={() => toggleBrevo()}
+          ></button>
+          <div className="col align-self-center">
+            <h1 className="fs-3">GENERATE GROWTH WITH</h1>
+            <h1 className="fs-1">MINDSHEEP</h1>
+            <p>
+              Keen to dive on board and learn more about how we work and
+              operate? Pop in your phone number or email address and we will get
+              in touch.
+            </p>
+            <BrevoForm />
+          </div>
+        </div>
+      </div>
       <Section1 />
       <Section2 />
       <Section3 />

@@ -5,9 +5,19 @@ export default function Section2() {
   return (
     <div className="container-fluid position-relative px-0 bg-desktop b-size-cover b-size-lg-contain">
       <div className="container-fluid h-100 position-absolute z-0 px-0 d-flex align-items-end">
-        <div className="col bg-light-grey" style={{ height: "200px" }}></div>
+        <div className="col bg-light" style={{ height: "200px" }}></div>
       </div>
       <div className="container z-3">
+        <div className="container-fluid pb-2 pt-5 px-0 d-flex justify-content-center">
+          <div className="col-lg-8 col py-2 px-0">
+            <LiteYouTubeEmbed
+              id="Iz8xpYqIfzs"
+              params="rel=0"
+              title="Boost Your Business's Online Visibility with Mindsheep | Digital Solutions That Get You Noticed"
+              poster="maxresdefault"
+            ></LiteYouTubeEmbed>
+          </div>
+        </div>
         <div className="container-fluid py-5">
           <h3 className={" fs-2 text-center pt-5"}>
             WE ARE BUILT ON RESULTS, NOT PROMISES
@@ -168,7 +178,7 @@ export default function Section2() {
           What our partners say about our work
         </p>
 
-        <div className="row d-none d-lg-flex">
+        <div className="row d-none d-lg-flex pb-4">
           <div className="col-lg-6 py-2">
             <div className="card bg-light-grey rounded-0 border-0">
               <div className={" card-body text-dark fw-light fs-4"}>
@@ -336,17 +346,6 @@ export default function Section2() {
               ></span>
               <span class="visually-hidden">Next</span>
             </button> */}
-          </div>
-        </div>
-
-        <div className="container-fluid pb-5 pt-3 px-0 d-flex justify-content-center">
-          <div className="col-lg-8 col py-2 px-0">
-            <LiteYouTubeEmbed
-              id="Iz8xpYqIfzs"
-              params="rel=0"
-              title="Boost Your Business's Online Visibility with Mindsheep | Digital Solutions That Get You Noticed"
-              poster="maxresdefault"
-            ></LiteYouTubeEmbed>
           </div>
         </div>
       </div>
