@@ -212,7 +212,7 @@ const Header = () => {
             id="nav-button"
           >
             <button onClick={() => showBrevoForm()} class="btn btn-more hidden">
-              Keen to know more?
+              Let's Talk!
             </button>
           </div>
         </div>

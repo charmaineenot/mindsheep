@@ -108,8 +108,21 @@ const Footer = ({ elements }) => (
               {elements.homeContact.homeContactDescription}
             </p>
           </div>
-          <div className="col-md-6 vmiddle text-dark">
-            <BrevoForm />
+          <div className="col-md-6 vmiddle text-dark px-0">
+            {/* <BrevoForm /> */}
+            <iframe
+              src="https://92d930cf.sibforms.com/serve/MUIFADuOksWzuyDCnSB9a-oraEQO00OnXQKh2mBRVJuxOXR99HEVsNz2Sw8KiGxp-sJBk-jODN13fpar2C6HmtHP9-v79SMsrXZ3z5SnWR0Jpag3lZpn9PAX9-FItptWqOtfq17PiGHomWVGqy2gER0ueA-WgGaDb3A2_1C_N06AtS3Kd1YIyPyezeh2RinbAwMTQijdtr7AcXOu"
+              frameborder="0"
+              allowfullscreen
+              style={{
+                display: "inline",
+                marginleft: "0px",
+                marginright: "0px",
+                width: "400px",
+                height: "350px",
+                overflow: "hidden",
+              }}
+            ></iframe>
             {/* <ContactSubmit /> */}
             {/* <FooterBrevoForm /> */}
             {/* <div className="wateringImgCont">
