@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 export default function Section2() {
+  const [_document, setDocument] = useState(null);
+  useEffect(() => {
+    setDocument(document);
+  }, []);
+  const showBrevoForm = () => {
+    document
+      .getElementById("brevoFormToggleContainer")
+      .classList.remove("brevo-form-hide");
+  };
   return (
     <div className="container-fluid position-relative px-0 bg-desktop b-size-cover b-size-lg-contain">
       <div className="container-fluid h-100 position-absolute z-0 px-0 d-flex align-items-end">
@@ -158,8 +167,18 @@ export default function Section2() {
           </div>
         </div>
       </div>
+      <div className="container d-flex justify-content-center pt-5 position-relative">
+        <button
+          className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
+          // data-bs-toggle="modal"
+          // data-bs-target="#brevoModal"
+          onClick={() => showBrevoForm()}
+        >
+          get started
+        </button>
+      </div>
       <div className="container-fluid p-lg-5"></div>
-      <div className="container pt-lg-5 pt-3">
+      <div className="container pt-lg-2 pt-5">
         <h1 className={" fs-3 text-center px-3"}>
           WITH GREAT POWER, COMES GREAT CAPABILITY
         </h1>
@@ -244,6 +263,7 @@ export default function Section2() {
             </div>
           </div>
         </div>
+
         <div className="container-fluid d-block d-lg-none">
           <div
             id="clientCarousel"
@@ -347,6 +367,16 @@ export default function Section2() {
               <span class="visually-hidden">Next</span>
             </button> */}
           </div>
+        </div>
+        <div className="container d-flex justify-content-center pt-2 pb-4 position-relative">
+          <button
+            className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
+            // data-bs-toggle="modal"
+            // data-bs-target="#brevoModal"
+            onClick={() => showBrevoForm()}
+          >
+            get started
+          </button>
         </div>
       </div>
     </div>

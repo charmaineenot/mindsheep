@@ -107,7 +107,7 @@ export default function Section3() {
           // data-bs-target="#brevoModal"
           onClick={() => showBrevoForm()}
         >
-          lets talk
+          get started
         </button>
       </div>
 

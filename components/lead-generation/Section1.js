@@ -47,7 +47,7 @@ export default function section1() {
         <h1 className={" text-center"}>IN LEAD GENERATION</h1>
         <div className="col-lg-7 col p-md-5 py-3">
           <p className={" text-center fs-4 fw-light lh-1"}>
-            We make optimized, targeted, and effecient{" "}
+            We make optimized, targeted, and efficient{" "}
             <br className="d-none d-xxl-block" /> lead generation campaigns to
             help grow your business
           </p>
