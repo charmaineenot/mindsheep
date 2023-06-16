@@ -27,6 +27,16 @@ export default function Section2() {
             ></LiteYouTubeEmbed>
           </div>
         </div>
+        <div className="container d-flex justify-content-center position-relative">
+          <button
+            className={" btn btn-orange ls-1 btngetStarted text-uppercase"}
+            // data-bs-toggle="modal"
+            // data-bs-target="#brevoModal"
+            onClick={() => showBrevoForm()}
+          >
+            get started
+          </button>
+        </div>
         <div className="container-fluid py-5">
           <h3 className={" fs-2 text-center pt-5"}>
             WE ARE BUILT ON RESULTS, NOT PROMISES
