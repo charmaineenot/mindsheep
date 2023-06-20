@@ -17,7 +17,10 @@ export default function Section2() {
         <div className="col bg-light" style={{ height: "200px" }}></div>
       </div>
       <div className="container z-3">
-        <div className="container-fluid pb-2 pt-5 px-0 d-flex justify-content-center">
+        <h1 className="text-uppercase text-center py-5">
+          EXPERIENCE THE MINDSHEEP ADVANTAGE
+        </h1>
+        <div className="container-fluid pb-4 px-0 d-flex justify-content-center">
           <div className="col-lg-8 col py-2 px-0">
             <LiteYouTubeEmbed
               id="Iz8xpYqIfzs"
