@@ -110,7 +110,7 @@ const Footer = ({ elements }) => (
           </div>
           <div className="col-md-6 vmiddle text-dark px-0">
             {/* <BrevoForm /> */}
-            <iframe
+            {/* <iframe
               src="https://92d930cf.sibforms.com/serve/MUIFADuOksWzuyDCnSB9a-oraEQO00OnXQKh2mBRVJuxOXR99HEVsNz2Sw8KiGxp-sJBk-jODN13fpar2C6HmtHP9-v79SMsrXZ3z5SnWR0Jpag3lZpn9PAX9-FItptWqOtfq17PiGHomWVGqy2gER0ueA-WgGaDb3A2_1C_N06AtS3Kd1YIyPyezeh2RinbAwMTQijdtr7AcXOu"
               frameborder="0"
               allowfullscreen
@@ -122,12 +122,26 @@ const Footer = ({ elements }) => (
                 height: "350px",
                 overflow: "hidden",
               }}
-            ></iframe>
+            ></iframe> */}
             {/* <ContactSubmit /> */}
             {/* <FooterBrevoForm /> */}
             {/* <div className="wateringImgCont">
               <Image width="400" height="270" className="watercingImg" src="https://wp.mindsheep.com.au/wp-content/uploads/2021/10/Watering-Can-01-Min-400x270-1.webp"/>
             </div> */}
+            <iframe
+              src="./FormSubmitFooter.html"
+              style={{
+                marginTop: "50px",
+                display: "inline",
+                marginleft: "0px",
+                marginright: "0px",
+                width: "500px",
+                height: "350px",
+                overflow: "hidden",
+              }}
+              frameborder={0}
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
