@@ -44,11 +44,11 @@ export default class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <style>{brevoCss}</style>
+          {/* <style>{brevoCss}</style> */}
           <link
             rel="stylesheet"
             href="https://sibforms.com/forms/end-form/build/sib-styles.css"
-          /> */}
+          />
         </Head>
         <body>
           <Main />
