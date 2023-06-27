@@ -7,7 +7,81 @@ export default function BrevoForm() {
   }, []);
   const formRef = useRef();
   const resetForm = () => {};
+  const addContact = () => {
+    let apiInstance = new ContactsApi();
+
+    let apiKey = apiInstance.authentications["apiKey"];
+
+    apiKey.apiKey =
+      "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";
+
+    let createContact = new SibApiV3Sdk.CreateContact();
+
+    createContact.email = "latrylizer@gmail.com";
+    createContact.listIds = [9];
+
+    apiInstance.createContact(createContact).then(
+      function (data) {
+        console.log(
+          "API called successfully. Returned data: " + JSON.stringify(data)
+        );
+      },
+      function (error) {
+        console.error(error);
+      }
+    );
+  };
+  const styler = `@font-face {
+    font-display: block;
+    font-family: Roboto;
+    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 600;
+    src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 700;
+    src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+  }
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container textarea::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }`;
   return (
+    <iframe
+      src="./FormSubmit.html"
+      allowFullScreen
+      style={{
+        display: "inline",
+        marginleft: "0px",
+        marginright: "0px",
+        width: "500px",
+        height: "550px",
+        overflow: "hidden",
+      }}
+    ></iframe>
+
     // <div
     //   className="sib-form"
     //   style={{ textAlign: "center", backgroundAolor: "transparent" }}
@@ -583,20 +657,21 @@ export default function BrevoForm() {
     //     </div>
     //   </div>
     // </div>
-    <iframe
-      width="540"
-      height="450"
-      src="https://92d930cf.sibforms.com/serve/MUIEAMMRG3R5_pUEMFsMjOfKqWhDA-KoheKPNwJnaEICT7TCjy2CMVgiuyjiFip-3DBPNkjO4iOzegQG6knhu4LzNS1dmnSrWz42F5gciW2mrkM60OnaIqGjGUylbbqZByVd7Viq1OeZXOukrOYz4o0jEeH-D7yKYICwQOE7vz_-pcPqqn33eydy2dz4abVfYFK1rMc7ttkCRqAw"
-      frameborder="0"
-      scrolling="auto"
-      allowfullscreen
-      style={{
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        maxWidth: "100%",
-        maxHeight: "100%",
-      }}
-    ></iframe>
+    // <iframe
+    //   onClick={() => addContact()}
+    //   width="540"
+    //   height="450"
+    //   src="https://92d930cf.sibforms.com/serve/MUIFADG5eSjADmOsvX5eWo5xtDZNAgP6tyVwLjnrJJIORCo-C82NjxATBM0cRRZaVxxMKgJj86CJN9OaZnLOhwCn8QWUZximlg1Zeum9veUoFuF_PuUNgd1wWEXWieBYljTWi9FI0woXu9tJuwnfrpI7M6QbzNHrmqkD120KVja3HfKpm_INXTmQ2SHe8Mg8TFPteiWxrKbKE7gQ"
+    //   frameborder="0"
+    //   scrolling="auto"
+    //   allowfullscreen
+    //   style={{
+    //     display: "block",
+    //     marginLeft: "auto",
+    //     marginRight: "auto",
+    //     maxWidth: "100%",
+    //     maxHeight: "100%",
+    //   }}
+    // ></iframe>
   );
 }
