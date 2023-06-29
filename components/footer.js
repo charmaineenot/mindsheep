@@ -256,7 +256,7 @@ const Footer = ({ elements }) => (
         <div className="row rowAuto">
           <div className="col-md-12 vmiddle footer-disclaimer">
             <span classname="disclaimer">
-              Copyright @ 2021 Mindsheep. All Rights Reserved.
+              Copyright @ 2023 PT Mind Sheep Gemilang. All Rights Reserved.
             </span>
           </div>
         </div>
