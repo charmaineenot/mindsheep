@@ -53,7 +53,7 @@ export default function section1() {
           </p>
         </div>
         <button
-          className={" btn btn-orange ls-1 text-uppercase"}
+          className={" btn btn-orange ls-1 text-uppercase btnTalk"}
           // data-bs-toggle="modal"
           // data-bs-target="#brevoModal"
           onClick={() => showBrevoForm()}
