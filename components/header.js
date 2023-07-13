@@ -211,7 +211,7 @@ const Header = () => {
             class="col-md-3 col-2 col-lg-2 order-lg-last d-grid d-sm-flex align-items-center hidden"
             id="nav-button"
           >
-            <button onClick={() => showBrevoForm()} class="btn btn-more hidden">
+            <button onClick={() => showBrevoForm()} class="btn btn-more btnTalk hidden">
               Let's Talk!
             </button>
           </div>
