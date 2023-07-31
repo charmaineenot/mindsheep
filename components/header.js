@@ -35,7 +35,7 @@ const Header = () => {
   };
   return (
     <section
-      className="Header d-flex align-items-center p-3 position-fixed"
+      className="Header d-flex align-items-center p-3"
       style={headerStyle}
     >
       <div className="container">

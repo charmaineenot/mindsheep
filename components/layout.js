@@ -15,7 +15,7 @@ const layoutStyle = {
 
 const contentStyle = {
   minHeight: "100vh",
-  paddingTop: "100px",
+  paddingTop: "0px",
 };
 
 const Layout = ({ page, ...props }) => (
