@@ -77,17 +77,17 @@ function MyApp({ Component, pageProps }) {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
 
-  useEffect(() => {
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "da0c0fd6-e7f0-4eb5-b019-f55e492138e6";
-    (() => {
-      const d = document;
-      const s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
-      s.async = 1;
-      d.getElementsByTagName("body")[0].appendChild(s);
-    })();
-  });
+  // useEffect(() => {
+  //   window.$crisp = [];
+  //   window.CRISP_WEBSITE_ID = "da0c0fd6-e7f0-4eb5-b019-f55e492138e6";
+  //   (() => {
+  //     const d = document;
+  //     const s = d.createElement("script");
+  //     s.src = "https://client.crisp.chat/l.js";
+  //     s.async = 1;
+  //     d.getElementsByTagName("body")[0].appendChild(s);
+  //   })();
+  // });
 
   useEffect(() => {
     !(function (q, e, v, n, t, s) {
@@ -201,6 +201,11 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           href="https://sibforms.com/forms/end-form/build/sib-styles.css"
         /> */}
+        <script
+          strategy="lazyOnload"
+          async
+          src="https://retune.so/api/script/chat.js?id=11ee68a6-0745-aa50-be5e-2b931a827dd1"
+        ></script>
       </Head>
       <Component {...pageProps} />
     </>
